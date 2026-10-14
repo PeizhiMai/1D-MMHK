@@ -1,0 +1,164 @@
+{
+  "0.7": {
+    "twist_index": 19,
+    "k": 0.2827433388230814,
+    "phase_per_bond": -0.2827433388230814,
+    "components": [
+      {
+        "N": 7,
+        "Nup": 4,
+        "Ndn": 3,
+        "spin_flip_multiplicity": 2,
+        "ground_dimension": 1,
+        "ground_states": [
+          {
+            "Q": 2,
+            "id": 0,
+            "E0": -6.961404921957008,
+            "residual": 5.304470325492844e-14
+          }
+        ],
+        "probability": 1.0
+      }
+    ],
+    "N": 7.0,
+    "nearest_old_phase_index": 47,
+    "hopping_norm_bound": 0.1256635994351825,
+    "candidate_number_sectors": [
+      7,
+      8
+    ],
+    "actual_grand_ground_numbers": [
+      7
+    ],
+    "number_sectors_excluded_with_certified_bound": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  "0.8": {
+    "twist_index": 19,
+    "k": 0.2827433388230814,
+    "phase_per_bond": -0.2827433388230814,
+    "components": [
+      {
+        "N": 8,
+        "Nup": 4,
+        "Ndn": 4,
+        "spin_flip_multiplicity": 1,
+        "ground_dimension": 1,
+        "ground_states": [
+          {
+            "Q": 4,
+            "id": 0,
+            "E0": -6.2937039717256935,
+            "residual": 6.143767541862176e-14
+          }
+        ],
+        "probability": 1.0
+      }
+    ],
+    "N": 8.0,
+    "nearest_old_phase_index": 47,
+    "hopping_norm_bound": 0.1256635994351825,
+    "candidate_number_sectors": [
+      8
+    ],
+    "actual_grand_ground_numbers": [
+      8
+    ],
+    "number_sectors_excluded_with_certified_bound": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  "0.9": {
+    "twist_index": 19,
+    "k": 0.2827433388230814,
+    "phase_per_bond": -0.2827433388230814,
+    "components": [
+      {
+        "N": 9,
+        "Nup": 5,
+        "Ndn": 4,
+        "spin_flip_multiplicity": 2,
+        "ground_dimension": 1,
+        "ground_states": [
+          {
+            "Q": 2,
+            "id": 0,
+            "E0": -4.8083997916053125,
+            "residual": 2.3478384861264394e-14
+          }
+        ],
+        "probability": 1.0
+      }
+    ],
+    "N": 9.0,
+    "nearest_old_phase_index": 47,
+    "hopping_norm_bound": 0.1256635994351825,
+    "candidate_number_sectors": [
+      8,
+      9,
+      10
+    ],
+    "actual_grand_ground_numbers": [
+      9
+    ],
+    "number_sectors_excluded_with_certified_bound": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  }
+}

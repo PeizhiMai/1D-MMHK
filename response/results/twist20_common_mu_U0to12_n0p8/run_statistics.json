@@ -1,0 +1,40 @@
+{
+  "elapsed_seconds": 448.53726774999996,
+  "new_cases": [
+    {
+      "U": 1,
+      "new_solver_calls": 174,
+      "summed_solver_seconds": 198.4674119229967
+    },
+    {
+      "U": 2,
+      "new_solver_calls": 174,
+      "summed_solver_seconds": 199.98780604500644
+    },
+    {
+      "U": 3,
+      "new_solver_calls": 178,
+      "summed_solver_seconds": 203.35017875001904
+    },
+    {
+      "U": 5,
+      "new_solver_calls": 178,
+      "summed_solver_seconds": 213.45790345699243
+    },
+    {
+      "U": 9,
+      "new_solver_calls": 178,
+      "summed_solver_seconds": 251.52714617300808
+    },
+    {
+      "U": 10,
+      "new_solver_calls": 178,
+      "summed_solver_seconds": 258.9882104110002
+    },
+    {
+      "U": 11,
+      "new_solver_calls": 182,
+      "summed_solver_seconds": 285.13079924799604
+    }
+  ]
+}

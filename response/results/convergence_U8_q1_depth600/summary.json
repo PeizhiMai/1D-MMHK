@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "L": 10,
+    "Nup": 5,
+    "Ndn": 4,
+    "filling": 0.45,
+    "U": 8,
+    "t": 1,
+    "phase_per_bond": 0,
+    "boundary_twist": 0,
+    "depth": 600,
+    "ground_scan_all_Q": true,
+    "E0": -4.8038790955617205,
+    "density_normalization": "1/sqrt(L)",
+    "observable": "density",
+    "spin_operator": "n_up-n_down (2Sz)",
+    "q_indices": [
+      1
+    ],
+    "ground_states": [
+      {
+        "Q": 2,
+        "E0": -4.8038790955617205,
+        "residual": 1.6951466979657208e-12
+      },
+      {
+        "Q": 8,
+        "E0": -4.80387909556172,
+        "residual": 1.6951906778418922e-12
+      }
+    ]
+  },
+  "eta": 0.2,
+  "moment_checks": [
+    {
+      "channel": "charge",
+      "q_index": 1,
+      "ground_Q": 2,
+      "weight_error": 1.1102230246251565e-16,
+      "first_moment_error": 6.522560269672795e-16
+    },
+    {
+      "channel": "charge",
+      "q_index": 1,
+      "ground_Q": 8,
+      "weight_error": 1.249000902703301e-16,
+      "first_moment_error": 5.551115123125783e-17
+    },
+    {
+      "channel": "spin",
+      "q_index": 1,
+      "ground_Q": 2,
+      "weight_error": 3.885780586188048e-16,
+      "first_moment_error": 2.7755575615628914e-16
+    },
+    {
+      "channel": "spin",
+      "q_index": 1,
+      "ground_Q": 8,
+      "weight_error": 5.273559366969494e-16,
+      "first_moment_error": 1.8596235662471372e-15
+    }
+  ],
+  "modes": [
+    {
+      "q_index": 1,
+      "q": 0.6283185307179586,
+      "charge_first_peak": 0.4099999999999999,
+      "charge_lowest_pole": 0.40224751021198646,
+      "charge_total_weight": 0.10859891648651553,
+      "charge_elastic_weight": 0.0,
+      "spin_first_peak": 0.41999999999999993,
+      "spin_lowest_pole": 0.4022475102120273,
+      "spin_total_weight": 0.24267878636961882,
+      "spin_elastic_weight": 0.0
+    }
+  ],
+  "checks": {
+    "q0_charge_inelastic_max": null,
+    "q0_spin_inelastic_max": null,
+    "max_weight_error": 5.273559366969494e-16,
+    "max_first_moment_error": 1.8596235662471372e-15,
+    "charge_q_minus_q_max_difference": null,
+    "spin_q_minus_q_max_difference": null
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "passed": true,
+  "case_checks": [
+    {
+      "U": 0,
+      "actual_density": 0.8,
+      "maximum_weight_error": 0,
+      "maximum_first_moment_error": 0
+    },
+    {
+      "U": 1,
+      "actual_density": 0.8,
+      "maximum_weight_error": 2.581268532253489e-15,
+      "maximum_first_moment_error": 1.915134717478395e-14
+    },
+    {
+      "U": 2,
+      "actual_density": 0.8,
+      "maximum_weight_error": 1.970645868709653e-15,
+      "maximum_first_moment_error": 1.304512053934559e-14
+    },
+    {
+      "U": 3,
+      "actual_density": 0.8,
+      "maximum_weight_error": 2.3869795029440866e-15,
+      "maximum_first_moment_error": 1.4405143744511406e-14
+    },
+    {
+      "U": 4,
+      "actual_density": 0.8,
+      "maximum_weight_error": 2.220446049250313e-15,
+      "maximum_first_moment_error": 2.2176704916887502e-14
+    },
+    {
+      "U": 5,
+      "actual_density": 0.8,
+      "maximum_weight_error": 1.7763568394002505e-15,
+      "maximum_first_moment_error": 6.050715484207103e-15
+    },
+    {
+      "U": 6,
+      "actual_density": 0.8,
+      "maximum_weight_error": 1.1657341758564144e-15,
+      "maximum_first_moment_error": 4.3576253716537394e-15
+    },
+    {
+      "U": 7,
+      "actual_density": 0.8,
+      "maximum_weight_error": 8.326672684688674e-16,
+      "maximum_first_moment_error": 4.135580766728708e-15
+    },
+    {
+      "U": 8,
+      "actual_density": 0.8,
+      "maximum_weight_error": 1.27675647831893e-15,
+      "maximum_first_moment_error": 4.6351811278100286e-15
+    },
+    {
+      "U": 9,
+      "actual_density": 0.8,
+      "maximum_weight_error": 1.6930901125533637e-15,
+      "maximum_first_moment_error": 3.164135620181696e-15
+    },
+    {
+      "U": 10,
+      "actual_density": 0.8,
+      "maximum_weight_error": 1.0547118733938987e-15,
+      "maximum_first_moment_error": 4.773959005888173e-15
+    },
+    {
+      "U": 11,
+      "actual_density": 0.8,
+      "maximum_weight_error": 1.0269562977782698e-15,
+      "maximum_first_moment_error": 4.468647674116255e-15
+    },
+    {
+      "U": 12,
+      "actual_density": 0.8,
+      "maximum_weight_error": 1.4432899320127035e-15,
+      "maximum_first_moment_error": 4.579669976578771e-15
+    }
+  ],
+  "reused_cases": [
+    4,
+    6,
+    7,
+    8,
+    12
+  ],
+  "free_reference_passed": true,
+  "open_note_unchanged": true,
+  "student_solver_executed": false,
+  "charge_spin_averaged_f_sum_checks": [
+    {
+      "U": 0,
+      "charge_first_moment": 0.23124664824527819,
+      "spin_first_moment": 0.23124664824527819,
+      "error": 0.0
+    },
+    {
+      "U": 1,
+      "charge_first_moment": 0.2284916403713157,
+      "spin_first_moment": 0.22849164037131772,
+      "error": 2.0261570199409107e-15
+    },
+    {
+      "U": 2,
+      "charge_first_moment": 0.2210452706445651,
+      "spin_first_moment": 0.2210452706445672,
+      "error": 2.0816681711721685e-15
+    },
+    {
+      "U": 3,
+      "charge_first_moment": 0.2104312256170277,
+      "spin_first_moment": 0.21043122561703093,
+      "error": 3.219646771412954e-15
+    },
+    {
+      "U": 4,
+      "charge_first_moment": 0.19856645108920473,
+      "spin_first_moment": 0.19856645108920928,
+      "error": 4.551914400963142e-15
+    },
+    {
+      "U": 5,
+      "charge_first_moment": 0.18678507320180981,
+      "spin_first_moment": 0.1867850732018137,
+      "error": 3.885780586188048e-15
+    },
+    {
+      "U": 6,
+      "charge_first_moment": 0.17591558290798054,
+      "spin_first_moment": 0.1759155829079858,
+      "error": 5.2735593669694936e-15
+    },
+    {
+      "U": 7,
+      "charge_first_moment": 0.16627205576582976,
+      "spin_first_moment": 0.16627205576583476,
+      "error": 4.9960036108132044e-15
+    },
+    {
+      "U": 8,
+      "charge_first_moment": 0.15787281983347107,
+      "spin_first_moment": 0.15787281983347617,
+      "error": 5.10702591327572e-15
+    },
+    {
+      "U": 9,
+      "charge_first_moment": 0.15060616080490466,
+      "spin_first_moment": 0.15060616080491057,
+      "error": 5.9119376061289586e-15
+    },
+    {
+      "U": 10,
+      "charge_first_moment": 0.1443208942397609,
+      "spin_first_moment": 0.14432089423976865,
+      "error": 7.743805596760467e-15
+    },
+    {
+      "U": 11,
+      "charge_first_moment": 0.1387278084786744,
+      "spin_first_moment": 0.13872780847868316,
+      "error": 8.743006318923108e-15
+    },
+    {
+      "U": 12,
+      "charge_first_moment": 0.13398911155048931,
+      "spin_first_moment": 0.13398911155049786,
+      "error": 8.548717289613705e-15
+    }
+  ],
+  "free_translation_label_checks": [
+    {
+      "twist_index": 0,
+      "Nup": 4,
+      "Ndn": 4,
+      "Q_counts": {
+        "6": 1
+      }
+    },
+    {
+      "twist_index": 5,
+      "Nup": 4,
+      "Ndn": 4,
+      "Q_counts": {
+        "6": 1
+      }
+    },
+    {
+      "twist_index": 10,
+      "Nup": 3,
+      "Ndn": 3,
+      "Q_counts": {
+        "0": 1
+      }
+    },
+    {
+      "twist_index": 10,
+      "Nup": 4,
+      "Ndn": 3,
+      "Q_counts": {
+        "2": 1,
+        "8": 1
+      }
+    },
+    {
+      "twist_index": 10,
+      "Nup": 4,
+      "Ndn": 4,
+      "Q_counts": {
+        "0": 2,
+        "4": 1,
+        "6": 1
+      }
+    },
+    {
+      "twist_index": 10,
+      "Nup": 5,
+      "Ndn": 3,
+      "Q_counts": {
+        "0": 1
+      }
+    },
+    {
+      "twist_index": 10,
+      "Nup": 5,
+      "Ndn": 4,
+      "Q_counts": {
+        "2": 1,
+        "8": 1
+      }
+    },
+    {
+      "twist_index": 10,
+      "Nup": 5,
+      "Ndn": 5,
+      "Q_counts": {
+        "0": 1
+      }
+    }
+  ]
+}

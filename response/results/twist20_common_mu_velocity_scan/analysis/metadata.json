@@ -1,0 +1,18 @@
+{
+  "source_sha256": "017d2a862df6bb687684ada29b07f43f1ad1186ae332a14d00b54be409a09900",
+  "input_pole_sha256": {
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist20_common_mu_velocity_scan/U4/n0p8/averaged_qmin_poles.npz": "6faa6f67fd2ef89aeea560aee301753786459c43b9ca41f6cff85c31a0332e7e",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist20_common_mu_velocity_scan/U6/n0p8/averaged_qmin_poles.npz": "29fcb61067193b250c6fdfffb85d27c846093f72c5d7ab35de6719e86577806e",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist20_common_mu_velocity_scan/U7/n0p8/averaged_qmin_poles.npz": "005c032f414cbbcd739e5da6c27662d54a83fdb7a89e698824c602e09d1fa575",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist20_common_mu_velocity_scan/U8/n0p8/averaged_qmin_poles.npz": "5201900d0c191a3cca8cb220e8bc444d2753d0946028bd403955fae197eb8b62",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist20_common_mu_velocity_scan/U12/n0p8/averaged_qmin_poles.npz": "c1de783ed2e8b0d1d63c996bfb8c7cc09d1ec5cc81e992e34586fc5e9e8fbb60"
+  },
+  "eta": 0.2,
+  "search_window": [
+    0,
+    5
+  ],
+  "estimator": "peak of averaged positive-frequency physical density spectrum divided by q_min",
+  "peak_policy": "first and strongest local maxima reported separately; height>=0.1%, prominence>=1%",
+  "caveat": "Finite-q estimates, not a fitted long-wavelength velocity or finite-size extrapolation"
+}

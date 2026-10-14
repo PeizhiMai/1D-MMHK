@@ -1,0 +1,19 @@
+U,target_n,actual_n,difference,mu,mu_left,mu_right,policy
+0,0.7,0.7,0.0,-0.9079630767115199,,,stable free plateau or complete zero-temperature grand ground projector
+0,0.8,0.8,0.0,-0.6180339887498947,,,stable free plateau or complete zero-temperature grand ground projector
+0,0.9,0.9,0.0,-0.31286275431564026,,,stable free plateau or complete zero-temperature grand ground projector
+1,0.7,0.7,0.0,-0.5760835359736154,-0.5842232198884361,-0.5679438520587947,nearest attainable stable zero-temperature plateau
+1,0.8,0.8,0.0,-0.23511347182725828,-0.29415707523851786,-0.1760698684159987,nearest attainable stable zero-temperature plateau
+1,0.9,0.9,0.0,0.12346980766989812,0.11271072937853255,0.1342288859612637,nearest attainable stable zero-temperature plateau
+2,0.7,0.7,0.0,-0.28708833803578315,-0.2926096300841259,-0.2815670459874404,nearest attainable stable zero-temperature plateau
+2,0.8,0.8,0.0,0.10139907456570363,0.001941620043083958,0.2008565290883233,nearest attainable stable zero-temperature plateau
+2,0.9,0.9,0.0,0.517100205167087,0.5073027179660219,0.5268976923681521,nearest attainable stable zero-temperature plateau
+3,0.7,0.7,0.0,-0.045790202808424496,-0.048550133194128264,-0.04303027242272073,nearest attainable stable zero-temperature plateau
+3,0.8,0.8,0.0,0.3802537430325814,0.24784852166428628,0.5126589644008765,nearest attainable stable zero-temperature plateau
+3,0.9,0.9,0.0,0.841894132894998,0.8345877192807922,0.8492005465092038,nearest attainable stable zero-temperature plateau
+4,0.7,0.7,0.0,0.1494716499859723,0.14793993690753826,0.15100336306440632,nearest attainable stable zero-temperature plateau
+4,0.8,0.8,0.0,0.5969350151817157,0.44378994914089187,0.7500800812225394,nearest attainable stable zero-temperature plateau
+4,0.9,0.9,0.0,1.0786913639831028,1.075811452819364,1.0815712751468416,nearest attainable stable zero-temperature plateau
+5,0.7,0.7,0.0,0.30482331740489377,0.301766496593058,0.30788013821672955,nearest attainable stable zero-temperature plateau
+5,0.8,0.8,0.0,0.7610782905435194,0.5895623488863233,0.9325942322007155,nearest attainable stable zero-temperature plateau
+5,0.9,0.9,0.0,1.241380990235697,1.237263472869099,1.2454985076022949,nearest attainable stable zero-temperature plateau

@@ -1,0 +1,37 @@
+{
+  "original_directory": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist20_common_mu_velocity_scan/U7/energy_scan/twist008/Nup3_Ndn3",
+  "original_lineage": {
+    "command": [
+      "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist20_common_mu_velocity_scan/solver_executable_snapshot.x",
+      "--L",
+      "10",
+      "--U",
+      "7",
+      "--nup",
+      "3",
+      "--ndn",
+      "3",
+      "--phase",
+      "0.06283185307179587",
+      "--depth",
+      "300",
+      "--observable",
+      "density",
+      "--output",
+      "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist20_common_mu_velocity_scan/U7/energy_scan/twist008/Nup3_Ndn3",
+      "--ground-only"
+    ],
+    "source_sha256": "85b8419ac525fd2a968f0e8e686e78f04738be7abb86b233045c2b71a837b8d8",
+    "executable_sha256": "5c4b2224ac4f476839216f78f644a8c95b14d71193fb692a12164af51d179cda"
+  },
+  "copied_file_sha256": {
+    "log_Weisse_table.txt": "f60008cb5687f8c11dafb9e9f5450c00c8c459902fccded66ceafaf3df1feb79",
+    "COMPLETE": "81b2bd4ea98c8db66554fbc8d7637a1a69a130f331feb732b75caab4c4868fd5",
+    "run.log": "6413ec22a29abde6fe1235fe7523e15f3f511393e35548da46be9d35f21ffba3",
+    "log_Lanczos_sr_val0.txt": "f98a70249710fca75eeb8cd62b41c20b1950cc539139ec088275ffac8033ecb7",
+    "metadata.json": "6a4862ea7a1c91a9abdcacd05f7236d760f280f264368235d276f2e15924e433",
+    "ground_sectors.csv": "6416a465cc178c0f0b51bee18d3b545ac37496dad3bf8efd3081912aac6bcc35",
+    "lineage.json": "6511e615e3a5e2f1218ee83117f21f7d4fa177abd40f0e5fa5ca1e60818b9d7c"
+  },
+  "phase_difference": 0.0
+}

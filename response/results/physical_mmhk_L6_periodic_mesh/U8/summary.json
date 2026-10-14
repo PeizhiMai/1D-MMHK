@@ -1,0 +1,610 @@
+{
+  "L": 6,
+  "U": 8.0,
+  "mu_selection": {
+    "mu": 1.3752497799521228,
+    "mu_left": 1.320936606461967,
+    "mu_right": 1.4295629534422787,
+    "filling": 0.4583333333333333,
+    "numbers": [
+      6,
+      5,
+      6,
+      5
+    ],
+    "target": 0.45,
+    "filling_error": 0.008333333333333304,
+    "exact_target_attained": false,
+    "policy": "nearest attainable stable zero-temperature plateau",
+    "plateaus": [
+      {
+        "mu": -7.0,
+        "mu_left": -12.0,
+        "mu_right": -2.0,
+        "filling": 0.0,
+        "numbers": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "mu": -1.9659258262890682,
+        "mu_left": -2.0,
+        "mu_right": -1.9318516525781366,
+        "filling": 0.020833333333333332,
+        "numbers": [
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "mu": -1.831951230073507,
+        "mu_left": -1.9318516525781366,
+        "mu_right": -1.7320508075688776,
+        "filling": 0.0625,
+        "numbers": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "mu": -1.6652298621926573,
+        "mu_left": -1.7320508075688776,
+        "mu_right": -1.598408916816437,
+        "filling": 0.10416666666666667,
+        "numbers": [
+          2,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "mu": -1.5694161415924324,
+        "mu_left": -1.598408916816437,
+        "mu_right": -1.540423366368428,
+        "filling": 0.125,
+        "numbers": [
+          2,
+          1,
+          2,
+          1
+        ]
+      },
+      {
+        "mu": -1.1902987021809914,
+        "mu_left": -1.540423366368428,
+        "mu_right": -0.8401740379935547,
+        "filling": 0.16666666666666666,
+        "numbers": [
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "mu": -0.8155423130853128,
+        "mu_left": -0.8401740379935547,
+        "mu_right": -0.7909105881770708,
+        "filling": 0.20833333333333334,
+        "numbers": [
+          2,
+          3,
+          2,
+          3
+        ]
+      },
+      {
+        "mu": -0.6263539178088386,
+        "mu_left": -0.7909105881770708,
+        "mu_right": -0.46179724744060646,
+        "filling": 0.22916666666666666,
+        "numbers": [
+          3,
+          3,
+          2,
+          3
+        ]
+      },
+      {
+        "mu": -0.3767513184087665,
+        "mu_left": -0.46179724744060646,
+        "mu_right": -0.2917053893769266,
+        "filling": 0.25,
+        "numbers": [
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "mu": -0.21973838061983697,
+        "mu_left": -0.2917053893769266,
+        "mu_right": -0.14777137186274736,
+        "filling": 0.2708333333333333,
+        "numbers": [
+          4,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "mu": -0.10354657420569335,
+        "mu_left": -0.14777137186274736,
+        "mu_right": -0.05932177654863935,
+        "filling": 0.2916666666666667,
+        "numbers": [
+          4,
+          3,
+          4,
+          3
+        ]
+      },
+      {
+        "mu": 0.3897941335088595,
+        "mu_left": -0.05932177654863935,
+        "mu_right": 0.8389100435663583,
+        "filling": 0.3333333333333333,
+        "numbers": [
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "mu": 0.8746011763385422,
+        "mu_left": 0.8389100435663583,
+        "mu_right": 0.910292309110726,
+        "filling": 0.3541666666666667,
+        "numbers": [
+          4,
+          4,
+          5,
+          4
+        ]
+      },
+      {
+        "mu": 1.0799277389812814,
+        "mu_left": 0.910292309110726,
+        "mu_right": 1.2495631688518367,
+        "filling": 0.3958333333333333,
+        "numbers": [
+          4,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "mu": 1.265628954071167,
+        "mu_left": 1.2495631688518367,
+        "mu_right": 1.2816947392904972,
+        "filling": 0.4166666666666667,
+        "numbers": [
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "mu": 1.301315672876232,
+        "mu_left": 1.2816947392904972,
+        "mu_right": 1.320936606461967,
+        "filling": 0.4375,
+        "numbers": [
+          6,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "mu": 1.3752497799521228,
+        "mu_left": 1.320936606461967,
+        "mu_right": 1.4295629534422787,
+        "filling": 0.4583333333333333,
+        "numbers": [
+          6,
+          5,
+          6,
+          5
+        ]
+      },
+      {
+        "mu": 3.999999999999995,
+        "mu_left": 1.4295629534422787,
+        "mu_right": 6.5704370465577115,
+        "filling": 0.5,
+        "numbers": [
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      {
+        "mu": 6.624750220047863,
+        "mu_left": 6.5704370465577115,
+        "mu_right": 6.679063393538014,
+        "filling": 0.5416666666666666,
+        "numbers": [
+          6,
+          7,
+          6,
+          7
+        ]
+      },
+      {
+        "mu": 6.698684327123763,
+        "mu_left": 6.679063393538014,
+        "mu_right": 6.718305260709513,
+        "filling": 0.5625,
+        "numbers": [
+          6,
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "mu": 6.734371045928832,
+        "mu_left": 6.718305260709513,
+        "mu_right": 6.750436831148152,
+        "filling": 0.5833333333333334,
+        "numbers": [
+          7,
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "mu": 6.920072261018713,
+        "mu_left": 6.750436831148152,
+        "mu_right": 7.0897076908892736,
+        "filling": 0.6041666666666666,
+        "numbers": [
+          8,
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "mu": 7.125398823661464,
+        "mu_left": 7.0897076908892736,
+        "mu_right": 7.1610899564336545,
+        "filling": 0.6458333333333334,
+        "numbers": [
+          8,
+          8,
+          7,
+          8
+        ]
+      },
+      {
+        "mu": 7.610205866491147,
+        "mu_left": 7.1610899564336545,
+        "mu_right": 8.05932177654864,
+        "filling": 0.6666666666666666,
+        "numbers": [
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      {
+        "mu": 8.103546574205701,
+        "mu_left": 8.05932177654864,
+        "mu_right": 8.147771371862762,
+        "filling": 0.7083333333333334,
+        "numbers": [
+          8,
+          9,
+          8,
+          9
+        ]
+      },
+      {
+        "mu": 8.219738380619846,
+        "mu_left": 8.147771371862762,
+        "mu_right": 8.291705389376931,
+        "filling": 0.7291666666666666,
+        "numbers": [
+          8,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "mu": 8.376751318408765,
+        "mu_left": 8.291705389376931,
+        "mu_right": 8.4617972474406,
+        "filling": 0.75,
+        "numbers": [
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      {
+        "mu": 8.626353917808833,
+        "mu_left": 8.4617972474406,
+        "mu_right": 8.790910588177066,
+        "filling": 0.7708333333333334,
+        "numbers": [
+          9,
+          9,
+          10,
+          9
+        ]
+      },
+      {
+        "mu": 8.815542313085311,
+        "mu_left": 8.790910588177066,
+        "mu_right": 8.840174037993556,
+        "filling": 0.7916666666666666,
+        "numbers": [
+          10,
+          9,
+          10,
+          9
+        ]
+      },
+      {
+        "mu": 9.190298702180998,
+        "mu_left": 8.840174037993556,
+        "mu_right": 9.54042336636844,
+        "filling": 0.8333333333333334,
+        "numbers": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      {
+        "mu": 9.569416141592438,
+        "mu_left": 9.54042336636844,
+        "mu_right": 9.598408916816435,
+        "filling": 0.875,
+        "numbers": [
+          10,
+          11,
+          10,
+          11
+        ]
+      },
+      {
+        "mu": 9.665229862192657,
+        "mu_left": 9.598408916816435,
+        "mu_right": 9.732050807568879,
+        "filling": 0.8958333333333334,
+        "numbers": [
+          10,
+          11,
+          11,
+          11
+        ]
+      },
+      {
+        "mu": 9.831951230073505,
+        "mu_left": 9.732050807568879,
+        "mu_right": 9.931851652578132,
+        "filling": 0.9375,
+        "numbers": [
+          12,
+          11,
+          11,
+          11
+        ]
+      },
+      {
+        "mu": 9.965925826289066,
+        "mu_left": 9.931851652578132,
+        "mu_right": 10.0,
+        "filling": 0.9791666666666666,
+        "numbers": [
+          12,
+          12,
+          11,
+          12
+        ]
+      },
+      {
+        "mu": 15.0,
+        "mu_left": 10.0,
+        "mu_right": 20.0,
+        "filling": 1.0,
+        "numbers": [
+          12,
+          12,
+          12,
+          12
+        ]
+      }
+    ],
+    "actual_filling": 0.4583333333333333
+  },
+  "eta": 0.2,
+  "k_count": 4,
+  "observable": "physical charge density and longitudinal 2Sz density",
+  "normalization": "1/sqrt(L) source; normalized reduced-BZ weights sum to one",
+  "ensemble": "T=0, complete unpolarized grand-canonical ground trace at each k",
+  "q_scope": "only q=2*pi*m/L intra-block transfers; no generic inter-block response",
+  "k_blocks": [
+    {
+      "k_index": 0,
+      "k": -0.5235987755982988,
+      "weight": 0.25,
+      "theta_boundary": -3.141592653589793,
+      "phase_per_bond": 0.5235987755982988,
+      "mean_N": 6.0,
+      "grand_ground_dimension": 1,
+      "components": [
+        {
+          "N": 6,
+          "Nup": 3,
+          "Ndn": 3,
+          "spin_flip_multiplicity": 1,
+          "ground_dimension": 1,
+          "directory": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/physical_mmhk_L6_periodic_mesh/U8/canonical_responses/k000/Nup3_Ndn3",
+          "probability": 1.0
+        }
+      ],
+      "elastic_charge_connected": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elastic_spin_connected": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "k_index": 1,
+      "k": -0.2617993877991494,
+      "weight": 0.25,
+      "theta_boundary": -1.5707963267948966,
+      "phase_per_bond": 0.2617993877991494,
+      "mean_N": 5.0,
+      "grand_ground_dimension": 2,
+      "components": [
+        {
+          "N": 5,
+          "Nup": 3,
+          "Ndn": 2,
+          "spin_flip_multiplicity": 2,
+          "ground_dimension": 1,
+          "directory": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/physical_mmhk_L6_periodic_mesh/U8/canonical_responses/k001/Nup3_Ndn2",
+          "probability": 1.0
+        }
+      ],
+      "elastic_charge_connected": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elastic_spin_connected": [
+        0.16666666666666666,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "k_index": 2,
+      "k": 0.0,
+      "weight": 0.25,
+      "theta_boundary": 0.0,
+      "phase_per_bond": -0.0,
+      "mean_N": 6.0,
+      "grand_ground_dimension": 1,
+      "components": [
+        {
+          "N": 6,
+          "Nup": 3,
+          "Ndn": 3,
+          "spin_flip_multiplicity": 1,
+          "ground_dimension": 1,
+          "directory": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/physical_mmhk_L6_periodic_mesh/U8/canonical_responses/k002/Nup3_Ndn3",
+          "probability": 1.0
+        }
+      ],
+      "elastic_charge_connected": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elastic_spin_connected": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "k_index": 3,
+      "k": 0.2617993877991494,
+      "weight": 0.25,
+      "theta_boundary": 1.5707963267948966,
+      "phase_per_bond": -0.2617993877991494,
+      "mean_N": 5.0,
+      "grand_ground_dimension": 2,
+      "components": [
+        {
+          "N": 5,
+          "Nup": 3,
+          "Ndn": 2,
+          "spin_flip_multiplicity": 2,
+          "ground_dimension": 1,
+          "directory": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/physical_mmhk_L6_periodic_mesh/U8/canonical_responses/k003/Nup3_Ndn2",
+          "probability": 1.0
+        }
+      ],
+      "elastic_charge_connected": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "elastic_spin_connected": [
+        0.16666666666666666,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "checks": {
+    "max_source_weight_error": 2.220446049250313e-15,
+    "max_first_moment_error": 3.197442310920451e-14,
+    "max_ground_residual": 1.692597327406169e-14,
+    "q0_charge_inelastic_max": 0.0,
+    "q0_spin_inelastic_max": 0.0,
+    "charge_q_minus_q_average_max_difference": 4.760081218080359e-15,
+    "spin_q_minus_q_average_max_difference": 1.4654943925052066e-14
+  },
+  "new_solver_calls": 60,
+  "new_solver_elapsed_seconds": 11.103645788000904,
+  "qmin_first_charge_peak": 1.52,
+  "qmin_first_spin_peak": 0.6699999999999999,
+  "initial_solver_calls": 60,
+  "initial_solver_elapsed_seconds": 11.103645788000904
+}

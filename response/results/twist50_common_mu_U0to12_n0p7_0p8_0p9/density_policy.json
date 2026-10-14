@@ -1,0 +1,9 @@
+{
+  "nearest_stable_tolerance": 0.004,
+  "policy": "nearest stable common-mu plateau if exact target is unattainable",
+  "authorization": "Human reply: Use nearest stable density within \u00b10.004",
+  "actual_density_must_be_reported": true,
+  "BA_reference_density": "actual mean density",
+  "artificial_number_crossing_mixture": false,
+  "U0_exception": "full grand ground projector at an exactly degenerate Fermi level, only when it matches target"
+}

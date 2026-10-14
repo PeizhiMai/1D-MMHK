@@ -1,0 +1,11 @@
+{
+  "files": {
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/compare_figure3.py": "fb7a0bf57ecec45c5ac17cd53a194dc594985ddb3490abec72820eef87868bd0",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/plot_operator_diagnostic.py": "1818b5ec016996e255dec297b24c477b3b18791aba7beb6461e647ea51af6206",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/postprocess_response.py": "0bf0b0d88273e78d13465e1d60ae2e53ee46a0b18f738e4321aebd807a98f4ba",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/run_zero_twist_benchmark.py": "b0d60b3a15743579706a36c1412e3376c989073053e1b01ae6420c8678ab1bb3",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/tests/check_free_reference.py": "193eb16d3810fd665a2405a7a9185abf84bd912dc9a13586bffbcfcd530495bf",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/tests/test_L10_sparse.py": "f6237e25a140599912667e35951fa9614000dd984e282285e2df5c73aa698df8",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/tests/test_response.py": "6bf8d41124d093601d7a8e79e9e09a445431a49d90486c0d80d4434dd3352de9"
+  }
+}

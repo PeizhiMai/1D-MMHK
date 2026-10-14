@@ -1,0 +1,15 @@
+E0 -6.92820323027550877
+q_index 1
+q 1.04719755119659763
+ground_Q 2
+target_Q 3
+ensemble_weight 1
+ground_id 0
+source_orbital -1
+norm 0.57735026918962562
+elastic_weight 0
+source_weight 0.333333333333333148
+first_moment 0.577350269189625398
+steps 1
+a -5.19615242270663202
+b 0

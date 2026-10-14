@@ -1,0 +1,4 @@
+interface:
+  display_name: "1D MMHK Spin and Charge"
+  short_description: "Density responses and Bethe-ansatz references"
+  default_prompt: "Use $mmhk-1d-spin-charge to calculate spin and charge responses at my chosen density, mixing size, couplings, and twists, and compare with Bethe-ansatz references."

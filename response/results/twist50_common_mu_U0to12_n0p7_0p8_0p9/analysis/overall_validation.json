@@ -1,0 +1,13 @@
+{
+  "complete_response_cases": 39,
+  "primary_result_checks_passed": true,
+  "raw_fraction_hashes_verified": true,
+  "BA_reference_checks_passed": true,
+  "selected_primary_depth_checks_passed": true,
+  "small_eta_strict_1ppm_test_passed": false,
+  "maximum_small_eta_depth_error_fraction": 2.1490147367633995e-05,
+  "FFT_grid_checks_passed": true,
+  "reuse_provenance_checks_passed": true,
+  "student_solver_executed": false,
+  "open_LaTeX_note_unchanged": true
+}

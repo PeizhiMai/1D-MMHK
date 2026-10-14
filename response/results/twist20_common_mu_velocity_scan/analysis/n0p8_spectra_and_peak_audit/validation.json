@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "spectrum_checks": [
+    {
+      "U": 4,
+      "channel": "charge",
+      "new_absolute_spectrum_vs_previous_max_error": 0.0
+    },
+    {
+      "U": 4,
+      "channel": "spin",
+      "new_absolute_spectrum_vs_previous_max_error": 0.0
+    },
+    {
+      "U": 6,
+      "channel": "charge",
+      "new_absolute_spectrum_vs_previous_max_error": 0.0
+    },
+    {
+      "U": 6,
+      "channel": "spin",
+      "new_absolute_spectrum_vs_previous_max_error": 0.0
+    },
+    {
+      "U": 7,
+      "channel": "charge",
+      "new_absolute_spectrum_vs_previous_max_error": 0.0
+    },
+    {
+      "U": 7,
+      "channel": "spin",
+      "new_absolute_spectrum_vs_previous_max_error": 0.0
+    },
+    {
+      "U": 8,
+      "channel": "charge",
+      "new_absolute_spectrum_vs_previous_max_error": 0.0
+    },
+    {
+      "U": 8,
+      "channel": "spin",
+      "new_absolute_spectrum_vs_previous_max_error": 0.0
+    },
+    {
+      "U": 12,
+      "channel": "charge",
+      "new_absolute_spectrum_vs_previous_max_error": 0.0
+    },
+    {
+      "U": 12,
+      "channel": "spin",
+      "new_absolute_spectrum_vs_previous_max_error": 0.0
+    }
+  ],
+  "lowest_poles_stable_for_thresholds_1e_minus_8_to_1e_minus_4": true,
+  "input_hashes_match": true,
+  "no_new_solver_runs": true,
+  "note_unchanged": true
+}

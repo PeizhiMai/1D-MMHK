@@ -1,0 +1,254 @@
+{
+  "eta": 0.1,
+  "q_min": 0.6283185307179586,
+  "L": 10,
+  "twists": 50,
+  "response_source": "original averaged poles; all 39 cases rebroadened; peak positions re-extracted",
+  "BA_source": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/analysis_ba_step0p2/BA_velocities_fine_grid.csv",
+  "BA_sha256": "5bf76fb8e6dfb1af83eb843d75ea6bf7d63e4981f0f567d751f7752fdcb7404f",
+  "input_sha256": {
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U0/n0p7/averaged_qmin_poles.npz": "d8a48d05446ef6a182796fc547d8d00388091e84dbcf585e8249c302542993ec",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U0/n0p8/averaged_qmin_poles.npz": "aa9d91d2d6727e737372c24cffc2658ee0427a8ab0ef21573a0a90ac636f56da",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U0/n0p9/averaged_qmin_poles.npz": "65dd30b7229de42c9830d9be11501057fc6cdf86577868a2dd7ae958186f3b04",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U1/n0p7/averaged_qmin_poles.npz": "680eeece954c585575e0a55a2f8ceadc4e33fe87208770aa5191727b24a7e9b7",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U1/n0p8/averaged_qmin_poles.npz": "87ac06e1ddcca8331b7ba317458e40df803a36a897eb278ba99722a088b4879c",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U1/n0p9/averaged_qmin_poles.npz": "5cfe9e92de86f540a9b149b4cfd71b22d6a8f2eab9621739ea22e5b3e7632c7b",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U2/n0p7/averaged_qmin_poles.npz": "76973339bb43d36d5bc518b713c1c85537c3cb0891af1b337e2a344d61c7e9fc",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U2/n0p8/averaged_qmin_poles.npz": "9088f1defb7c8b46c37bc31ff7114d8dbd805851ace9c7b842c3c25a46a9133d",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U2/n0p9/averaged_qmin_poles.npz": "b39e53acf83b86209910a73e84ce6db90d4d94dfed60f6246268aed6b4d35e96",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U3/n0p7/averaged_qmin_poles.npz": "204109cf0e3a1b7a974021c03f1574f90b9b0cfc0ec85e3189cd04f4c2e60189",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U3/n0p8/averaged_qmin_poles.npz": "1c5880dd6f010070ab549d8ee29cf483f8717bc7aa70d07ed9d7e75f1a000e66",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U3/n0p9/averaged_qmin_poles.npz": "7cbe4e258e22f88eae7612dee600f158fda105a20e282de61e06e86bee7ce77b",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U4/n0p7/averaged_qmin_poles.npz": "22b747196d19bfae7c7c96b4d086a68d393429445c66cc2a0bcd205c823ef364",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U4/n0p8/averaged_qmin_poles.npz": "f350003244bcf77c986a4a1b89f1f10c55f5227b6a5c6ef80af2b9c9053d1a43",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U4/n0p9/averaged_qmin_poles.npz": "06edaf6c4bdece1049f16015190a3144fb8241a75d484ac045f50f9bb1aa55b7",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U5/n0p7/averaged_qmin_poles.npz": "49060696d64bdd16b492ba09f70137be69cdad32fb87e0ea15ecad30b911e219",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U5/n0p8/averaged_qmin_poles.npz": "1a0392a11872df87aa2a1f14ceb8a637424d72571e62a185da21bf7d22267ba9",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U5/n0p9/averaged_qmin_poles.npz": "c9e7912e96acd78465447fddee5f0bfcd80613a97eded83948b1e864794502f2",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U6/n0p7/averaged_qmin_poles.npz": "327be31030f91eddb5c559e005209cfd01312fdce642c4ac4e9e5d030eaf42d3",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U6/n0p8/averaged_qmin_poles.npz": "e2ab1420aaa3114d8a829b29a7783a269979869a8ff293b435d71ca0d025a082",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U6/n0p9/averaged_qmin_poles.npz": "f178cb29bb99ea6d1be1e789bc909bf984a4f1a9e4edb9beac665213ecab5c04",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U7/n0p7/averaged_qmin_poles.npz": "8265765ee312122d2b037c0e3f8b52137de3197df3e67bd0711eed9e643ef68e",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U7/n0p8/averaged_qmin_poles.npz": "2773cee118ebf1c02015ad72be54f2b6b7b83a8499fca7bba97fb0186013b48b",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U7/n0p9/averaged_qmin_poles.npz": "ed5ee601b73f1e848f11602fe7c44506ae291841f021c178398c9cd50a4e8863",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U8/n0p7/averaged_qmin_poles.npz": "f544c7fac8e831ca855314bf4d47488f07b40ae1cb82d6b9ce5ab1750c7fbb21",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U8/n0p8/averaged_qmin_poles.npz": "4bec9d8c30b06075aaeecc15199e7fb337e98d9e49294f232f3c446385089e01",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U8/n0p9/averaged_qmin_poles.npz": "e0b78173763867bd764e26a4d21ccf4d78e7724c6809ce81b47ee2938d00f187",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U9/n0p7/averaged_qmin_poles.npz": "e0d8f5a3f79ef5048e4535bf4628bca702bf5b1e88b4fb19bb38bb09c7219d3a",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U9/n0p8/averaged_qmin_poles.npz": "7bbc9661d408527470d89139896b1a86b27bbe93332725a3dca0de065718db31",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U9/n0p9/averaged_qmin_poles.npz": "511f9bf01bdeef9f5c55e1747be466bf5bb2685bb6b0d9fddb4be58195d62742",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U10/n0p7/averaged_qmin_poles.npz": "6a12de087260d99875de02cc4b8379084a4e0d32c614b34252b64c5a242f4743",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U10/n0p8/averaged_qmin_poles.npz": "6bae6148b54eaac806d7d78a85f9e9aa5915b4d4c44ebb4653121f43991e0ffc",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U10/n0p9/averaged_qmin_poles.npz": "d32c6143d2c1ff784d614d11837bf47309aedbb7fa7a2672ff4471e4d3445ce5",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U11/n0p7/averaged_qmin_poles.npz": "5653e3dc0f1296f41ce5b7d7543059dcd529f8b07b68a9aa31b2f62a37d7cbf8",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U11/n0p8/averaged_qmin_poles.npz": "0af7de5f5c626ea3ba125e44638d517349638efcffa42c384f3c9afb291a26a2",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U11/n0p9/averaged_qmin_poles.npz": "2e0bf9d4176375c4bc658d4d7e2398a4db4502a5a9c964e3e71b7a3b713aec94",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U12/n0p7/averaged_qmin_poles.npz": "bf619eeb57ffd3d655650e10e0bd22415fb9a65912a56813f40cf1524f666c7a",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U12/n0p8/averaged_qmin_poles.npz": "c3d8b6ac420c59b7343680755823e1d6552e129c28f3653fcd27f6d9d0dd1b29",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U12/n0p9/averaged_qmin_poles.npz": "8faab09c89cae1e5f7c501a7497500af0921a71ae7cd6b6b223a7277f1d59a7a"
+  },
+  "source_sha256": "6b8dccf709a3083fd6a3c08fa497462eb72b1c3feb4654b48ca62218eaea3bae",
+  "open_note_unchanged": true,
+  "neutral_solver_executed": false,
+  "first_dominant_differ_count": 0,
+  "panels": [
+    {
+      "target_density": 0.7,
+      "panel_count": 13,
+      "U_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "omega_range": [
+        0,
+        2.0
+      ],
+      "y_scale": "linear",
+      "y_limits": [
+        0,
+        0.75
+      ],
+      "channels": [
+        "charge",
+        "spin"
+      ],
+      "file_stem": "response_panel_n0p7"
+    },
+    {
+      "target_density": 0.8,
+      "panel_count": 13,
+      "U_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "omega_range": [
+        0,
+        2.0
+      ],
+      "y_scale": "linear",
+      "y_limits": [
+        0,
+        0.75
+      ],
+      "channels": [
+        "charge",
+        "spin"
+      ],
+      "file_stem": "response_panel_n0p8"
+    },
+    {
+      "target_density": 0.9,
+      "panel_count": 13,
+      "U_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "omega_range": [
+        0,
+        2.0
+      ],
+      "y_scale": "linear",
+      "y_limits": [
+        0,
+        0.75
+      ],
+      "channels": [
+        "charge",
+        "spin"
+      ],
+      "file_stem": "response_panel_n0p9"
+    },
+    {
+      "target_density": 0.7,
+      "panel_count": 13,
+      "U_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "omega_range": [
+        0,
+        65.0
+      ],
+      "y_scale": "log",
+      "y_limits": [
+        1e-06,
+        0.7298844161912339
+      ],
+      "channels": [
+        "charge",
+        "spin"
+      ],
+      "file_stem": "response_panel_n0p7_full_range"
+    },
+    {
+      "target_density": 0.8,
+      "panel_count": 13,
+      "U_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "omega_range": [
+        0,
+        65.0
+      ],
+      "y_scale": "log",
+      "y_limits": [
+        1e-06,
+        0.7298844161912339
+      ],
+      "channels": [
+        "charge",
+        "spin"
+      ],
+      "file_stem": "response_panel_n0p8_full_range"
+    },
+    {
+      "target_density": 0.9,
+      "panel_count": 13,
+      "U_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "omega_range": [
+        0,
+        65.0
+      ],
+      "y_scale": "log",
+      "y_limits": [
+        1e-06,
+        0.7298844161912339
+      ],
+      "channels": [
+        "charge",
+        "spin"
+      ],
+      "file_stem": "response_panel_n0p9_full_range"
+    }
+  ]
+}

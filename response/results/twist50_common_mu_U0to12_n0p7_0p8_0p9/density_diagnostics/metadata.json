@@ -1,0 +1,22 @@
+{
+  "source_sha256": "88fab1286d3b1b387c6edb5477db61d45523425914eea0fb652ff0e38b68ceaf",
+  "energy_table_sha256": {
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U0/ground_energy_table.npz": "a08fd51fd9ef8f2a6242449800d93828787f42f5c73f1fbab7889223f0bdb26e",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U1/ground_energy_table.npz": "c5c2b84ce761034d80645b2d7b0ad12e0d10bd6b10e3c2a251ca7d37ec97713e",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U2/ground_energy_table.npz": "722cc3f4fadbb2f2932e0aa6a53a1461cb795b90d131f312f881c59d0c0cde06",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U3/ground_energy_table.npz": "73042cb06f86b6eb9d93faa49c5206de51cbee609966cc7ec78f338b7f1c5db0",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U4/ground_energy_table.npz": "d1cf0cad497a0172f94b01936c178561c9430322f30f70c68be7550f8b6c6a84",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U5/ground_energy_table.npz": "5db7be681bf6759b992729d189f75d3ed3dacf241ea88ab41ebcc543ad4e91da",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U6/ground_energy_table.npz": "530ac6d92909429a05de9897a6cc418aeabaa9fa70201336f857dd9e15f7f68d",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U7/ground_energy_table.npz": "eb757da48d819b06a3692074850cfcd1d85ffcc9bf9035a6b558380e70884134",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U8/ground_energy_table.npz": "40babf133d036e3189bdec1fd17975c1000d53c16236eb547d177b7fe4efbe06",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U9/ground_energy_table.npz": "018dc0f8c403bd8c9f9bb39e5b3a1f2f23ba138bef157f76869cd02a9e1607ad",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U10/ground_energy_table.npz": "624d25bf5e51a3ea30912d6768cb4b9e5f46638a32ca961fc9a30c7726f2ac49",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U11/ground_energy_table.npz": "26c19d1bfcc01912ffab13873baefbd1389fedf288cacb371bc8b71e20e051a7",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U12/ground_energy_table.npz": "9d9cab3a20f81aa2a20dc6cdf23ee5569f2307791f59750392bf4d0bdb64edc2"
+  },
+  "method": "exact lower convex envelope, stable common-mu plateaus",
+  "physical_density": "Ne/L",
+  "student_solver_executed": false,
+  "free_projector_is_not_a_stable_plateau": true
+}

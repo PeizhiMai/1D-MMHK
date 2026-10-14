@@ -1,0 +1,14 @@
+{
+  "charge": {
+    "max_abs_difference": 3.0531133177191805e-16,
+    "relative_to_max": 3.407271478006809e-15,
+    "first_peak_depth300": 0.41100000000000003,
+    "first_peak_depth600": 0.41100000000000003
+  },
+  "spin": {
+    "max_abs_difference": 1.2583586082859366e-11,
+    "relative_to_max": 3.6744060289778376e-11,
+    "first_peak_depth300": 0.421,
+    "first_peak_depth600": 0.421
+  }
+}

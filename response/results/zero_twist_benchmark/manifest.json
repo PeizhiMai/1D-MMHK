@@ -1,0 +1,119 @@
+{
+  "L": 10,
+  "filling": 0.45,
+  "Nup": 5,
+  "Ndn": 4,
+  "phase_per_bond": 0,
+  "observable": "density",
+  "U_list": [
+    4,
+    6,
+    7,
+    8,
+    12
+  ],
+  "depth": 300,
+  "eta": 0.2,
+  "OMP_NUM_THREADS": 4,
+  "MKL_NUM_THREADS": 1,
+  "source_sha256": "fc69767161c190816b6433befacdce8be0d12db01a84365c7d30134763dd43fa",
+  "executable_sha256": "7a2d8b7449499c737962d1c2936dbf43ee0b06bcf461f74c9e8393365d98b95b",
+  "host": "macOS-15.6.1-x86_64-i386-64bit",
+  "runs": [
+    {
+      "U": 4,
+      "command": [
+        "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/bin/chain_Hubbard_tbc_response.x",
+        "--L",
+        "10",
+        "--filling",
+        "0.45",
+        "--U",
+        "4",
+        "--phase",
+        "0",
+        "--depth",
+        "300",
+        "--output",
+        "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark/L10_U4_n0p45_phi0"
+      ],
+      "elapsed_seconds": 5.882332499837503
+    },
+    {
+      "U": 6,
+      "command": [
+        "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/bin/chain_Hubbard_tbc_response.x",
+        "--L",
+        "10",
+        "--filling",
+        "0.45",
+        "--U",
+        "6",
+        "--phase",
+        "0",
+        "--depth",
+        "300",
+        "--output",
+        "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark/L10_U6_n0p45_phi0"
+      ],
+      "elapsed_seconds": 5.972024792106822
+    },
+    {
+      "U": 7,
+      "command": [
+        "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/bin/chain_Hubbard_tbc_response.x",
+        "--L",
+        "10",
+        "--filling",
+        "0.45",
+        "--U",
+        "7",
+        "--phase",
+        "0",
+        "--depth",
+        "300",
+        "--output",
+        "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark/L10_U7_n0p45_phi0"
+      ],
+      "elapsed_seconds": 6.080084957880899
+    },
+    {
+      "U": 8,
+      "command": [
+        "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/bin/chain_Hubbard_tbc_response.x",
+        "--L",
+        "10",
+        "--filling",
+        "0.45",
+        "--U",
+        "8",
+        "--phase",
+        "0",
+        "--depth",
+        "300",
+        "--output",
+        "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark/L10_U8_n0p45_phi0"
+      ],
+      "elapsed_seconds": 6.306857249932364
+    },
+    {
+      "U": 12,
+      "command": [
+        "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/bin/chain_Hubbard_tbc_response.x",
+        "--L",
+        "10",
+        "--filling",
+        "0.45",
+        "--U",
+        "12",
+        "--phase",
+        "0",
+        "--depth",
+        "300",
+        "--output",
+        "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark/L10_U12_n0p45_phi0"
+      ],
+      "elapsed_seconds": 6.779349500080571
+    }
+  ]
+}

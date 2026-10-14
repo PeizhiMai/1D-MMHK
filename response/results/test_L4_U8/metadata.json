@@ -1,0 +1,2 @@
+{
+"L":4,"Nup":2,"Ndn":2,"filling":0.5,"U":8,"t":1,"phase_per_bond":0,"boundary_twist":0,"depth":150,"ground_scan_all_Q":true,"E0":-1.32023495827193638,"density_normalization":"1/sqrt(L)","spin_operator":"n_up-n_down (2Sz)","ground_states":[{"Q":2,"E0":-1.32023495827193638,"residual":9.16802692846022611e-15}]}

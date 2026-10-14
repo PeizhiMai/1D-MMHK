@@ -1,0 +1,16 @@
+{
+  "source_sha256": "142d93fe21540a9644208999524915f79c6ec65984b0efc350188ef8d70718c3",
+  "ground_energy_table_sha256": {
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist20_common_mu_velocity_scan/U4/ground_energy_table.npz": "585f31160609ef391a958e52bd72ecf6b3b82f9c639629e29428281cbf2cce73",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist20_common_mu_velocity_scan/U6/ground_energy_table.npz": "5f53095d18bcac4f78f808491feeb081a6eb825a40d5dda29097db83a6b45c87",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist20_common_mu_velocity_scan/U7/ground_energy_table.npz": "6d133d784025fa477b6b7a68ecaef86d6f3249a2c4e01508e06beb015d3ac0a1",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist20_common_mu_velocity_scan/U8/ground_energy_table.npz": "69fc700ae70c6b8b2b3bb45aec27f8f98b974f5b1fdcad12903c733adeb52031",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist20_common_mu_velocity_scan/U12/ground_energy_table.npz": "40d44745dab23feecf711d3ee2b05d539cde2b56ba5c58283676f413263dd177"
+  },
+  "L": 10,
+  "twist_count": 20,
+  "physical_density_convention": "Ne/L, not Ne/(2L)",
+  "method": "exact lower convex envelopes of E0(theta,N)-mu*N; full spin ground energy",
+  "additional_solver_runs": 0,
+  "jump_at_crossing_is_multivalued": true
+}

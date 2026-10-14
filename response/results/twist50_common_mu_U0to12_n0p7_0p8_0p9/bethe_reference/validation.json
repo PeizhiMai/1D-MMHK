@@ -1,0 +1,511 @@
+{
+  "kernel_integral": [
+    {
+      "u": 0.05,
+      "x": 0.0,
+      "absolute_error": 1.3322676295501878e-15
+    },
+    {
+      "u": 0.05,
+      "x": 0.3,
+      "absolute_error": 2.6191271373932068e-12
+    },
+    {
+      "u": 0.05,
+      "x": 1.7,
+      "absolute_error": 2.119333354644315e-13
+    },
+    {
+      "u": 0.25,
+      "x": 0.0,
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "u": 0.25,
+      "x": 0.3,
+      "absolute_error": 2.7755575615628914e-16
+    },
+    {
+      "u": 0.25,
+      "x": 1.7,
+      "absolute_error": 4.097416850257218e-15
+    },
+    {
+      "u": 1.0,
+      "x": 0.0,
+      "absolute_error": 4.163336342344337e-17
+    },
+    {
+      "u": 1.0,
+      "x": 0.3,
+      "absolute_error": 6.938893903907228e-17
+    },
+    {
+      "u": 1.0,
+      "x": 1.7,
+      "absolute_error": 6.245004513516506e-17
+    },
+    {
+      "u": 3.0,
+      "x": 0.0,
+      "absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "u": 3.0,
+      "x": 0.3,
+      "absolute_error": 0.0
+    },
+    {
+      "u": 3.0,
+      "x": 1.7,
+      "absolute_error": 1.3877787807814457e-17
+    }
+  ],
+  "kernel_interpolation": [
+    {
+      "u": 0.025,
+      "max_absolute_error": 1.787192616120592e-11
+    },
+    {
+      "u": 0.0625,
+      "max_absolute_error": 2.4256818775825195e-11
+    },
+    {
+      "u": 0.25,
+      "max_absolute_error": 5.939193581383506e-12
+    },
+    {
+      "u": 1.0,
+      "max_absolute_error": 5.842548667089886e-15
+    },
+    {
+      "u": 2.0,
+      "max_absolute_error": 2.1510571102112408e-16
+    },
+    {
+      "u": 4.0,
+      "max_absolute_error": 5.204170427930421e-17
+    }
+  ],
+  "mesh_convergence": [
+    {
+      "U_over_t": 0.1,
+      "nodes": 896,
+      "refined_nodes": 1342,
+      "absolute_errors": {
+        "v_charge": 5.5067062021407764e-14,
+        "v_spin": 1.0613732115416497e-13
+      }
+    },
+    {
+      "U_over_t": 0.25,
+      "nodes": 566,
+      "refined_nodes": 850,
+      "absolute_errors": {
+        "v_charge": 1.3344880755994382e-13,
+        "v_spin": 2.7844393457598926e-13
+      }
+    },
+    {
+      "U_over_t": 1.0,
+      "nodes": 400,
+      "refined_nodes": 600,
+      "absolute_errors": {
+        "v_charge": 3.175237850427948e-14,
+        "v_spin": 8.060219158778636e-14
+      }
+    },
+    {
+      "U_over_t": 4.0,
+      "nodes": 400,
+      "refined_nodes": 600,
+      "absolute_errors": {
+        "v_charge": 8.881784197001252e-16,
+        "v_spin": 4.951594689828198e-14
+      }
+    },
+    {
+      "U_over_t": 8.0,
+      "nodes": 400,
+      "refined_nodes": 600,
+      "absolute_errors": {
+        "v_charge": 9.992007221626409e-15,
+        "v_spin": 2.2870594307278225e-14
+      }
+    },
+    {
+      "U_over_t": 16.0,
+      "nodes": 400,
+      "refined_nodes": 600,
+      "absolute_errors": {
+        "v_charge": 9.547918011776346e-15,
+        "v_spin": 7.993605777301127e-15
+      }
+    }
+  ],
+  "dressed_energy_velocity_checks": [
+    {
+      "U_over_t": 0.1,
+      "charge_finite_difference_error": 2.8553248654361596e-10,
+      "spin_direct_asymptotic_error": 9.028333636251773e-13
+    },
+    {
+      "U_over_t": 0.25,
+      "charge_finite_difference_error": 7.696421278069465e-11,
+      "spin_direct_asymptotic_error": 1.4059864383852982e-12
+    },
+    {
+      "U_over_t": 4.0,
+      "charge_finite_difference_error": 2.1310953002284805e-11,
+      "spin_direct_asymptotic_error": 5.595524044110789e-14
+    },
+    {
+      "U_over_t": 8.0,
+      "charge_finite_difference_error": 2.077982230730413e-11,
+      "spin_direct_asymptotic_error": 2.9976021664879227e-14
+    }
+  ],
+  "half_filled_spin": [
+    {
+      "U_over_t": 4.0,
+      "computed": 1.2263060488843864,
+      "exact_Bessel": 1.2263060488843787,
+      "absolute_error": 7.771561172376096e-15
+    },
+    {
+      "U_over_t": 8.0,
+      "computed": 0.7304684823753349,
+      "exact_Bessel": 0.7304684823753237,
+      "absolute_error": 1.1213252548714081e-14
+    },
+    {
+      "U_over_t": 12.0,
+      "computed": 0.506438324792678,
+      "exact_Bessel": 0.506438324792668,
+      "absolute_error": 9.992007221626409e-15
+    }
+  ],
+  "noninteracting_velocity": 1.7820130483767356,
+  "strong_coupling": {
+    "charge_limit": 1.618033988749895,
+    "spin_leading_U_times_velocity": 7.64183747331552,
+    "check_U_over_t": 1000.0,
+    "check_v_charge": 1.6217259136667017,
+    "check_U_times_v_spin": 7.635900660596399
+  },
+  "passed": true,
+  "all_integer_U_mesh_checks": [
+    {
+      "U": 0,
+      "density": 0.7,
+      "mesh_errors": {
+        "v_charge": 0.0,
+        "v_spin": 0.0
+      }
+    },
+    {
+      "U": 1,
+      "density": 0.7,
+      "mesh_errors": {
+        "v_charge": 3.175237850427948e-14,
+        "v_spin": 8.060219158778636e-14
+      }
+    },
+    {
+      "U": 2,
+      "density": 0.7,
+      "mesh_errors": {
+        "v_charge": 1.8207657603852567e-14,
+        "v_spin": 7.061018436615996e-14
+      }
+    },
+    {
+      "U": 3,
+      "density": 0.7,
+      "mesh_errors": {
+        "v_charge": 7.549516567451064e-15,
+        "v_spin": 5.995204332975845e-14
+      }
+    },
+    {
+      "U": 4,
+      "density": 0.7,
+      "mesh_errors": {
+        "v_charge": 8.881784197001252e-16,
+        "v_spin": 4.951594689828198e-14
+      }
+    },
+    {
+      "U": 5,
+      "density": 0.7,
+      "mesh_errors": {
+        "v_charge": 3.552713678800501e-15,
+        "v_spin": 4.063416270128073e-14
+      }
+    },
+    {
+      "U": 6,
+      "density": 0.7,
+      "mesh_errors": {
+        "v_charge": 7.105427357601002e-15,
+        "v_spin": 3.3639757646142243e-14
+      }
+    },
+    {
+      "U": 7,
+      "density": 0.7,
+      "mesh_errors": {
+        "v_charge": 8.881784197001252e-15,
+        "v_spin": 2.7422508708241367e-14
+      }
+    },
+    {
+      "U": 8,
+      "density": 0.7,
+      "mesh_errors": {
+        "v_charge": 9.992007221626409e-15,
+        "v_spin": 2.2870594307278225e-14
+      }
+    },
+    {
+      "U": 9,
+      "density": 0.7,
+      "mesh_errors": {
+        "v_charge": 1.1102230246251565e-14,
+        "v_spin": 1.965094753586527e-14
+      }
+    },
+    {
+      "U": 10,
+      "density": 0.7,
+      "mesh_errors": {
+        "v_charge": 1.1324274851176597e-14,
+        "v_spin": 1.6764367671839864e-14
+      }
+    },
+    {
+      "U": 11,
+      "density": 0.7,
+      "mesh_errors": {
+        "v_charge": 1.0880185641326534e-14,
+        "v_spin": 1.454392162258955e-14
+      }
+    },
+    {
+      "U": 12,
+      "density": 0.7,
+      "mesh_errors": {
+        "v_charge": 1.1102230246251565e-14,
+        "v_spin": 1.27675647831893e-14
+      }
+    },
+    {
+      "U": 0,
+      "density": 0.8,
+      "mesh_errors": {
+        "v_charge": 0.0,
+        "v_spin": 0.0
+      }
+    },
+    {
+      "U": 1,
+      "density": 0.8,
+      "mesh_errors": {
+        "v_charge": 2.042810365310288e-14,
+        "v_spin": 6.394884621840902e-14
+      }
+    },
+    {
+      "U": 2,
+      "density": 0.8,
+      "mesh_errors": {
+        "v_charge": 1.3322676295501878e-15,
+        "v_spin": 5.3512749786932545e-14
+      }
+    },
+    {
+      "U": 3,
+      "density": 0.8,
+      "mesh_errors": {
+        "v_charge": 1.554312234475219e-14,
+        "v_spin": 4.1522341120980855e-14
+      }
+    },
+    {
+      "U": 4,
+      "density": 0.8,
+      "mesh_errors": {
+        "v_charge": 2.930988785010413e-14,
+        "v_spin": 3.108624468950438e-14
+      }
+    },
+    {
+      "U": 5,
+      "density": 0.8,
+      "mesh_errors": {
+        "v_charge": 3.7969627442180354e-14,
+        "v_spin": 2.1316282072803006e-14
+      }
+    },
+    {
+      "U": 6,
+      "density": 0.8,
+      "mesh_errors": {
+        "v_charge": 4.1522341120980855e-14,
+        "v_spin": 1.4099832412739488e-14
+      }
+    },
+    {
+      "U": 7,
+      "density": 0.8,
+      "mesh_errors": {
+        "v_charge": 4.3076653355456074e-14,
+        "v_spin": 9.103828801926284e-15
+      }
+    },
+    {
+      "U": 8,
+      "density": 0.8,
+      "mesh_errors": {
+        "v_charge": 4.3076653355456074e-14,
+        "v_spin": 5.218048215738236e-15
+      }
+    },
+    {
+      "U": 9,
+      "density": 0.8,
+      "mesh_errors": {
+        "v_charge": 4.0190073491430667e-14,
+        "v_spin": 3.1086244689504383e-15
+      }
+    },
+    {
+      "U": 10,
+      "density": 0.8,
+      "mesh_errors": {
+        "v_charge": 3.8413716652030416e-14,
+        "v_spin": 6.661338147750939e-16
+      }
+    },
+    {
+      "U": 11,
+      "density": 0.8,
+      "mesh_errors": {
+        "v_charge": 3.574918139293004e-14,
+        "v_spin": 2.220446049250313e-16
+      }
+    },
+    {
+      "U": 12,
+      "density": 0.8,
+      "mesh_errors": {
+        "v_charge": 3.3084646133829665e-14,
+        "v_spin": 9.992007221626409e-16
+      }
+    },
+    {
+      "U": 0,
+      "density": 0.9,
+      "mesh_errors": {
+        "v_charge": 0.0,
+        "v_spin": 0.0
+      }
+    },
+    {
+      "U": 1,
+      "density": 0.9,
+      "mesh_errors": {
+        "v_charge": 6.217248937900877e-15,
+        "v_spin": 3.597122599785507e-14
+      }
+    },
+    {
+      "U": 2,
+      "density": 0.9,
+      "mesh_errors": {
+        "v_charge": 6.572520305780927e-14,
+        "v_spin": 2.708944180085382e-14
+      }
+    },
+    {
+      "U": 3,
+      "density": 0.9,
+      "mesh_errors": {
+        "v_charge": 1.3078427230084344e-13,
+        "v_spin": 1.3766765505351941e-14
+      }
+    },
+    {
+      "U": 4,
+      "density": 0.9,
+      "mesh_errors": {
+        "v_charge": 1.7030821197749901e-13,
+        "v_spin": 1.1102230246251565e-15
+      }
+    },
+    {
+      "U": 5,
+      "density": 0.9,
+      "mesh_errors": {
+        "v_charge": 1.7053025658242404e-13,
+        "v_spin": 8.215650382226158e-15
+      }
+    },
+    {
+      "U": 6,
+      "density": 0.9,
+      "mesh_errors": {
+        "v_charge": 1.538769112130467e-13,
+        "v_spin": 1.3211653993039363e-14
+      }
+    },
+    {
+      "U": 7,
+      "density": 0.9,
+      "mesh_errors": {
+        "v_charge": 1.3589129821411916e-13,
+        "v_spin": 1.554312234475219e-14
+      }
+    },
+    {
+      "U": 8,
+      "density": 0.9,
+      "mesh_errors": {
+        "v_charge": 1.1945999744966684e-13,
+        "v_spin": 1.6542323066914832e-14
+      }
+    },
+    {
+      "U": 9,
+      "density": 0.9,
+      "mesh_errors": {
+        "v_charge": 1.0391687510491465e-13,
+        "v_spin": 1.6986412276764895e-14
+      }
+    },
+    {
+      "U": 10,
+      "density": 0.9,
+      "mesh_errors": {
+        "v_charge": 9.103828801926284e-14,
+        "v_spin": 1.63202784619898e-14
+      }
+    },
+    {
+      "U": 11,
+      "density": 0.9,
+      "mesh_errors": {
+        "v_charge": 8.093525849517391e-14,
+        "v_spin": 1.6209256159527285e-14
+      }
+    },
+    {
+      "U": 12,
+      "density": 0.9,
+      "mesh_errors": {
+        "v_charge": 7.360778653264788e-14,
+        "v_spin": 1.5432100042289676e-14
+      }
+    }
+  ]
+}

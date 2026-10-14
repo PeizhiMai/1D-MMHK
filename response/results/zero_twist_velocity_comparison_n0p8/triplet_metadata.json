@@ -1,0 +1,126 @@
+{
+  "L": 10,
+  "Ne": 8,
+  "physical_density": 0.8,
+  "native_filling": 0.4,
+  "phase_per_bond": 0,
+  "q_min": 0.6283185307179586,
+  "ground_total_spin": 1,
+  "ensemble": "(M=0 longitudinal spectrum + 2*M=1 longitudinal spectrum)/3",
+  "negative_M_component": "Obtained by exact global spin-flip symmetry, not a new solver run",
+  "estimator": "dominant positive-frequency local maximum / q_min",
+  "eta": 0.2,
+  "peak_window": [
+    0,
+    5
+  ],
+  "source_sha256": "759117cfaac5886b66ba601ae91bb61c08fd52741568f35912143f1f2eace9da",
+  "helper_sha256": "60c29c99377e21cf1b0622e82474ee0bbed77308f52a1d1c8278cacdd8e81fd2",
+  "BA_csv_sha256": "77107b62c9e1a2fc768743aa0b645a916c440199ca030d57d07382433336b89b",
+  "raw_fraction_sha256": {
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U4_n0p4_phi0/charge_gsQ0_gsi0_q1.dat": "dfd2373eed559eecf418920c2668626f5676f18a1d4a023f374c985c9a1d927a",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8_Sz1/L10_U4_n0p4_phi0/charge_gsQ0_gsi0_q1.dat": "b47844e368a700e8978c6d813bf61cd8fa800d056fa47682e7d972013b1fd88a",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U4_n0p4_phi0/spin_gsQ0_gsi0_q1.dat": "0d36653cea37e923c56add60b6f1553a001cdd7530c9d5f068ff36f8e1348570",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8_Sz1/L10_U4_n0p4_phi0/spin_gsQ0_gsi0_q1.dat": "9737d7695cd06fef0f34b6f057eb0cee5e49f46df7119474bc319d7f1b969066",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U6_n0p4_phi0/charge_gsQ0_gsi0_q1.dat": "a41db0fd1aa290e502b9c6ce48c1f351fd00ad635179062e30891e43b20128d8",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8_Sz1/L10_U6_n0p4_phi0/charge_gsQ0_gsi0_q1.dat": "e01b864313586a6787f8306c132099f92d1d9723b1e2d5906afd0cedd9833b32",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U6_n0p4_phi0/spin_gsQ0_gsi0_q1.dat": "ac9509b2689baaedd95ab430ae8cc64f56fcf5f060e95de67867e7786ebe8243",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8_Sz1/L10_U6_n0p4_phi0/spin_gsQ0_gsi0_q1.dat": "df14d35370eaba0dbbea43805af7e242228ce4fef24abeda79371627fe1d8f21",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U7_n0p4_phi0/charge_gsQ0_gsi0_q1.dat": "6f3b82ac196d0583bd8f16e8a0becc5dab276c360f5270a76bcaecd8f8822e60",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8_Sz1/L10_U7_n0p4_phi0/charge_gsQ0_gsi0_q1.dat": "c80f83db279cd47ac45624b12146c9d12adf396cb90e1ad028cd2c285a2f1b8c",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U7_n0p4_phi0/spin_gsQ0_gsi0_q1.dat": "d1d0cf055756a59626b74af3b941bc17665349dfcab7b7fe57c54d1f151778b0",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8_Sz1/L10_U7_n0p4_phi0/spin_gsQ0_gsi0_q1.dat": "b5d5c59093663d346c16b844c6161e77760e728a10cbcc30069d2ede10f79c75",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U8_n0p4_phi0/charge_gsQ0_gsi0_q1.dat": "f4f0c1b36f3dbb9bba1d2320c20e8366908d013592421c78a126c84581ab2182",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8_Sz1/L10_U8_n0p4_phi0/charge_gsQ0_gsi0_q1.dat": "f81796c15c54ddf02de96aad2a3273143b10e3cb75ba67365fb043f0b014ac62",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U8_n0p4_phi0/spin_gsQ0_gsi0_q1.dat": "cef9ee9b2c44dd0cdaf37a919e3165b737c64b590801bacc5402ef2fcf0f1a16",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8_Sz1/L10_U8_n0p4_phi0/spin_gsQ0_gsi0_q1.dat": "6f453b6d5bf8e455100d7c5a4d80ff10dbbc147f0db120871fc978747d6d21a6",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U12_n0p4_phi0/charge_gsQ0_gsi0_q1.dat": "18db0ad4dda7620f8d7d7a54d2f85af469f46d9674d2fe83cccd2f695e4e3d59",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8_Sz1/L10_U12_n0p4_phi0/charge_gsQ0_gsi0_q1.dat": "0fc5f965468391cf55d08154a6a395d4e8add6abdf04e61aba03455450024473",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U12_n0p4_phi0/spin_gsQ0_gsi0_q1.dat": "c4efc38a49b8da839e9085e85ad1423e5eba370dbd526baed06a1ac46843fbfd",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8_Sz1/L10_U12_n0p4_phi0/spin_gsQ0_gsi0_q1.dat": "e7fd1dd0a67fd3b77da85425bc9840adfc50c42a8a5294b377caf232f3e31241"
+  },
+  "note_sha256": "11860f6cf8fc410c07f595093b528fcd2737398f0fbdca023228c053d07f100f",
+  "ground_spin_validation": [
+    {
+      "U": 4.0,
+      "channel": "charge",
+      "M0_M1_ground_energy_error": 7.105427357601002e-15,
+      "M2_ground_energy_above_M0": 1.3007292586605939,
+      "M0_M1_spectrum_max_difference": 1.529332216421153e-14,
+      "direct_vs_merged_average_max_error": 7.494005416219807e-16
+    },
+    {
+      "U": 4.0,
+      "channel": "spin",
+      "M0_M1_ground_energy_error": 7.105427357601002e-15,
+      "M2_ground_energy_above_M0": 1.3007292586605939,
+      "M0_M1_spectrum_max_difference": 0.3019842960922371,
+      "direct_vs_merged_average_max_error": 7.216449660063518e-16
+    },
+    {
+      "U": 6.0,
+      "channel": "charge",
+      "M0_M1_ground_energy_error": 7.105427357601002e-15,
+      "M2_ground_energy_above_M0": 1.028379800121649,
+      "M0_M1_spectrum_max_difference": 2.4175756882516275e-14,
+      "direct_vs_merged_average_max_error": 3.885780586188048e-16
+    },
+    {
+      "U": 6.0,
+      "channel": "spin",
+      "M0_M1_ground_energy_error": 7.105427357601002e-15,
+      "M2_ground_energy_above_M0": 1.028379800121649,
+      "M0_M1_spectrum_max_difference": 0.30632829348909163,
+      "direct_vs_merged_average_max_error": 1.1657341758564144e-15
+    },
+    {
+      "U": 7.0,
+      "channel": "charge",
+      "M0_M1_ground_energy_error": 1.7763568394002505e-15,
+      "M2_ground_energy_above_M0": 0.930580115858576,
+      "M0_M1_spectrum_max_difference": 3.9987880628283845e-13,
+      "direct_vs_merged_average_max_error": 3.885780586188048e-16
+    },
+    {
+      "U": 7.0,
+      "channel": "spin",
+      "M0_M1_ground_energy_error": 1.7763568394002505e-15,
+      "M2_ground_energy_above_M0": 0.930580115858576,
+      "M0_M1_spectrum_max_difference": 0.3032489978361287,
+      "direct_vs_merged_average_max_error": 8.881784197001252e-16
+    },
+    {
+      "U": 8.0,
+      "channel": "charge",
+      "M0_M1_ground_energy_error": 8.881784197001252e-16,
+      "M2_ground_energy_above_M0": 0.8496702604738866,
+      "M0_M1_spectrum_max_difference": 9.60006379946421e-13,
+      "direct_vs_merged_average_max_error": 4.718447854656915e-16
+    },
+    {
+      "U": 8.0,
+      "channel": "spin",
+      "M0_M1_ground_energy_error": 8.881784197001252e-16,
+      "M2_ground_energy_above_M0": 0.8496702604738866,
+      "M0_M1_spectrum_max_difference": 0.2988918541840471,
+      "direct_vs_merged_average_max_error": 1.0547118733938987e-15
+    },
+    {
+      "U": 12.0,
+      "channel": "charge",
+      "M0_M1_ground_energy_error": 1.3322676295501878e-14,
+      "M2_ground_energy_above_M0": 0.6148114016360653,
+      "M0_M1_spectrum_max_difference": 2.1199112344022497e-12,
+      "direct_vs_merged_average_max_error": 4.440892098500626e-16
+    },
+    {
+      "U": 12.0,
+      "channel": "spin",
+      "M0_M1_ground_energy_error": 1.3322676295501878e-14,
+      "M2_ground_energy_above_M0": 0.6148114016360653,
+      "M0_M1_spectrum_max_difference": 0.2797500459502049,
+      "direct_vs_merged_average_max_error": 9.992007221626409e-16
+    }
+  ],
+  "caveat": "Finite-q peaks are not a controlled q->0 velocity; weaker charge poles are retained separately."
+}

@@ -1,0 +1,27 @@
+{
+  "eta": 0.1,
+  "relative_errors": {
+    "hole_spin0_g0_q3.dat": 1.9701850431134495e-09,
+    "hole_spin0_g0_q2.dat": 6.643953878217812e-11,
+    "hole_spin0_g0_q0.dat": 4.1626930597175267e-16,
+    "hole_spin0_g0_q1.dat": 1.8038398132439887e-11,
+    "hole_spin0_g0_q5.dat": 7.043805542582205e-16,
+    "hole_spin0_g0_q4.dat": 3.767097058202297e-10,
+    "hole_spin0_g0_q6.dat": 5.86388692749043e-10,
+    "hole_spin0_g0_q7.dat": 1.8821013952370725e-09,
+    "particle_spin0_g0_q8.dat": 3.5667374444284216e-06,
+    "particle_spin0_g0_q9.dat": 4.750062945938606e-05,
+    "particle_spin0_g0_q4.dat": 2.097723186365824e-06,
+    "particle_spin0_g0_q5.dat": 7.567211504842858e-08,
+    "particle_spin0_g0_q7.dat": 1.5821624881115042e-06,
+    "particle_spin0_g0_q6.dat": 1.7461131502663092e-06,
+    "particle_spin0_g0_q2.dat": 2.2610736393643504e-06,
+    "particle_spin0_g0_q3.dat": 2.024514263949907e-06,
+    "particle_spin0_g0_q1.dat": 4.715074359783103e-05,
+    "particle_spin0_g0_q0.dat": 4.719407845755319e-06,
+    "hole_spin0_g0_q9.dat": 2.3634933324479588e-11,
+    "hole_spin0_g0_q8.dat": 7.775109156368483e-11
+  },
+  "tested_depth": 600,
+  "reference_depth": 900
+}

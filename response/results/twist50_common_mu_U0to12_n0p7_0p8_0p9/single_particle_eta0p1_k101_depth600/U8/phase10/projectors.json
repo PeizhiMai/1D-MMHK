@@ -1,0 +1,96 @@
+{
+  "0.7": {
+    "twist_index": 10,
+    "k": 0.0,
+    "phase_per_bond": -0.0,
+    "components": [
+      {
+        "N": 7,
+        "Nup": 4,
+        "Ndn": 3,
+        "spin_flip_multiplicity": 2,
+        "ground_dimension": 2,
+        "probability": 1.0,
+        "ground_states": [
+          {
+            "Q": 2,
+            "E0": -6.886608699257301,
+            "id": 0,
+            "residual": 4.4070936777981286e-14
+          },
+          {
+            "Q": 8,
+            "E0": -6.886608699257289,
+            "id": 1,
+            "residual": 3.309288822620124e-14
+          }
+        ]
+      }
+    ],
+    "N": 7
+  },
+  "0.8": {
+    "twist_index": 10,
+    "k": 0.0,
+    "phase_per_bond": -0.0,
+    "components": [
+      {
+        "N": 8,
+        "Nup": 4,
+        "Ndn": 4,
+        "spin_flip_multiplicity": 1,
+        "ground_dimension": 1,
+        "probability": 0.3333333333333333,
+        "ground_states": [
+          {
+            "Q": 0,
+            "E0": -6.076329919776676,
+            "id": 0,
+            "residual": 3.932963778731769e-14
+          }
+        ]
+      },
+      {
+        "N": 8,
+        "Nup": 5,
+        "Ndn": 3,
+        "spin_flip_multiplicity": 2,
+        "ground_dimension": 1,
+        "probability": 0.6666666666666666,
+        "ground_states": [
+          {
+            "Q": 0,
+            "E0": -6.076329919776688,
+            "id": 0,
+            "residual": 4.823723717574077e-14
+          }
+        ]
+      }
+    ],
+    "N": 8
+  },
+  "0.9": {
+    "twist_index": 10,
+    "k": 0.0,
+    "phase_per_bond": -0.0,
+    "components": [
+      {
+        "N": 10,
+        "Nup": 5,
+        "Ndn": 5,
+        "spin_flip_multiplicity": 1,
+        "ground_dimension": 1,
+        "probability": 1.0,
+        "ground_states": [
+          {
+            "Q": 0,
+            "E0": -3.3149967290878353,
+            "id": 0,
+            "residual": 2.8388228913360495e-14
+          }
+        ]
+      }
+    ],
+    "N": 10
+  }
+}

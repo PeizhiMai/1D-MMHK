@@ -1,0 +1,10 @@
+{
+  "mu": -0.31286275431564026,
+  "target_density_Ne_over_L": 0.9,
+  "actual_density_Ne_over_L": 0.9,
+  "filling": 0.45,
+  "exact_target_attained": true,
+  "density_below_crossing": 0.9,
+  "density_above_crossing": 0.9,
+  "policy": "stable free plateau or complete zero-temperature grand ground projector"
+}

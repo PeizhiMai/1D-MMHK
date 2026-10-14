@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "L": 6,
+  "U": 0.0,
+  "mu": 0.0,
+  "reference": "independent full-sector Hubbard ED in boundary-bond TBC gauge",
+  "k_count": 2,
+  "total_fixed_N_ground_entries_compared": 26,
+  "max_ground_energy_error": 1.4210854715202004e-14,
+  "max_per_ring_spectral_errors": {
+    "charge": 1.2434497875801753e-14,
+    "spin": 1.1657341758564144e-14
+  },
+  "max_averaged_spectral_errors": {
+    "charge": 7.993605777301127e-15,
+    "spin": 7.993605777301127e-15
+  },
+  "actual_filling": 0.5,
+  "off_grid_finite_ring_probe_q": 0.6283185307179586,
+  "off_grid_finite_ring_probe_errors": {
+    "charge": 3.1086244689504383e-15,
+    "spin": 2.6645352591003757e-15
+  },
+  "off_grid_scope": "Finite-ring window probe ONLY; not generic-q physical MMHK inter-block susceptibility",
+  "elapsed_seconds": 1.0527575409996643
+}

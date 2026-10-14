@@ -1,0 +1,359 @@
+{
+  "passed": true,
+  "missing": [],
+  "case_checks": [
+    {
+      "U": 0,
+      "target_density": 0.7,
+      "actual_density": 0.7,
+      "maximum_weight_error": 0.0,
+      "maximum_first_moment_error": 0.0,
+      "maximum_ground_residual": 0.0,
+      "fsum_channel_difference": 0.0
+    },
+    {
+      "U": 0,
+      "target_density": 0.8,
+      "actual_density": 0.8,
+      "maximum_weight_error": 0.0,
+      "maximum_first_moment_error": 0.0,
+      "maximum_ground_residual": 0.0,
+      "fsum_channel_difference": 0.0
+    },
+    {
+      "U": 0,
+      "target_density": 0.9,
+      "actual_density": 0.9,
+      "maximum_weight_error": 0.0,
+      "maximum_first_moment_error": 0.0,
+      "maximum_ground_residual": 0.0,
+      "fsum_channel_difference": 0.0
+    },
+    {
+      "U": 1,
+      "target_density": 0.7,
+      "actual_density": 0.7,
+      "maximum_weight_error": 2.1371793224034263e-15,
+      "maximum_first_moment_error": 1.201816424156732e-14,
+      "maximum_ground_residual": 5.693038355483875e-14,
+      "fsum_channel_difference": 2.220446049250313e-16
+    },
+    {
+      "U": 1,
+      "target_density": 0.8,
+      "actual_density": 0.8,
+      "maximum_weight_error": 2.581268532253489e-15,
+      "maximum_first_moment_error": 1.176836406102666e-14,
+      "maximum_ground_residual": 1.8509248025564678e-13,
+      "fsum_channel_difference": 7.771561172376096e-16
+    },
+    {
+      "U": 1,
+      "target_density": 0.9,
+      "actual_density": 0.9,
+      "maximum_weight_error": 3.524958103184872e-15,
+      "maximum_first_moment_error": 1.3516965324811281e-14,
+      "maximum_ground_residual": 7.182426940560354e-14,
+      "fsum_channel_difference": 1.9984014443252818e-15
+    },
+    {
+      "U": 2,
+      "target_density": 0.7,
+      "actual_density": 0.7,
+      "maximum_weight_error": 3.3306690738754696e-15,
+      "maximum_first_moment_error": 1.5404344466674047e-14,
+      "maximum_ground_residual": 6.174173549144327e-14,
+      "fsum_channel_difference": 3.885780586188048e-16
+    },
+    {
+      "U": 2,
+      "target_density": 0.8,
+      "actual_density": 0.8,
+      "maximum_weight_error": 2.4147350785597155e-15,
+      "maximum_first_moment_error": 1.3350431871117507e-14,
+      "maximum_ground_residual": 2.4071684785521166e-13,
+      "fsum_channel_difference": 8.881784197001252e-16
+    },
+    {
+      "U": 2,
+      "target_density": 0.9,
+      "actual_density": 0.9,
+      "maximum_weight_error": 2.609024107869118e-15,
+      "maximum_first_moment_error": 1.7763568394002505e-14,
+      "maximum_ground_residual": 6.493158507952867e-14,
+      "fsum_channel_difference": 1.942890293094024e-15
+    },
+    {
+      "U": 3,
+      "target_density": 0.7,
+      "actual_density": 0.7,
+      "maximum_weight_error": 2.6922908347160046e-15,
+      "maximum_first_moment_error": 1.3655743202889425e-14,
+      "maximum_ground_residual": 7.138073729305966e-14,
+      "fsum_channel_difference": 3.885780586188048e-15
+    },
+    {
+      "U": 3,
+      "target_density": 0.8,
+      "actual_density": 0.8,
+      "maximum_weight_error": 2.3869795029440866e-15,
+      "maximum_first_moment_error": 1.5404344466674047e-14,
+      "maximum_ground_residual": 1.934277554566339e-13,
+      "fsum_channel_difference": 2.0261570199409107e-15
+    },
+    {
+      "U": 3,
+      "target_density": 0.9,
+      "actual_density": 0.9,
+      "maximum_weight_error": 1.6653345369377348e-15,
+      "maximum_first_moment_error": 1.3655743202889425e-14,
+      "maximum_ground_residual": 7.138073729305966e-14,
+      "fsum_channel_difference": 3.941291737419306e-15
+    },
+    {
+      "U": 4,
+      "target_density": 0.7,
+      "actual_density": 0.7,
+      "maximum_weight_error": 2.0261570199409107e-15,
+      "maximum_first_moment_error": 2.3564483697668948e-14,
+      "maximum_ground_residual": 7.965396184619334e-14,
+      "fsum_channel_difference": 6.161737786669619e-15
+    },
+    {
+      "U": 4,
+      "target_density": 0.8,
+      "actual_density": 0.8,
+      "maximum_weight_error": 3.6637359812630166e-15,
+      "maximum_first_moment_error": 1.73749903353837e-14,
+      "maximum_ground_residual": 1.1362732323158234e-13,
+      "fsum_channel_difference": 2.4980018054066022e-15
+    },
+    {
+      "U": 4,
+      "target_density": 0.9,
+      "actual_density": 0.9,
+      "maximum_weight_error": 1.6653345369377348e-15,
+      "maximum_first_moment_error": 1.73749903353837e-14,
+      "maximum_ground_residual": 4.976355675029451e-14,
+      "fsum_channel_difference": 3.3029134982598407e-15
+    },
+    {
+      "U": 5,
+      "target_density": 0.7,
+      "actual_density": 0.7,
+      "maximum_weight_error": 2.220446049250313e-15,
+      "maximum_first_moment_error": 1.6042722705833512e-14,
+      "maximum_ground_residual": 8.204677659065254e-14,
+      "fsum_channel_difference": 5.440092820663267e-15
+    },
+    {
+      "U": 5,
+      "target_density": 0.8,
+      "actual_density": 0.8,
+      "maximum_weight_error": 1.7763568394002505e-15,
+      "maximum_first_moment_error": 1.2628786905111156e-14,
+      "maximum_ground_residual": 7.097614039341453e-14,
+      "fsum_channel_difference": 3.941291737419306e-15
+    },
+    {
+      "U": 5,
+      "target_density": 0.9,
+      "actual_density": 0.9,
+      "maximum_weight_error": 1.7763568394002505e-15,
+      "maximum_first_moment_error": 1.2628786905111156e-14,
+      "maximum_ground_residual": 7.097614039341453e-14,
+      "fsum_channel_difference": 4.3298697960381105e-15
+    },
+    {
+      "U": 6,
+      "target_density": 0.7,
+      "actual_density": 0.7,
+      "maximum_weight_error": 1.7208456881689926e-15,
+      "maximum_first_moment_error": 1.1296519275560968e-14,
+      "maximum_ground_residual": 1.0194329138441675e-13,
+      "fsum_channel_difference": 6.300515664747763e-15
+    },
+    {
+      "U": 6,
+      "target_density": 0.8,
+      "actual_density": 0.8,
+      "maximum_weight_error": 1.942890293094024e-15,
+      "maximum_first_moment_error": 4.9960036108132044e-15,
+      "maximum_ground_residual": 6.92975695313109e-14,
+      "fsum_channel_difference": 4.801714581503802e-15
+    },
+    {
+      "U": 6,
+      "target_density": 0.9,
+      "actual_density": 0.9,
+      "maximum_weight_error": 1.2490009027033011e-15,
+      "maximum_first_moment_error": 3.497202527569243e-15,
+      "maximum_ground_residual": 5.373638005399191e-14,
+      "fsum_channel_difference": 4.829470157119431e-15
+    },
+    {
+      "U": 7,
+      "target_density": 0.7,
+      "actual_density": 0.7,
+      "maximum_weight_error": 1.609823385706477e-15,
+      "maximum_first_moment_error": 9.492406860545088e-15,
+      "maximum_ground_residual": 7.733984239004928e-14,
+      "fsum_channel_difference": 6.356026815979021e-15
+    },
+    {
+      "U": 7,
+      "target_density": 0.8,
+      "actual_density": 0.8,
+      "maximum_weight_error": 1.2212453270876722e-15,
+      "maximum_first_moment_error": 5.329070518200751e-15,
+      "maximum_ground_residual": 6.600344605074859e-14,
+      "fsum_channel_difference": 4.9960036108132044e-15
+    },
+    {
+      "U": 7,
+      "target_density": 0.9,
+      "actual_density": 0.8959999999999999,
+      "maximum_weight_error": 1.4432899320127035e-15,
+      "maximum_first_moment_error": 3.83026943495679e-15,
+      "maximum_ground_residual": 5.915714070736136e-14,
+      "fsum_channel_difference": 5.190292640122607e-15
+    },
+    {
+      "U": 8,
+      "target_density": 0.7,
+      "actual_density": 0.7,
+      "maximum_weight_error": 1.4432899320127035e-15,
+      "maximum_first_moment_error": 8.854028621385623e-15,
+      "maximum_ground_residual": 1.0001722516369205e-13,
+      "fsum_channel_difference": 8.104628079763643e-15
+    },
+    {
+      "U": 8,
+      "target_density": 0.8,
+      "actual_density": 0.8,
+      "maximum_weight_error": 1.7208456881689926e-15,
+      "maximum_first_moment_error": 6.689093723366568e-15,
+      "maximum_ground_residual": 7.672879610117967e-14,
+      "fsum_channel_difference": 5.2735593669694936e-15
+    },
+    {
+      "U": 8,
+      "target_density": 0.9,
+      "actual_density": 0.9,
+      "maximum_weight_error": 1.8041124150158794e-15,
+      "maximum_first_moment_error": 4.274358644806853e-15,
+      "maximum_ground_residual": 6.36721293646656e-14,
+      "fsum_channel_difference": 4.773959005888173e-15
+    },
+    {
+      "U": 9,
+      "target_density": 0.7,
+      "actual_density": 0.7,
+      "maximum_weight_error": 1.609823385706477e-15,
+      "maximum_first_moment_error": 1.0685896612017132e-14,
+      "maximum_ground_residual": 8.72480694668645e-14,
+      "fsum_channel_difference": 8.43769498715119e-15
+    },
+    {
+      "U": 9,
+      "target_density": 0.8,
+      "actual_density": 0.8,
+      "maximum_weight_error": 1.6930901125533637e-15,
+      "maximum_first_moment_error": 4.801714581503802e-15,
+      "maximum_ground_residual": 1.0778331123505406e-13,
+      "fsum_channel_difference": 6.800116025829084e-15
+    },
+    {
+      "U": 9,
+      "target_density": 0.9,
+      "actual_density": 0.9019999999999999,
+      "maximum_weight_error": 1.3322676295501878e-15,
+      "maximum_first_moment_error": 3.58046925441613e-15,
+      "maximum_ground_residual": 5.720596859504317e-14,
+      "fsum_channel_difference": 5.384581669432009e-15
+    },
+    {
+      "U": 10,
+      "target_density": 0.7,
+      "actual_density": 0.7,
+      "maximum_weight_error": 1.609823385706477e-15,
+      "maximum_first_moment_error": 9.936496070395151e-15,
+      "maximum_ground_residual": 9.975002940217789e-14,
+      "fsum_channel_difference": 9.71445146547012e-15
+    },
+    {
+      "U": 10,
+      "target_density": 0.8,
+      "actual_density": 0.8,
+      "maximum_weight_error": 1.0824674490095276e-15,
+      "maximum_first_moment_error": 5.495603971894525e-15,
+      "maximum_ground_residual": 9.696952829680523e-14,
+      "fsum_channel_difference": 7.882583474838611e-15
+    },
+    {
+      "U": 10,
+      "target_density": 0.9,
+      "actual_density": 0.898,
+      "maximum_weight_error": 1.582067810090848e-15,
+      "maximum_first_moment_error": 4.871103520542874e-15,
+      "maximum_ground_residual": 6.768359084669586e-14,
+      "fsum_channel_difference": 5.551115123125783e-15
+    },
+    {
+      "U": 11,
+      "target_density": 0.7,
+      "actual_density": 0.7,
+      "maximum_weight_error": 1.8318679906315083e-15,
+      "maximum_first_moment_error": 6.716849298982197e-15,
+      "maximum_ground_residual": 9.607987022872018e-14,
+      "fsum_channel_difference": 8.992806499463768e-15
+    },
+    {
+      "U": 11,
+      "target_density": 0.8,
+      "actual_density": 0.8,
+      "maximum_weight_error": 1.4988010832439613e-15,
+      "maximum_first_moment_error": 7.41073868937292e-15,
+      "maximum_ground_residual": 8.830858208974332e-14,
+      "fsum_channel_difference": 7.93809462606987e-15
+    },
+    {
+      "U": 11,
+      "target_density": 0.9,
+      "actual_density": 0.9,
+      "maximum_weight_error": 1.5543122344752192e-15,
+      "maximum_first_moment_error": 2.7478019859472624e-15,
+      "maximum_ground_residual": 7.133820278412704e-14,
+      "fsum_channel_difference": 6.619704784327496e-15
+    },
+    {
+      "U": 12,
+      "target_density": 0.7,
+      "actual_density": 0.7,
+      "maximum_weight_error": 1.3877787807814457e-15,
+      "maximum_first_moment_error": 4.9960036108132044e-15,
+      "maximum_ground_residual": 1.155131512301872e-13,
+      "fsum_channel_difference": 1.1074474670635936e-14
+    },
+    {
+      "U": 12,
+      "target_density": 0.8,
+      "actual_density": 0.8,
+      "maximum_weight_error": 1.5543122344752192e-15,
+      "maximum_first_moment_error": 7.521760991835436e-15,
+      "maximum_ground_residual": 9.885789558355639e-14,
+      "fsum_channel_difference": 7.771561172376096e-15
+    },
+    {
+      "U": 12,
+      "target_density": 0.9,
+      "actual_density": 0.9,
+      "maximum_weight_error": 1.7763568394002505e-15,
+      "maximum_first_moment_error": 2.8449465006019636e-15,
+      "maximum_ground_residual": 9.336594524729847e-14,
+      "fsum_channel_difference": 6.106226635438361e-15
+    }
+  ],
+  "raw_hashes_verified": true,
+  "student_solver_executed": false
+}

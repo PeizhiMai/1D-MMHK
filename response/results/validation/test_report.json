@@ -1,0 +1,62 @@
+[
+  {
+    "name": "half_U8",
+    "passed": true,
+    "E0": -1.3202349582719246,
+    "ground_degeneracy": 1,
+    "max_spectral_errors": {
+      "charge": 5.717648576819556e-15,
+      "spin": 1.3655743202889425e-14
+    }
+  },
+  {
+    "name": "doped_U8",
+    "passed": true,
+    "E0": -2.3245553203367635,
+    "ground_degeneracy": 2,
+    "max_spectral_errors": {
+      "charge": 5.6066262743570405e-15,
+      "spin": 8.992806499463768e-15
+    }
+  },
+  {
+    "name": "dilute_U0",
+    "passed": true,
+    "E0": -3.9999999999999982,
+    "ground_degeneracy": 1,
+    "max_spectral_errors": {
+      "charge": 6.994405055138486e-15,
+      "spin": 4.9960036108132044e-15
+    }
+  },
+  {
+    "name": "twisted_U4",
+    "passed": true,
+    "E0": -2.9560247087829907,
+    "ground_degeneracy": 1,
+    "max_spectral_errors": {
+      "charge": 6.716849298982197e-15,
+      "spin": 9.43689570931383e-15
+    }
+  },
+  {
+    "name": "pairs_half_U8",
+    "passed": true,
+    "E0": -1.3202349582719246,
+    "ground_degeneracy": 1,
+    "max_spectral_errors": {
+      "charge": 1.7763568394002505e-14,
+      "spin": 5.662137425588298e-15
+    }
+  },
+  {
+    "name": "pairs_twisted_U4",
+    "passed": true,
+    "E0": -2.9560247087829907,
+    "ground_degeneracy": 1,
+    "max_spectral_errors": {
+      "charge": 7.382983113757291e-15,
+      "spin": 5.162537064506978e-15
+    }
+  }
+]

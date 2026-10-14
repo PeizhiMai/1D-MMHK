@@ -1,0 +1,709 @@
+{
+  "L": 10,
+  "U": 0.0,
+  "target_density_Ne_over_L": 0.8,
+  "actual_density_Ne_over_L": 0.8,
+  "native_filling_Ne_over_2L": 0.4,
+  "twist_count": 20,
+  "mu_selection": {
+    "mu": -0.6180339887498947,
+    "target_density_Ne_over_L": 0.8,
+    "actual_density_Ne_over_L": 0.8,
+    "filling": 0.4,
+    "exact_target_attained": true,
+    "policy": "complete zero-temperature grand ground projector; half occupied exactly degenerate Fermi modes",
+    "finite_grid_density_below_crossing": 0.79,
+    "finite_grid_density_above_crossing": 0.81
+  },
+  "q_min": 0.6283185307179586,
+  "twists": [
+    {
+      "twist_index": 0,
+      "k": -0.3141592653589793,
+      "phase_per_bond": 0.3141592653589793,
+      "theta_boundary": 3.141592653589793,
+      "N": 8.0,
+      "N_support": {
+        "8": 1.0
+      },
+      "number_variance": 0.0,
+      "ground_dimension": 1,
+      "components": [
+        {
+          "N": 8,
+          "Nup": 4,
+          "Ndn": 4,
+          "ground_dimension": 1,
+          "spin_flip_multiplicity": 1,
+          "probability": 1.0,
+          "ground_states": [
+            {
+              "Q": 6,
+              "id": 0
+            }
+          ],
+          "method": "exact Slater ground-projector trace"
+        }
+      ]
+    },
+    {
+      "twist_index": 1,
+      "k": -0.2827433388230814,
+      "phase_per_bond": 0.2827433388230814,
+      "theta_boundary": 2.827433388230814,
+      "N": 8.0,
+      "N_support": {
+        "8": 1.0
+      },
+      "number_variance": 0.0,
+      "ground_dimension": 1,
+      "components": [
+        {
+          "N": 8,
+          "Nup": 4,
+          "Ndn": 4,
+          "ground_dimension": 1,
+          "spin_flip_multiplicity": 1,
+          "probability": 1.0,
+          "ground_states": [
+            {
+              "Q": 6,
+              "id": 0
+            }
+          ],
+          "method": "exact Slater ground-projector trace"
+        }
+      ]
+    },
+    {
+      "twist_index": 2,
+      "k": -0.25132741228718347,
+      "phase_per_bond": 0.25132741228718347,
+      "theta_boundary": 2.5132741228718345,
+      "N": 8.0,
+      "N_support": {
+        "8": 1.0
+      },
+      "number_variance": 0.0,
+      "ground_dimension": 1,
+      "components": [
+        {
+          "N": 8,
+          "Nup": 4,
+          "Ndn": 4,
+          "ground_dimension": 1,
+          "spin_flip_multiplicity": 1,
+          "probability": 1.0,
+          "ground_states": [
+            {
+              "Q": 6,
+              "id": 0
+            }
+          ],
+          "method": "exact Slater ground-projector trace"
+        }
+      ]
+    },
+    {
+      "twist_index": 3,
+      "k": -0.21991148575128552,
+      "phase_per_bond": 0.21991148575128552,
+      "theta_boundary": 2.199114857512855,
+      "N": 8.0,
+      "N_support": {
+        "8": 1.0
+      },
+      "number_variance": 0.0,
+      "ground_dimension": 1,
+      "components": [
+        {
+          "N": 8,
+          "Nup": 4,
+          "Ndn": 4,
+          "ground_dimension": 1,
+          "spin_flip_multiplicity": 1,
+          "probability": 1.0,
+          "ground_states": [
+            {
+              "Q": 6,
+              "id": 0
+            }
+          ],
+          "method": "exact Slater ground-projector trace"
+        }
+      ]
+    },
+    {
+      "twist_index": 4,
+      "k": -0.18849555921538758,
+      "phase_per_bond": 0.18849555921538758,
+      "theta_boundary": 1.8849555921538759,
+      "N": 8.0,
+      "N_support": {
+        "8": 1.0
+      },
+      "number_variance": 0.0,
+      "ground_dimension": 1,
+      "components": [
+        {
+          "N": 8,
+          "Nup": 4,
+          "Ndn": 4,
+          "ground_dimension": 1,
+          "spin_flip_multiplicity": 1,
+          "probability": 1.0,
+          "ground_states": [
+            {
+              "Q": 6,
+              "id": 0
+            }
+          ],
+          "method": "exact Slater ground-projector trace"
+        }
+      ]
+    },
+    {
+      "twist_index": 5,
+      "k": -0.15707963267948966,
+      "phase_per_bond": 0.15707963267948966,
+      "theta_boundary": 1.5707963267948966,
+      "N": 8.0,
+      "N_support": {
+        "8": 1.0
+      },
+      "number_variance": 0.0,
+      "ground_dimension": 1,
+      "components": [
+        {
+          "N": 8,
+          "Nup": 4,
+          "Ndn": 4,
+          "ground_dimension": 1,
+          "spin_flip_multiplicity": 1,
+          "probability": 1.0,
+          "ground_states": [
+            {
+              "Q": 6,
+              "id": 0
+            }
+          ],
+          "method": "exact Slater ground-projector trace"
+        }
+      ]
+    },
+    {
+      "twist_index": 6,
+      "k": -0.12566370614359174,
+      "phase_per_bond": 0.12566370614359174,
+      "theta_boundary": 1.2566370614359172,
+      "N": 8.0,
+      "N_support": {
+        "8": 1.0
+      },
+      "number_variance": 0.0,
+      "ground_dimension": 1,
+      "components": [
+        {
+          "N": 8,
+          "Nup": 4,
+          "Ndn": 4,
+          "ground_dimension": 1,
+          "spin_flip_multiplicity": 1,
+          "probability": 1.0,
+          "ground_states": [
+            {
+              "Q": 6,
+              "id": 0
+            }
+          ],
+          "method": "exact Slater ground-projector trace"
+        }
+      ]
+    },
+    {
+      "twist_index": 7,
+      "k": -0.09424777960769379,
+      "phase_per_bond": 0.09424777960769379,
+      "theta_boundary": 0.9424777960769379,
+      "N": 8.0,
+      "N_support": {
+        "8": 1.0
+      },
+      "number_variance": 0.0,
+      "ground_dimension": 1,
+      "components": [
+        {
+          "N": 8,
+          "Nup": 4,
+          "Ndn": 4,
+          "ground_dimension": 1,
+          "spin_flip_multiplicity": 1,
+          "probability": 1.0,
+          "ground_states": [
+            {
+              "Q": 6,
+              "id": 0
+            }
+          ],
+          "method": "exact Slater ground-projector trace"
+        }
+      ]
+    },
+    {
+      "twist_index": 8,
+      "k": -0.06283185307179587,
+      "phase_per_bond": 0.06283185307179587,
+      "theta_boundary": 0.6283185307179586,
+      "N": 8.0,
+      "N_support": {
+        "8": 1.0
+      },
+      "number_variance": 0.0,
+      "ground_dimension": 1,
+      "components": [
+        {
+          "N": 8,
+          "Nup": 4,
+          "Ndn": 4,
+          "ground_dimension": 1,
+          "spin_flip_multiplicity": 1,
+          "probability": 1.0,
+          "ground_states": [
+            {
+              "Q": 6,
+              "id": 0
+            }
+          ],
+          "method": "exact Slater ground-projector trace"
+        }
+      ]
+    },
+    {
+      "twist_index": 9,
+      "k": -0.031415926535897934,
+      "phase_per_bond": 0.031415926535897934,
+      "theta_boundary": 0.3141592653589793,
+      "N": 8.0,
+      "N_support": {
+        "8": 1.0
+      },
+      "number_variance": 0.0,
+      "ground_dimension": 1,
+      "components": [
+        {
+          "N": 8,
+          "Nup": 4,
+          "Ndn": 4,
+          "ground_dimension": 1,
+          "spin_flip_multiplicity": 1,
+          "probability": 1.0,
+          "ground_states": [
+            {
+              "Q": 6,
+              "id": 0
+            }
+          ],
+          "method": "exact Slater ground-projector trace"
+        }
+      ]
+    },
+    {
+      "twist_index": 10,
+      "k": 0.0,
+      "phase_per_bond": -0.0,
+      "theta_boundary": -0.0,
+      "N": 8.0,
+      "N_support": {
+        "6": 0.0625,
+        "7": 0.25,
+        "8": 0.375,
+        "9": 0.25,
+        "10": 0.0625
+      },
+      "number_variance": 1.0,
+      "ground_dimension": 16,
+      "components": [
+        {
+          "N": 6,
+          "Nup": 3,
+          "Ndn": 3,
+          "ground_dimension": 1,
+          "spin_flip_multiplicity": 1,
+          "probability": 0.0625,
+          "ground_states": [
+            {
+              "Q": 0,
+              "id": 0
+            }
+          ],
+          "method": "exact Slater ground-projector trace"
+        },
+        {
+          "N": 7,
+          "Nup": 4,
+          "Ndn": 3,
+          "ground_dimension": 2,
+          "spin_flip_multiplicity": 2,
+          "probability": 0.25,
+          "ground_states": [
+            {
+              "Q": 2,
+              "id": 0
+            },
+            {
+              "Q": 8,
+              "id": 1
+            }
+          ],
+          "method": "exact Slater ground-projector trace"
+        },
+        {
+          "N": 8,
+          "Nup": 4,
+          "Ndn": 4,
+          "ground_dimension": 4,
+          "spin_flip_multiplicity": 1,
+          "probability": 0.25,
+          "ground_states": [
+            {
+              "Q": 4,
+              "id": 0
+            },
+            {
+              "Q": 0,
+              "id": 1
+            },
+            {
+              "Q": 0,
+              "id": 2
+            },
+            {
+              "Q": 6,
+              "id": 3
+            }
+          ],
+          "method": "exact Slater ground-projector trace"
+        },
+        {
+          "N": 8,
+          "Nup": 5,
+          "Ndn": 3,
+          "ground_dimension": 1,
+          "spin_flip_multiplicity": 2,
+          "probability": 0.125,
+          "ground_states": [
+            {
+              "Q": 0,
+              "id": 0
+            }
+          ],
+          "method": "exact Slater ground-projector trace"
+        },
+        {
+          "N": 9,
+          "Nup": 5,
+          "Ndn": 4,
+          "ground_dimension": 2,
+          "spin_flip_multiplicity": 2,
+          "probability": 0.25,
+          "ground_states": [
+            {
+              "Q": 2,
+              "id": 0
+            },
+            {
+              "Q": 8,
+              "id": 1
+            }
+          ],
+          "method": "exact Slater ground-projector trace"
+        },
+        {
+          "N": 10,
+          "Nup": 5,
+          "Ndn": 5,
+          "ground_dimension": 1,
+          "spin_flip_multiplicity": 1,
+          "probability": 0.0625,
+          "ground_states": [
+            {
+              "Q": 0,
+              "id": 0
+            }
+          ],
+          "method": "exact Slater ground-projector trace"
+        }
+      ]
+    },
+    {
+      "twist_index": 11,
+      "k": 0.031415926535897934,
+      "phase_per_bond": -0.031415926535897934,
+      "theta_boundary": -0.3141592653589793,
+      "N": 8.0,
+      "N_support": {
+        "8": 1.0
+      },
+      "number_variance": 0.0,
+      "ground_dimension": 1,
+      "components": [
+        {
+          "N": 8,
+          "Nup": 4,
+          "Ndn": 4,
+          "ground_dimension": 1,
+          "spin_flip_multiplicity": 1,
+          "probability": 1.0,
+          "ground_states": [
+            {
+              "Q": 4,
+              "id": 0
+            }
+          ],
+          "method": "exact Slater ground-projector trace"
+        }
+      ]
+    },
+    {
+      "twist_index": 12,
+      "k": 0.06283185307179587,
+      "phase_per_bond": -0.06283185307179587,
+      "theta_boundary": -0.6283185307179586,
+      "N": 8.0,
+      "N_support": {
+        "8": 1.0
+      },
+      "number_variance": 0.0,
+      "ground_dimension": 1,
+      "components": [
+        {
+          "N": 8,
+          "Nup": 4,
+          "Ndn": 4,
+          "ground_dimension": 1,
+          "spin_flip_multiplicity": 1,
+          "probability": 1.0,
+          "ground_states": [
+            {
+              "Q": 4,
+              "id": 0
+            }
+          ],
+          "method": "exact Slater ground-projector trace"
+        }
+      ]
+    },
+    {
+      "twist_index": 13,
+      "k": 0.09424777960769379,
+      "phase_per_bond": -0.09424777960769379,
+      "theta_boundary": -0.9424777960769379,
+      "N": 8.0,
+      "N_support": {
+        "8": 1.0
+      },
+      "number_variance": 0.0,
+      "ground_dimension": 1,
+      "components": [
+        {
+          "N": 8,
+          "Nup": 4,
+          "Ndn": 4,
+          "ground_dimension": 1,
+          "spin_flip_multiplicity": 1,
+          "probability": 1.0,
+          "ground_states": [
+            {
+              "Q": 4,
+              "id": 0
+            }
+          ],
+          "method": "exact Slater ground-projector trace"
+        }
+      ]
+    },
+    {
+      "twist_index": 14,
+      "k": 0.12566370614359174,
+      "phase_per_bond": -0.12566370614359174,
+      "theta_boundary": -1.2566370614359172,
+      "N": 8.0,
+      "N_support": {
+        "8": 1.0
+      },
+      "number_variance": 0.0,
+      "ground_dimension": 1,
+      "components": [
+        {
+          "N": 8,
+          "Nup": 4,
+          "Ndn": 4,
+          "ground_dimension": 1,
+          "spin_flip_multiplicity": 1,
+          "probability": 1.0,
+          "ground_states": [
+            {
+              "Q": 4,
+              "id": 0
+            }
+          ],
+          "method": "exact Slater ground-projector trace"
+        }
+      ]
+    },
+    {
+      "twist_index": 15,
+      "k": 0.15707963267948966,
+      "phase_per_bond": -0.15707963267948966,
+      "theta_boundary": -1.5707963267948966,
+      "N": 8.0,
+      "N_support": {
+        "8": 1.0
+      },
+      "number_variance": 0.0,
+      "ground_dimension": 1,
+      "components": [
+        {
+          "N": 8,
+          "Nup": 4,
+          "Ndn": 4,
+          "ground_dimension": 1,
+          "spin_flip_multiplicity": 1,
+          "probability": 1.0,
+          "ground_states": [
+            {
+              "Q": 4,
+              "id": 0
+            }
+          ],
+          "method": "exact Slater ground-projector trace"
+        }
+      ]
+    },
+    {
+      "twist_index": 16,
+      "k": 0.18849555921538758,
+      "phase_per_bond": -0.18849555921538758,
+      "theta_boundary": -1.8849555921538759,
+      "N": 8.0,
+      "N_support": {
+        "8": 1.0
+      },
+      "number_variance": 0.0,
+      "ground_dimension": 1,
+      "components": [
+        {
+          "N": 8,
+          "Nup": 4,
+          "Ndn": 4,
+          "ground_dimension": 1,
+          "spin_flip_multiplicity": 1,
+          "probability": 1.0,
+          "ground_states": [
+            {
+              "Q": 4,
+              "id": 0
+            }
+          ],
+          "method": "exact Slater ground-projector trace"
+        }
+      ]
+    },
+    {
+      "twist_index": 17,
+      "k": 0.21991148575128552,
+      "phase_per_bond": -0.21991148575128552,
+      "theta_boundary": -2.199114857512855,
+      "N": 8.0,
+      "N_support": {
+        "8": 1.0
+      },
+      "number_variance": 0.0,
+      "ground_dimension": 1,
+      "components": [
+        {
+          "N": 8,
+          "Nup": 4,
+          "Ndn": 4,
+          "ground_dimension": 1,
+          "spin_flip_multiplicity": 1,
+          "probability": 1.0,
+          "ground_states": [
+            {
+              "Q": 4,
+              "id": 0
+            }
+          ],
+          "method": "exact Slater ground-projector trace"
+        }
+      ]
+    },
+    {
+      "twist_index": 18,
+      "k": 0.25132741228718347,
+      "phase_per_bond": -0.25132741228718347,
+      "theta_boundary": -2.5132741228718345,
+      "N": 8.0,
+      "N_support": {
+        "8": 1.0
+      },
+      "number_variance": 0.0,
+      "ground_dimension": 1,
+      "components": [
+        {
+          "N": 8,
+          "Nup": 4,
+          "Ndn": 4,
+          "ground_dimension": 1,
+          "spin_flip_multiplicity": 1,
+          "probability": 1.0,
+          "ground_states": [
+            {
+              "Q": 4,
+              "id": 0
+            }
+          ],
+          "method": "exact Slater ground-projector trace"
+        }
+      ]
+    },
+    {
+      "twist_index": 19,
+      "k": 0.2827433388230814,
+      "phase_per_bond": -0.2827433388230814,
+      "theta_boundary": -2.827433388230814,
+      "N": 8.0,
+      "N_support": {
+        "8": 1.0
+      },
+      "number_variance": 0.0,
+      "ground_dimension": 1,
+      "components": [
+        {
+          "N": 8,
+          "Nup": 4,
+          "Ndn": 4,
+          "ground_dimension": 1,
+          "spin_flip_multiplicity": 1,
+          "probability": 1.0,
+          "ground_states": [
+            {
+              "Q": 4,
+              "id": 0
+            }
+          ],
+          "method": "exact Slater ground-projector trace"
+        }
+      ]
+    }
+  ],
+  "response_method": "exact free-fermion particle-hole sum for all twenty twists",
+  "ensemble": "full grand-canonical ground projector; all number and spin states at the Fermi level",
+  "observable": "coherent physical charge and longitudinal 2Sz densities",
+  "frequency_origin": "neutral excitation energy, no chemical-potential shift",
+  "source_moment_checks": [],
+  "raw_fraction_sha256": {},
+  "solver_source_sha256": "85b8419ac525fd2a968f0e8e686e78f04738be7abb86b233045c2b71a837b8d8",
+  "solver_executable_sha256": "5c4b2224ac4f476839216f78f644a8c95b14d71193fb692a12164af51d179cda",
+  "student_solver_executed": false
+}

@@ -1,0 +1,12 @@
+{
+  "0.8": {
+    "mu": -0.6180339887498947,
+    "target_density_Ne_over_L": 0.8,
+    "actual_density_Ne_over_L": 0.8,
+    "filling": 0.4,
+    "exact_target_attained": true,
+    "policy": "complete zero-temperature grand ground projector; half occupied exactly degenerate Fermi modes",
+    "finite_grid_density_below_crossing": 0.79,
+    "finite_grid_density_above_crossing": 0.81
+  }
+}

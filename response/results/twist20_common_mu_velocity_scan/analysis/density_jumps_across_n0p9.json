@@ -1,0 +1,32 @@
+[
+  {
+    "U_over_t": 7,
+    "mu_critical": 1.4309468832636052,
+    "density_below": 0.89,
+    "density_above": 0.9099999999999999,
+    "jump_size": 0.019999999999999907,
+    "switching_twists": [
+      {
+        "twist_index": 1,
+        "theta_boundary_over_pi": 0.9,
+        "N_below": 8,
+        "N_above": 10,
+        "degenerate_numbers_at_crossing": [
+          8,
+          10
+        ]
+      },
+      {
+        "twist_index": 19,
+        "theta_boundary_over_pi": -0.9,
+        "N_below": 8,
+        "N_above": 10,
+        "degenerate_numbers_at_crossing": [
+          8,
+          10
+        ]
+      }
+    ],
+    "interpretation": "Finite-cluster/grid zero-temperature number step; not evidence of thermodynamic phase separation"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "L": 6,
+  "couplings": [
+    8.0
+  ],
+  "nk": 16,
+  "grid": "student",
+  "target_filling": 0.45,
+  "mu": null,
+  "number_degeneracy": "reject",
+  "depth": 180,
+  "eta": 0.2,
+  "source_sha256": "bbe15c8a494c8d000eefd62bcc341340b2e1c5ad72e5de5cb17566fc886566cc",
+  "executable_sha256": "cad8f9809583165dfaf0ef277adaed05f5bd97211acaa1888eea4be0135430ab"
+}

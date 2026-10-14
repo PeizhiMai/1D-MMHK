@@ -1,0 +1,2 @@
+{
+"L":10,"Nup":0,"Ndn":0,"filling":0,"U":3,"t":1,"phase_per_bond":0.188495559215387576,"boundary_twist":1.88495559215387587,"boundary_phase_row0_last":-1.88495559215387587,"ground_only":true,"ground_subspace_complete":false,"dense_ground_limit":128,"depth":300,"ground_scan_all_Q":true,"E0":0,"density_normalization":"1/sqrt(L)","observable":"density","spin_operator":"n_up-n_down (2Sz)","q_indices":[],"ground_states":[{"Q":0,"E0":0,"id":0,"residual":null}]}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "L": 6,
+  "ground_dimension": 4,
+  "reference": "independent boundary-bond dense ED",
+  "max_spectral_errors": {
+    "charge": 5.6066262743570405e-15,
+    "spin": 7.438494264988549e-15
+  }
+}

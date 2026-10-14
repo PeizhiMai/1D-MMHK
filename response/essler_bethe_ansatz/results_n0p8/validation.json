@@ -1,0 +1,203 @@
+{
+  "kernel_integral": [
+    {
+      "u": 0.05,
+      "x": 0.0,
+      "absolute_error": 1.3322676295501878e-15
+    },
+    {
+      "u": 0.05,
+      "x": 0.3,
+      "absolute_error": 2.6191271373932068e-12
+    },
+    {
+      "u": 0.05,
+      "x": 1.7,
+      "absolute_error": 2.119333354644315e-13
+    },
+    {
+      "u": 0.25,
+      "x": 0.0,
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "u": 0.25,
+      "x": 0.3,
+      "absolute_error": 2.7755575615628914e-16
+    },
+    {
+      "u": 0.25,
+      "x": 1.7,
+      "absolute_error": 4.097416850257218e-15
+    },
+    {
+      "u": 1.0,
+      "x": 0.0,
+      "absolute_error": 4.163336342344337e-17
+    },
+    {
+      "u": 1.0,
+      "x": 0.3,
+      "absolute_error": 6.938893903907228e-17
+    },
+    {
+      "u": 1.0,
+      "x": 1.7,
+      "absolute_error": 6.245004513516506e-17
+    },
+    {
+      "u": 3.0,
+      "x": 0.0,
+      "absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "u": 3.0,
+      "x": 0.3,
+      "absolute_error": 0.0
+    },
+    {
+      "u": 3.0,
+      "x": 1.7,
+      "absolute_error": 1.3877787807814457e-17
+    }
+  ],
+  "kernel_interpolation": [
+    {
+      "u": 0.025,
+      "max_absolute_error": 1.787192616120592e-11
+    },
+    {
+      "u": 0.0625,
+      "max_absolute_error": 2.4256818775825195e-11
+    },
+    {
+      "u": 0.25,
+      "max_absolute_error": 5.939193581383506e-12
+    },
+    {
+      "u": 1.0,
+      "max_absolute_error": 5.842548667089886e-15
+    },
+    {
+      "u": 2.0,
+      "max_absolute_error": 2.1510571102112408e-16
+    },
+    {
+      "u": 4.0,
+      "max_absolute_error": 5.204170427930421e-17
+    }
+  ],
+  "mesh_convergence": [
+    {
+      "U_over_t": 0.1,
+      "nodes": 896,
+      "refined_nodes": 1342,
+      "absolute_errors": {
+        "v_charge": 3.6637359812630166e-14,
+        "v_spin": 7.394085344003543e-14
+      }
+    },
+    {
+      "U_over_t": 0.25,
+      "nodes": 566,
+      "refined_nodes": 850,
+      "absolute_errors": {
+        "v_charge": 9.370282327836321e-14,
+        "v_spin": 2.0272672429655358e-13
+      }
+    },
+    {
+      "U_over_t": 1.0,
+      "nodes": 400,
+      "refined_nodes": 600,
+      "absolute_errors": {
+        "v_charge": 2.042810365310288e-14,
+        "v_spin": 6.394884621840902e-14
+      }
+    },
+    {
+      "U_over_t": 4.0,
+      "nodes": 400,
+      "refined_nodes": 600,
+      "absolute_errors": {
+        "v_charge": 2.930988785010413e-14,
+        "v_spin": 3.108624468950438e-14
+      }
+    },
+    {
+      "U_over_t": 8.0,
+      "nodes": 400,
+      "refined_nodes": 600,
+      "absolute_errors": {
+        "v_charge": 4.3076653355456074e-14,
+        "v_spin": 5.218048215738236e-15
+      }
+    },
+    {
+      "U_over_t": 16.0,
+      "nodes": 400,
+      "refined_nodes": 600,
+      "absolute_errors": {
+        "v_charge": 2.6201263381153694e-14,
+        "v_spin": 2.886579864025407e-15
+      }
+    }
+  ],
+  "dressed_energy_velocity_checks": [
+    {
+      "U_over_t": 0.1,
+      "charge_finite_difference_error": 3.3177349756385865e-10,
+      "spin_direct_asymptotic_error": 7.862599460395359e-13
+    },
+    {
+      "U_over_t": 0.25,
+      "charge_finite_difference_error": 5.131206570752056e-11,
+      "spin_direct_asymptotic_error": 1.085354028873553e-12
+    },
+    {
+      "U_over_t": 4.0,
+      "charge_finite_difference_error": 2.128031084680515e-11,
+      "spin_direct_asymptotic_error": 3.7969627442180354e-14
+    },
+    {
+      "U_over_t": 8.0,
+      "charge_finite_difference_error": 2.070166260637052e-11,
+      "spin_direct_asymptotic_error": 1.9095836023552692e-14
+    }
+  ],
+  "half_filled_spin": [
+    {
+      "U_over_t": 4.0,
+      "computed": 1.2263060488843864,
+      "exact_Bessel": 1.2263060488843787,
+      "absolute_error": 7.771561172376096e-15
+    },
+    {
+      "U_over_t": 8.0,
+      "computed": 0.7304684823753349,
+      "exact_Bessel": 0.7304684823753237,
+      "absolute_error": 1.1213252548714081e-14
+    },
+    {
+      "U_over_t": 12.0,
+      "computed": 0.506438324792678,
+      "exact_Bessel": 0.506438324792668,
+      "absolute_error": 9.992007221626409e-15
+    }
+  ],
+  "noninteracting_velocity": 1.902113032590307,
+  "strong_coupling": {
+    "charge_limit": 1.1755705045849465,
+    "spin_leading_U_times_velocity": 7.472005952548529,
+    "check_U_over_t": 1000.0,
+    "check_v_charge": 1.179797857235163,
+    "check_U_times_v_spin": 7.469696254657064
+  },
+  "passed": true,
+  "maximum_equation_residuals": {
+    "density_error": 1.539879335155092e-13,
+    "rho_residual": 2.7755575615628914e-16,
+    "energy_derivative_residual": 3.1086244689504383e-15,
+    "kappa_residual": 3.1086244689504383e-15
+  }
+}

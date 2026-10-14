@@ -1,0 +1,2047 @@
+{
+  "passed": true,
+  "response_cases": 39,
+  "cached_channel_spectra": 78,
+  "maximum_cached_spectrum_recomputation_error": 0.0,
+  "BA_point_count": 183,
+  "BA_points_per_density": 61,
+  "BA_all_point_mesh_checks": [
+    {
+      "density": 0.7,
+      "U_over_t": 0.0,
+      "velocity_absolute_errors": {
+        "charge": 0.0,
+        "spin": 0.0
+      },
+      "nodes": 0,
+      "refined_nodes": 0
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 0.2,
+      "velocity_absolute_errors": {
+        "charge": 1.1080025785759062e-13,
+        "spin": 2.1804780203638074e-13
+      },
+      "nodes": 634,
+      "refined_nodes": 950
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 0.4,
+      "velocity_absolute_errors": {
+        "charge": 2.930988785010413e-14,
+        "spin": 4.596323321948148e-14
+      },
+      "nodes": 448,
+      "refined_nodes": 672
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 0.6,
+      "velocity_absolute_errors": {
+        "charge": 6.261657858885883e-14,
+        "spin": 1.0946799022804043e-13
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 0.8,
+      "velocity_absolute_errors": {
+        "charge": 4.4853010194856324e-14,
+        "spin": 9.50350909079134e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 1.0,
+      "velocity_absolute_errors": {
+        "charge": 3.175237850427948e-14,
+        "spin": 8.060219158778636e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 1.2,
+      "velocity_absolute_errors": {
+        "charge": 2.7977620220553945e-14,
+        "spin": 7.993605777301127e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 1.4,
+      "velocity_absolute_errors": {
+        "charge": 2.4646951146678475e-14,
+        "spin": 7.66053886991358e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 1.6,
+      "velocity_absolute_errors": {
+        "charge": 2.3092638912203256e-14,
+        "spin": 7.505107646466058e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 1.8,
+      "velocity_absolute_errors": {
+        "charge": 1.9984014443252818e-14,
+        "spin": 7.327471962526033e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 2.0,
+      "velocity_absolute_errors": {
+        "charge": 1.8207657603852567e-14,
+        "spin": 7.061018436615996e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 2.2,
+      "velocity_absolute_errors": {
+        "charge": 1.554312234475219e-14,
+        "spin": 6.88338275267597e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 2.4,
+      "velocity_absolute_errors": {
+        "charge": 1.4210854715202004e-14,
+        "spin": 6.705747068735946e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 2.6,
+      "velocity_absolute_errors": {
+        "charge": 1.1546319456101628e-14,
+        "spin": 6.439293542825908e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 2.8,
+      "velocity_absolute_errors": {
+        "charge": 9.769962616701378e-15,
+        "spin": 6.195044477408373e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 3.0,
+      "velocity_absolute_errors": {
+        "charge": 7.549516567451064e-15,
+        "spin": 5.995204332975845e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 3.2,
+      "velocity_absolute_errors": {
+        "charge": 6.217248937900877e-15,
+        "spin": 5.81756864903582e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 3.4,
+      "velocity_absolute_errors": {
+        "charge": 3.9968028886505635e-15,
+        "spin": 5.5289106626332796e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 3.6,
+      "velocity_absolute_errors": {
+        "charge": 3.552713678800501e-15,
+        "spin": 5.395683899678261e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 3.8,
+      "velocity_absolute_errors": {
+        "charge": 2.220446049250313e-15,
+        "spin": 5.1514348342607263e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 4.0,
+      "velocity_absolute_errors": {
+        "charge": 8.881784197001252e-16,
+        "spin": 4.951594689828198e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 4.2,
+      "velocity_absolute_errors": {
+        "charge": 4.440892098500626e-16,
+        "spin": 4.75175454539567e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 4.4,
+      "velocity_absolute_errors": {
+        "charge": 4.440892098500626e-16,
+        "spin": 4.6407322429331543e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 4.6,
+      "velocity_absolute_errors": {
+        "charge": 2.6645352591003757e-15,
+        "spin": 4.418687638008123e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 4.8,
+      "velocity_absolute_errors": {
+        "charge": 3.1086244689504383e-15,
+        "spin": 4.196643033083092e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 5.0,
+      "velocity_absolute_errors": {
+        "charge": 3.552713678800501e-15,
+        "spin": 4.063416270128073e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 5.2,
+      "velocity_absolute_errors": {
+        "charge": 4.884981308350689e-15,
+        "spin": 3.952393967665557e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 5.4,
+      "velocity_absolute_errors": {
+        "charge": 5.329070518200751e-15,
+        "spin": 3.730349362740526e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 5.6,
+      "velocity_absolute_errors": {
+        "charge": 6.217248937900877e-15,
+        "spin": 3.6415315207705135e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 5.8,
+      "velocity_absolute_errors": {
+        "charge": 6.661338147750939e-15,
+        "spin": 3.4861002973229915e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 6.0,
+      "velocity_absolute_errors": {
+        "charge": 7.105427357601002e-15,
+        "spin": 3.3639757646142243e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 6.2,
+      "velocity_absolute_errors": {
+        "charge": 7.105427357601002e-15,
+        "spin": 3.164135620181696e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 6.4,
+      "velocity_absolute_errors": {
+        "charge": 7.993605777301127e-15,
+        "spin": 3.108624468950438e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 6.6,
+      "velocity_absolute_errors": {
+        "charge": 8.43769498715119e-15,
+        "spin": 2.9753977059954195e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 6.8,
+      "velocity_absolute_errors": {
+        "charge": 8.881784197001252e-15,
+        "spin": 2.853273173286652e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 7.0,
+      "velocity_absolute_errors": {
+        "charge": 8.881784197001252e-15,
+        "spin": 2.7422508708241367e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 7.2,
+      "velocity_absolute_errors": {
+        "charge": 8.881784197001252e-15,
+        "spin": 2.6645352591003757e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 7.4,
+      "velocity_absolute_errors": {
+        "charge": 9.325873406851315e-15,
+        "spin": 2.5646151868841116e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 7.6,
+      "velocity_absolute_errors": {
+        "charge": 1.021405182655144e-14,
+        "spin": 2.4980018054066022e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 7.8,
+      "velocity_absolute_errors": {
+        "charge": 9.992007221626409e-15,
+        "spin": 2.398081733190338e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 8.0,
+      "velocity_absolute_errors": {
+        "charge": 9.992007221626409e-15,
+        "spin": 2.2870594307278225e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 8.2,
+      "velocity_absolute_errors": {
+        "charge": 9.992007221626409e-15,
+        "spin": 2.220446049250313e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 8.4,
+      "velocity_absolute_errors": {
+        "charge": 1.0658141036401503e-14,
+        "spin": 2.1649348980190553e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 8.6,
+      "velocity_absolute_errors": {
+        "charge": 1.0658141036401503e-14,
+        "spin": 2.098321516541546e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 8.8,
+      "velocity_absolute_errors": {
+        "charge": 1.021405182655144e-14,
+        "spin": 2.0317081350640365e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 9.0,
+      "velocity_absolute_errors": {
+        "charge": 1.1102230246251565e-14,
+        "spin": 1.965094753586527e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 9.2,
+      "velocity_absolute_errors": {
+        "charge": 1.1102230246251565e-14,
+        "spin": 1.9095836023552692e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 9.4,
+      "velocity_absolute_errors": {
+        "charge": 1.1546319456101628e-14,
+        "spin": 1.8318679906315083e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 9.6,
+      "velocity_absolute_errors": {
+        "charge": 1.1324274851176597e-14,
+        "spin": 1.7985612998927536e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 9.8,
+      "velocity_absolute_errors": {
+        "charge": 1.0436096431476471e-14,
+        "spin": 1.709743457922741e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 10.0,
+      "velocity_absolute_errors": {
+        "charge": 1.1324274851176597e-14,
+        "spin": 1.6764367671839864e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 10.2,
+      "velocity_absolute_errors": {
+        "charge": 1.0658141036401503e-14,
+        "spin": 1.609823385706477e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 10.4,
+      "velocity_absolute_errors": {
+        "charge": 1.0880185641326534e-14,
+        "spin": 1.587618925213974e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 10.6,
+      "velocity_absolute_errors": {
+        "charge": 1.1102230246251565e-14,
+        "spin": 1.5432100042289676e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 10.8,
+      "velocity_absolute_errors": {
+        "charge": 1.0658141036401503e-14,
+        "spin": 1.4988010832439613e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 11.0,
+      "velocity_absolute_errors": {
+        "charge": 1.0880185641326534e-14,
+        "spin": 1.454392162258955e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 11.2,
+      "velocity_absolute_errors": {
+        "charge": 1.1546319456101628e-14,
+        "spin": 1.3877787807814457e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 11.4,
+      "velocity_absolute_errors": {
+        "charge": 1.1324274851176597e-14,
+        "spin": 1.3655743202889425e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 11.6,
+      "velocity_absolute_errors": {
+        "charge": 1.1324274851176597e-14,
+        "spin": 1.3322676295501878e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 11.8,
+      "velocity_absolute_errors": {
+        "charge": 1.0880185641326534e-14,
+        "spin": 1.2989609388114332e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.7,
+      "U_over_t": 12.0,
+      "velocity_absolute_errors": {
+        "charge": 1.1102230246251565e-14,
+        "spin": 1.27675647831893e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 0.0,
+      "velocity_absolute_errors": {
+        "charge": 0.0,
+        "spin": 0.0
+      },
+      "nodes": 0,
+      "refined_nodes": 0
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 0.2,
+      "velocity_absolute_errors": {
+        "charge": 8.348877145181177e-14,
+        "spin": 1.616484723854228e-13
+      },
+      "nodes": 634,
+      "refined_nodes": 950
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 0.4,
+      "velocity_absolute_errors": {
+        "charge": 1.7319479184152442e-14,
+        "spin": 3.4861002973229915e-14
+      },
+      "nodes": 448,
+      "refined_nodes": 672
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 0.6,
+      "velocity_absolute_errors": {
+        "charge": 3.774758283725532e-14,
+        "spin": 7.704947790898586e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 0.8,
+      "velocity_absolute_errors": {
+        "charge": 2.531308496145357e-14,
+        "spin": 6.394884621840902e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 1.0,
+      "velocity_absolute_errors": {
+        "charge": 2.042810365310288e-14,
+        "spin": 6.394884621840902e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 1.2,
+      "velocity_absolute_errors": {
+        "charge": 1.687538997430238e-14,
+        "spin": 5.995204332975845e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 1.4,
+      "velocity_absolute_errors": {
+        "charge": 1.3322676295501878e-14,
+        "spin": 5.972999872483342e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 1.6,
+      "velocity_absolute_errors": {
+        "charge": 9.325873406851315e-15,
+        "spin": 5.81756864903582e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 1.8,
+      "velocity_absolute_errors": {
+        "charge": 4.884981308350689e-15,
+        "spin": 5.617728504603292e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 2.0,
+      "velocity_absolute_errors": {
+        "charge": 1.3322676295501878e-15,
+        "spin": 5.3512749786932545e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 2.2,
+      "velocity_absolute_errors": {
+        "charge": 1.7763568394002505e-15,
+        "spin": 5.1736392947532295e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 2.4,
+      "velocity_absolute_errors": {
+        "charge": 6.217248937900877e-15,
+        "spin": 4.929390229335695e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 2.6,
+      "velocity_absolute_errors": {
+        "charge": 9.325873406851315e-15,
+        "spin": 4.707345624410664e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 2.8,
+      "velocity_absolute_errors": {
+        "charge": 1.2878587085651816e-14,
+        "spin": 4.440892098500626e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 3.0,
+      "velocity_absolute_errors": {
+        "charge": 1.554312234475219e-14,
+        "spin": 4.1522341120980855e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 3.2,
+      "velocity_absolute_errors": {
+        "charge": 1.865174681370263e-14,
+        "spin": 4.085620730620576e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 3.4,
+      "velocity_absolute_errors": {
+        "charge": 2.220446049250313e-14,
+        "spin": 3.730349362740526e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 3.6,
+      "velocity_absolute_errors": {
+        "charge": 2.4424906541753444e-14,
+        "spin": 3.4638958368304884e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 3.8,
+      "velocity_absolute_errors": {
+        "charge": 2.7533531010703882e-14,
+        "spin": 3.241851231905457e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 4.0,
+      "velocity_absolute_errors": {
+        "charge": 2.930988785010413e-14,
+        "spin": 3.108624468950438e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 4.2,
+      "velocity_absolute_errors": {
+        "charge": 3.1530333899354446e-14,
+        "spin": 2.886579864025407e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 4.4,
+      "velocity_absolute_errors": {
+        "charge": 3.3306690738754696e-14,
+        "spin": 2.6867397195928788e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 4.6,
+      "velocity_absolute_errors": {
+        "charge": 3.4638958368304884e-14,
+        "spin": 2.4868995751603507e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 4.8,
+      "velocity_absolute_errors": {
+        "charge": 3.6637359812630166e-14,
+        "spin": 2.3092638912203256e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 5.0,
+      "velocity_absolute_errors": {
+        "charge": 3.7969627442180354e-14,
+        "spin": 2.1316282072803006e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 5.2,
+      "velocity_absolute_errors": {
+        "charge": 3.930189507173054e-14,
+        "spin": 1.9761969838327786e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 5.4,
+      "velocity_absolute_errors": {
+        "charge": 3.9968028886505635e-14,
+        "spin": 1.84297022087776e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 5.6,
+      "velocity_absolute_errors": {
+        "charge": 4.085620730620576e-14,
+        "spin": 1.687538997430238e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 5.8,
+      "velocity_absolute_errors": {
+        "charge": 4.218847493575595e-14,
+        "spin": 1.5765166949677223e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 6.0,
+      "velocity_absolute_errors": {
+        "charge": 4.1522341120980855e-14,
+        "spin": 1.4099832412739488e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 6.2,
+      "velocity_absolute_errors": {
+        "charge": 4.218847493575595e-14,
+        "spin": 1.3322676295501878e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 6.4,
+      "velocity_absolute_errors": {
+        "charge": 4.285460875053104e-14,
+        "spin": 1.2101430968414206e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 6.6,
+      "velocity_absolute_errors": {
+        "charge": 4.263256414560601e-14,
+        "spin": 1.0658141036401503e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 6.8,
+      "velocity_absolute_errors": {
+        "charge": 4.3520742565306136e-14,
+        "spin": 9.658940314238862e-15
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 7.0,
+      "velocity_absolute_errors": {
+        "charge": 4.3076653355456074e-14,
+        "spin": 9.103828801926284e-15
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 7.2,
+      "velocity_absolute_errors": {
+        "charge": 4.3076653355456074e-14,
+        "spin": 7.882583474838611e-15
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 7.4,
+      "velocity_absolute_errors": {
+        "charge": 4.285460875053104e-14,
+        "spin": 7.549516567451064e-15
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 7.6,
+      "velocity_absolute_errors": {
+        "charge": 4.218847493575595e-14,
+        "spin": 6.5503158452884236e-15
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 7.8,
+      "velocity_absolute_errors": {
+        "charge": 4.263256414560601e-14,
+        "spin": 6.106226635438361e-15
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 8.0,
+      "velocity_absolute_errors": {
+        "charge": 4.3076653355456074e-14,
+        "spin": 5.218048215738236e-15
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 8.2,
+      "velocity_absolute_errors": {
+        "charge": 4.196643033083092e-14,
+        "spin": 4.884981308350689e-15
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 8.4,
+      "velocity_absolute_errors": {
+        "charge": 4.1300296516055823e-14,
+        "spin": 3.9968028886505635e-15
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 8.6,
+      "velocity_absolute_errors": {
+        "charge": 4.1300296516055823e-14,
+        "spin": 3.6637359812630166e-15
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 8.8,
+      "velocity_absolute_errors": {
+        "charge": 4.085620730620576e-14,
+        "spin": 3.552713678800501e-15
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 9.0,
+      "velocity_absolute_errors": {
+        "charge": 4.0190073491430667e-14,
+        "spin": 3.1086244689504383e-15
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 9.2,
+      "velocity_absolute_errors": {
+        "charge": 3.8413716652030416e-14,
+        "spin": 2.220446049250313e-15
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 9.4,
+      "velocity_absolute_errors": {
+        "charge": 3.952393967665557e-14,
+        "spin": 1.9984014443252818e-15
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 9.6,
+      "velocity_absolute_errors": {
+        "charge": 3.930189507173054e-14,
+        "spin": 1.7763568394002505e-15
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 9.8,
+      "velocity_absolute_errors": {
+        "charge": 3.774758283725532e-14,
+        "spin": 1.6653345369377348e-15
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 10.0,
+      "velocity_absolute_errors": {
+        "charge": 3.8413716652030416e-14,
+        "spin": 6.661338147750939e-16
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 10.2,
+      "velocity_absolute_errors": {
+        "charge": 3.8191672047105385e-14,
+        "spin": 8.881784197001252e-16
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 10.4,
+      "velocity_absolute_errors": {
+        "charge": 3.752553823233029e-14,
+        "spin": 6.661338147750939e-16
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 10.6,
+      "velocity_absolute_errors": {
+        "charge": 3.597122599785507e-14,
+        "spin": 1.1102230246251565e-16
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 10.8,
+      "velocity_absolute_errors": {
+        "charge": 3.68594044175552e-14,
+        "spin": 2.220446049250313e-16
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 11.0,
+      "velocity_absolute_errors": {
+        "charge": 3.574918139293004e-14,
+        "spin": 2.220446049250313e-16
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 11.2,
+      "velocity_absolute_errors": {
+        "charge": 3.552713678800501e-14,
+        "spin": 3.3306690738754696e-16
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 11.4,
+      "velocity_absolute_errors": {
+        "charge": 3.5083047578154947e-14,
+        "spin": 6.661338147750939e-16
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 11.6,
+      "velocity_absolute_errors": {
+        "charge": 3.5083047578154947e-14,
+        "spin": 8.881784197001252e-16
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 11.8,
+      "velocity_absolute_errors": {
+        "charge": 3.375077994860476e-14,
+        "spin": 8.881784197001252e-16
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.8,
+      "U_over_t": 12.0,
+      "velocity_absolute_errors": {
+        "charge": 3.3084646133829665e-14,
+        "spin": 9.992007221626409e-16
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 0.0,
+      "velocity_absolute_errors": {
+        "charge": 0.0,
+        "spin": 0.0
+      },
+      "nodes": 0,
+      "refined_nodes": 0
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 0.2,
+      "velocity_absolute_errors": {
+        "charge": 4.973799150320701e-14,
+        "spin": 9.459100169806334e-14
+      },
+      "nodes": 634,
+      "refined_nodes": 950
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 0.4,
+      "velocity_absolute_errors": {
+        "charge": 7.549516567451064e-15,
+        "spin": 2.3314683517128287e-14
+      },
+      "nodes": 448,
+      "refined_nodes": 672
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 0.6,
+      "velocity_absolute_errors": {
+        "charge": 3.241851231905457e-14,
+        "spin": 3.6415315207705135e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 0.8,
+      "velocity_absolute_errors": {
+        "charge": 1.0658141036401503e-14,
+        "spin": 3.8191672047105385e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 1.0,
+      "velocity_absolute_errors": {
+        "charge": 6.217248937900877e-15,
+        "spin": 3.597122599785507e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 1.2,
+      "velocity_absolute_errors": {
+        "charge": 3.907985046680551e-14,
+        "spin": 3.419486915845482e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 1.4,
+      "velocity_absolute_errors": {
+        "charge": 2.886579864025407e-14,
+        "spin": 3.3084646133829665e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 1.6,
+      "velocity_absolute_errors": {
+        "charge": 4.1744385725905886e-14,
+        "spin": 3.108624468950438e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 1.8,
+      "velocity_absolute_errors": {
+        "charge": 5.240252676230739e-14,
+        "spin": 2.930988785010413e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 2.0,
+      "velocity_absolute_errors": {
+        "charge": 6.572520305780927e-14,
+        "spin": 2.708944180085382e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 2.2,
+      "velocity_absolute_errors": {
+        "charge": 7.904787935331115e-14,
+        "spin": 2.531308496145357e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 2.4,
+      "velocity_absolute_errors": {
+        "charge": 9.015010959956271e-14,
+        "spin": 2.2870594307278225e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 2.6,
+      "velocity_absolute_errors": {
+        "charge": 1.0524914273446484e-13,
+        "spin": 1.9761969838327786e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 2.8,
+      "velocity_absolute_errors": {
+        "charge": 1.1723955140041653e-13,
+        "spin": 1.6431300764452317e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 3.0,
+      "velocity_absolute_errors": {
+        "charge": 1.3078427230084344e-13,
+        "spin": 1.3766765505351941e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 3.2,
+      "velocity_absolute_errors": {
+        "charge": 1.425526363618701e-13,
+        "spin": 1.0658141036401503e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 3.4,
+      "velocity_absolute_errors": {
+        "charge": 1.5121237595394632e-13,
+        "spin": 8.659739592076221e-15
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 3.6,
+      "velocity_absolute_errors": {
+        "charge": 1.6053824936079764e-13,
+        "spin": 5.329070518200751e-15
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 3.8,
+      "velocity_absolute_errors": {
+        "charge": 1.6364687382974807e-13,
+        "spin": 2.886579864025407e-15
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 4.0,
+      "velocity_absolute_errors": {
+        "charge": 1.7030821197749901e-13,
+        "spin": 1.1102230246251565e-15
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 4.2,
+      "velocity_absolute_errors": {
+        "charge": 1.7119639039719914e-13,
+        "spin": 1.1102230246251565e-15
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 4.4,
+      "velocity_absolute_errors": {
+        "charge": 1.723066134218243e-13,
+        "spin": 3.3306690738754696e-15
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 4.6,
+      "velocity_absolute_errors": {
+        "charge": 1.7252865802674933e-13,
+        "spin": 4.6629367034256575e-15
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 4.8,
+      "velocity_absolute_errors": {
+        "charge": 1.729727472365994e-13,
+        "spin": 6.8833827526759706e-15
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 5.0,
+      "velocity_absolute_errors": {
+        "charge": 1.7053025658242404e-13,
+        "spin": 8.215650382226158e-15
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 5.2,
+      "velocity_absolute_errors": {
+        "charge": 1.6586731987899839e-13,
+        "spin": 9.325873406851315e-15
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 5.4,
+      "velocity_absolute_errors": {
+        "charge": 1.6631140908884845e-13,
+        "spin": 1.0658141036401503e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 5.6,
+      "velocity_absolute_errors": {
+        "charge": 1.5987211554602254e-13,
+        "spin": 1.1102230246251565e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 5.8,
+      "velocity_absolute_errors": {
+        "charge": 1.5720758028692217e-13,
+        "spin": 1.2434497875801753e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 6.0,
+      "velocity_absolute_errors": {
+        "charge": 1.538769112130467e-13,
+        "spin": 1.3211653993039363e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 6.2,
+      "velocity_absolute_errors": {
+        "charge": 1.496580637194711e-13,
+        "spin": 1.3766765505351941e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 6.4,
+      "velocity_absolute_errors": {
+        "charge": 1.4699352846037073e-13,
+        "spin": 1.4099832412739488e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 6.6,
+      "velocity_absolute_errors": {
+        "charge": 1.4210854715202004e-13,
+        "spin": 1.4988010832439613e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 6.8,
+      "velocity_absolute_errors": {
+        "charge": 1.389999226830696e-13,
+        "spin": 1.554312234475219e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 7.0,
+      "velocity_absolute_errors": {
+        "charge": 1.3589129821411916e-13,
+        "spin": 1.554312234475219e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 7.2,
+      "velocity_absolute_errors": {
+        "charge": 1.3100631690576847e-13,
+        "spin": 1.5987211554602254e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 7.4,
+      "velocity_absolute_errors": {
+        "charge": 1.290079154614432e-13,
+        "spin": 1.5987211554602254e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 7.6,
+      "velocity_absolute_errors": {
+        "charge": 1.2101430968414206e-13,
+        "spin": 1.5987211554602254e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 7.8,
+      "velocity_absolute_errors": {
+        "charge": 1.1945999744966684e-13,
+        "spin": 1.6209256159527285e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 8.0,
+      "velocity_absolute_errors": {
+        "charge": 1.1945999744966684e-13,
+        "spin": 1.6542323066914832e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 8.2,
+      "velocity_absolute_errors": {
+        "charge": 1.1390888232654106e-13,
+        "spin": 1.6653345369377348e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 8.4,
+      "velocity_absolute_errors": {
+        "charge": 1.1191048088221578e-13,
+        "spin": 1.687538997430238e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 8.6,
+      "velocity_absolute_errors": {
+        "charge": 1.0813572259849025e-13,
+        "spin": 1.6542323066914832e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 8.8,
+      "velocity_absolute_errors": {
+        "charge": 1.0613732115416497e-13,
+        "spin": 1.687538997430238e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 9.0,
+      "velocity_absolute_errors": {
+        "charge": 1.0391687510491465e-13,
+        "spin": 1.6986412276764895e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 9.2,
+      "velocity_absolute_errors": {
+        "charge": 1.021405182655144e-13,
+        "spin": 1.6764367671839864e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 9.4,
+      "velocity_absolute_errors": {
+        "charge": 9.903189379656396e-14,
+        "spin": 1.6653345369377348e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 9.6,
+      "velocity_absolute_errors": {
+        "charge": 9.592326932761353e-14,
+        "spin": 1.6542323066914832e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 9.8,
+      "velocity_absolute_errors": {
+        "charge": 9.414691248821327e-14,
+        "spin": 1.6653345369377348e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 10.0,
+      "velocity_absolute_errors": {
+        "charge": 9.103828801926284e-14,
+        "spin": 1.63202784619898e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 10.2,
+      "velocity_absolute_errors": {
+        "charge": 9.103828801926284e-14,
+        "spin": 1.63202784619898e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 10.4,
+      "velocity_absolute_errors": {
+        "charge": 8.79296635503124e-14,
+        "spin": 1.6431300764452317e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 10.6,
+      "velocity_absolute_errors": {
+        "charge": 8.64863736182997e-14,
+        "spin": 1.63202784619898e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 10.8,
+      "velocity_absolute_errors": {
+        "charge": 8.304468224196171e-14,
+        "spin": 1.6209256159527285e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 11.0,
+      "velocity_absolute_errors": {
+        "charge": 8.093525849517391e-14,
+        "spin": 1.6209256159527285e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 11.2,
+      "velocity_absolute_errors": {
+        "charge": 7.915890165577366e-14,
+        "spin": 1.587618925213974e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 11.4,
+      "velocity_absolute_errors": {
+        "charge": 7.80486786311485e-14,
+        "spin": 1.5765166949677223e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 11.6,
+      "velocity_absolute_errors": {
+        "charge": 7.782663402622347e-14,
+        "spin": 1.5765166949677223e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 11.8,
+      "velocity_absolute_errors": {
+        "charge": 7.671641100159832e-14,
+        "spin": 1.5765166949677223e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    },
+    {
+      "density": 0.9,
+      "U_over_t": 12.0,
+      "velocity_absolute_errors": {
+        "charge": 7.360778653264788e-14,
+        "spin": 1.5432100042289676e-14
+      },
+      "nodes": 400,
+      "refined_nodes": 600
+    }
+  ],
+  "maximum_BA_mesh_velocity_error": 2.1804780203638074e-13,
+  "BA_integer_U_matches_original_nominal_reference": true,
+  "actual_density_correction_cases": 3,
+  "response_panels": [
+    {
+      "target_density": 0.7,
+      "panel_count": 13,
+      "U_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "omega_range": [
+        0,
+        2.0
+      ],
+      "y_scale": "linear",
+      "y_limits": [
+        0,
+        0.4
+      ],
+      "channels": [
+        "charge",
+        "spin"
+      ],
+      "file_stem": "response_panel_n0p7"
+    },
+    {
+      "target_density": 0.8,
+      "panel_count": 13,
+      "U_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "omega_range": [
+        0,
+        2.0
+      ],
+      "y_scale": "linear",
+      "y_limits": [
+        0,
+        0.4
+      ],
+      "channels": [
+        "charge",
+        "spin"
+      ],
+      "file_stem": "response_panel_n0p8"
+    },
+    {
+      "target_density": 0.9,
+      "panel_count": 13,
+      "U_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "omega_range": [
+        0,
+        2.0
+      ],
+      "y_scale": "linear",
+      "y_limits": [
+        0,
+        0.4
+      ],
+      "channels": [
+        "charge",
+        "spin"
+      ],
+      "file_stem": "response_panel_n0p9"
+    },
+    {
+      "target_density": 0.7,
+      "panel_count": 13,
+      "U_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "omega_range": [
+        0,
+        65.0
+      ],
+      "y_scale": "log",
+      "y_limits": [
+        1e-06,
+        0.3942985502729916
+      ],
+      "channels": [
+        "charge",
+        "spin"
+      ],
+      "file_stem": "response_panel_n0p7_full_range"
+    },
+    {
+      "target_density": 0.8,
+      "panel_count": 13,
+      "U_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "omega_range": [
+        0,
+        65.0
+      ],
+      "y_scale": "log",
+      "y_limits": [
+        1e-06,
+        0.3942985502729916
+      ],
+      "channels": [
+        "charge",
+        "spin"
+      ],
+      "file_stem": "response_panel_n0p8_full_range"
+    },
+    {
+      "target_density": 0.9,
+      "panel_count": 13,
+      "U_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "omega_range": [
+        0,
+        65.0
+      ],
+      "y_scale": "log",
+      "y_limits": [
+        1e-06,
+        0.3942985502729916
+      ],
+      "channels": [
+        "charge",
+        "spin"
+      ],
+      "file_stem": "response_panel_n0p9_full_range"
+    }
+  ],
+  "input_files_unchanged": true,
+  "open_latex_note_unchanged": true,
+  "Hubbard_solver_executed": false,
+  "student_solver_executed": false
+}

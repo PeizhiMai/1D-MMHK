@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "mu": -0.6180339887498947,
+  "reference": "exact momentum-space free particle-hole sum with half-filled degenerate Fermi modes",
+  "cases": [
+    {
+      "twist_index": 0,
+      "theta": 3.141592653589793,
+      "ground_dimension": 1,
+      "mean_N": 8.0,
+      "N_support": [
+        8
+      ],
+      "channel_errors": {
+        "charge": 5.218048215738236e-14,
+        "spin": 5.082045895221654e-14
+      }
+    },
+    {
+      "twist_index": 5,
+      "theta": 1.5707963267948966,
+      "ground_dimension": 1,
+      "mean_N": 8.0,
+      "N_support": [
+        8
+      ],
+      "channel_errors": {
+        "charge": 4.241051954068098e-14,
+        "spin": 3.788636071533347e-14
+      }
+    },
+    {
+      "twist_index": 10,
+      "theta": -0.0,
+      "ground_dimension": 16,
+      "mean_N": 8.0,
+      "N_support": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "channel_errors": {
+        "charge": 2.55351295663786e-14,
+        "spin": 2.5424107263916085e-14
+      }
+    }
+  ],
+  "zero_twist_grand_ground_dimension": 16,
+  "zero_twist_number_variance": 1.0,
+  "spin_equals_charge": true,
+  "actual_density": 0.8,
+  "new_qbasis_calls_for_validation": 23
+}

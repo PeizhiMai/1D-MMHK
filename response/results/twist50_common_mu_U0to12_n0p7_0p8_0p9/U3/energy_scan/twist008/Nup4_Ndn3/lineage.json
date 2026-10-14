@@ -1,0 +1,24 @@
+{
+  "command": [
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/solver_executable_snapshot.x",
+    "--L",
+    "10",
+    "--U",
+    "3",
+    "--nup",
+    "4",
+    "--ndn",
+    "3",
+    "--phase",
+    "0.21362830044410594",
+    "--depth",
+    "300",
+    "--observable",
+    "density",
+    "--output",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U3/energy_scan/twist008/Nup4_Ndn3",
+    "--ground-only"
+  ],
+  "source_sha256": "85b8419ac525fd2a968f0e8e686e78f04738be7abb86b233045c2b71a837b8d8",
+  "executable_sha256": "5c4b2224ac4f476839216f78f644a8c95b14d71193fb692a12164af51d179cda"
+}

@@ -1,0 +1,46 @@
+# Operating-system, editor and Python caches
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.env
+.env.*
+!.env.example
+
+# Local runtimes, intermediate slide renders, and temporary exports
+node_modules/
+.chart-data-*/
+.deck_runtime/
+.mplconfig/
+.ppt_build/
+/tmp/
+/output/
+/untitled folder/
+
+# Rebuildable machine-specific executables and libraries
+*.x
+*.o
+*.so
+*.dylib
+*.a
+
+# Verbose solver diagnostics (over 5 GB); numerical .dat files are retained
+*.log
+log_*.txt
+
+# Generated Slurm jobs; retain the generator instead
+/job[0-9]*.sh
+
+# Downloaded third-party student code, unpublished source, and reference PDFs
+/response/student_source_20261013/
+/response/sun_reference_20261013/
+/response/benchmark_reference/
+
+# LaTeX compiler intermediates
+*.aux
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+*.out

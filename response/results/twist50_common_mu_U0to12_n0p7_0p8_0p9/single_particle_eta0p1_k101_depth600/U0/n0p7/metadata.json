@@ -1,0 +1,17 @@
+{
+  "U": 0,
+  "target_n": 0.7,
+  "reference_n_50_twists": 0.7,
+  "sample_n_20_folded_phases": null,
+  "mu": -0.9079630767115199,
+  "eta": 0.1,
+  "k_points": 101,
+  "k_grid": "j*pi/100, j=0..100",
+  "interpolated": false,
+  "definition": "A=-Im(Gup+Gdn)/(2*pi), unit total weight per spin",
+  "source_norm_error": 0.0,
+  "source_first_moment_error": 0.0,
+  "duplicate_inversion_max_abs_error": 0.0,
+  "source_hashes": {},
+  "mu_policy": "unchanged chemical potential from original50-phase density constraint; new grid is spectral sampling only"
+}

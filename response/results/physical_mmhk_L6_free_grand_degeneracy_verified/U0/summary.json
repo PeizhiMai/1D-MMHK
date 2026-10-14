@@ -1,0 +1,197 @@
+{
+  "L": 6,
+  "U": 0.0,
+  "mu_selection": {
+    "mu": 0.0,
+    "target": 0.45,
+    "policy": "explicit chemical potential",
+    "actual_filling": 0.5,
+    "filling_error": 0.04999999999999999,
+    "exact_target_attained": false
+  },
+  "eta": 0.2,
+  "k_count": 2,
+  "observable": "physical charge density and longitudinal 2Sz density",
+  "normalization": "1/sqrt(L) source; normalized reduced-BZ weights sum to one",
+  "ensemble": "T=0, complete unpolarized grand-canonical ground trace at each k",
+  "q_scope": "only q=2*pi*m/L intra-block transfers; no generic inter-block response",
+  "k_blocks": [
+    {
+      "k_index": 0,
+      "k": -0.5235987755982988,
+      "weight": 0.5,
+      "theta_boundary": -3.141592653589793,
+      "phase_per_bond": 0.5235987755982988,
+      "mean_N": 6.0,
+      "grand_ground_dimension": 16,
+      "components": [
+        {
+          "N": 4,
+          "Nup": 2,
+          "Ndn": 2,
+          "spin_flip_multiplicity": 1,
+          "ground_dimension": 1,
+          "directory": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/physical_mmhk_L6_free_grand_degeneracy_verified/U0/canonical_responses/k000/Nup2_Ndn2",
+          "probability": 0.0625
+        },
+        {
+          "N": 5,
+          "Nup": 3,
+          "Ndn": 2,
+          "spin_flip_multiplicity": 2,
+          "ground_dimension": 2,
+          "directory": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/physical_mmhk_L6_free_grand_degeneracy_verified/U0/canonical_responses/k000/Nup3_Ndn2",
+          "probability": 0.25
+        },
+        {
+          "N": 6,
+          "Nup": 3,
+          "Ndn": 3,
+          "spin_flip_multiplicity": 1,
+          "ground_dimension": 4,
+          "directory": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/physical_mmhk_L6_free_grand_degeneracy_verified/U0/canonical_responses/k000/Nup3_Ndn3",
+          "probability": 0.25
+        },
+        {
+          "N": 6,
+          "Nup": 4,
+          "Ndn": 2,
+          "spin_flip_multiplicity": 2,
+          "ground_dimension": 1,
+          "directory": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/physical_mmhk_L6_free_grand_degeneracy_verified/U0/canonical_responses/k000/Nup4_Ndn2",
+          "probability": 0.125
+        },
+        {
+          "N": 7,
+          "Nup": 4,
+          "Ndn": 3,
+          "spin_flip_multiplicity": 2,
+          "ground_dimension": 2,
+          "directory": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/physical_mmhk_L6_free_grand_degeneracy_verified/U0/canonical_responses/k000/Nup4_Ndn3",
+          "probability": 0.25
+        },
+        {
+          "N": 8,
+          "Nup": 4,
+          "Ndn": 4,
+          "spin_flip_multiplicity": 1,
+          "ground_dimension": 1,
+          "directory": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/physical_mmhk_L6_free_grand_degeneracy_verified/U0/canonical_responses/k000/Nup4_Ndn4",
+          "probability": 0.0625
+        }
+      ],
+      "elastic_charge_connected": [
+        0.16666666666666666,
+        0.0,
+        0.0,
+        0.16666666666666685,
+        0.0,
+        0.0
+      ],
+      "elastic_spin_connected": [
+        0.16666666666666666,
+        0.0,
+        0.0,
+        0.16666666666666652,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "k_index": 1,
+      "k": 0.5235987755982988,
+      "weight": 0.5,
+      "theta_boundary": 3.141592653589793,
+      "phase_per_bond": -0.5235987755982988,
+      "mean_N": 6.0,
+      "grand_ground_dimension": 16,
+      "components": [
+        {
+          "N": 4,
+          "Nup": 2,
+          "Ndn": 2,
+          "spin_flip_multiplicity": 1,
+          "ground_dimension": 1,
+          "directory": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/physical_mmhk_L6_free_grand_degeneracy_verified/U0/canonical_responses/k001/Nup2_Ndn2",
+          "probability": 0.0625
+        },
+        {
+          "N": 5,
+          "Nup": 3,
+          "Ndn": 2,
+          "spin_flip_multiplicity": 2,
+          "ground_dimension": 2,
+          "directory": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/physical_mmhk_L6_free_grand_degeneracy_verified/U0/canonical_responses/k001/Nup3_Ndn2",
+          "probability": 0.25
+        },
+        {
+          "N": 6,
+          "Nup": 3,
+          "Ndn": 3,
+          "spin_flip_multiplicity": 1,
+          "ground_dimension": 4,
+          "directory": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/physical_mmhk_L6_free_grand_degeneracy_verified/U0/canonical_responses/k001/Nup3_Ndn3",
+          "probability": 0.25
+        },
+        {
+          "N": 6,
+          "Nup": 4,
+          "Ndn": 2,
+          "spin_flip_multiplicity": 2,
+          "ground_dimension": 1,
+          "directory": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/physical_mmhk_L6_free_grand_degeneracy_verified/U0/canonical_responses/k001/Nup4_Ndn2",
+          "probability": 0.125
+        },
+        {
+          "N": 7,
+          "Nup": 4,
+          "Ndn": 3,
+          "spin_flip_multiplicity": 2,
+          "ground_dimension": 2,
+          "directory": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/physical_mmhk_L6_free_grand_degeneracy_verified/U0/canonical_responses/k001/Nup4_Ndn3",
+          "probability": 0.25
+        },
+        {
+          "N": 8,
+          "Nup": 4,
+          "Ndn": 4,
+          "spin_flip_multiplicity": 1,
+          "ground_dimension": 1,
+          "directory": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/physical_mmhk_L6_free_grand_degeneracy_verified/U0/canonical_responses/k001/Nup4_Ndn4",
+          "probability": 0.0625
+        }
+      ],
+      "elastic_charge_connected": [
+        0.16666666666666666,
+        0.0,
+        0.0,
+        0.16666666666666696,
+        0.0,
+        0.0
+      ],
+      "elastic_spin_connected": [
+        0.16666666666666666,
+        0.0,
+        0.0,
+        0.16666666666666652,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "checks": {
+    "max_source_weight_error": 8.881784197001252e-16,
+    "max_first_moment_error": 6.439293542825908e-15,
+    "max_ground_residual": 1.5016015115184408e-14,
+    "q0_charge_inelastic_max": 0.0,
+    "q0_spin_inelastic_max": 0.0,
+    "charge_q_minus_q_average_max_difference": 1.6653345369377348e-15,
+    "spin_q_minus_q_average_max_difference": 7.771561172376096e-16
+  },
+  "new_solver_calls": 50,
+  "new_solver_elapsed_seconds": 8.668328167003892,
+  "qmin_first_charge_peak": 1.73,
+  "qmin_first_spin_peak": 1.73,
+  "initial_solver_calls": 50,
+  "initial_solver_elapsed_seconds": 8.668328167003892
+}

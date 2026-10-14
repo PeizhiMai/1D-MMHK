@@ -1,0 +1,29 @@
+{
+  "density_Ne_over_L": 0.9,
+  "earlier_filling_x": 0.45,
+  "magnetic_field": 0,
+  "temperature": 0,
+  "t": 1,
+  "a0": 1,
+  "hbar": 1,
+  "regime": "repulsive Hubbard thermodynamic limit; no finite-cluster solver executed",
+  "book_path": "/Users/cosdis/Downloads/books/Essler, Frahm, Gohmann, Klumper, Korepin - The One-Dimensional Hubbard Model.pdf",
+  "book_sha256": "ae8ff5d9cbec6dfaa7a9f95b9ece8ab1a2504e66419d4e59b831ef6473a98677",
+  "book_equations": [
+    "5.102",
+    "5.103",
+    "5.104",
+    "5.105",
+    "6.44",
+    "6.45",
+    "6.46",
+    "6.47"
+  ],
+  "source_sha256": "20780f4d43fc33bae3889d873f32b22ac6013dcb70dc9ce4d7b32b683da2ef86",
+  "U_over_t_range": [
+    0,
+    16.0
+  ],
+  "elapsed_seconds": 9.312733249999837,
+  "validated": true
+}

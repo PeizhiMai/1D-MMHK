@@ -1,0 +1,301 @@
+{
+  "metadata": {
+    "L": 10,
+    "Nup": 4,
+    "Ndn": 4,
+    "filling": 0.4,
+    "U": 12,
+    "t": 1,
+    "phase_per_bond": 0,
+    "boundary_twist": 0,
+    "boundary_phase_row0_last": 0,
+    "ground_only": false,
+    "ground_subspace_complete": true,
+    "dense_ground_limit": 128,
+    "depth": 300,
+    "ground_scan_all_Q": true,
+    "E0": -5.38237607457718,
+    "density_normalization": "1/sqrt(L)",
+    "observable": "density",
+    "spin_operator": "n_up-n_down (2Sz)",
+    "q_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "ground_states": [
+      {
+        "Q": 0,
+        "E0": -5.382376074577258,
+        "id": 0,
+        "residual": 7.565444660370207e-14
+      }
+    ]
+  },
+  "eta": 0.2,
+  "moment_checks": [
+    {
+      "channel": "charge",
+      "q_index": 1,
+      "ground_Q": 0,
+      "weight_error": 4.0245584642661925e-16,
+      "first_moment_error": 1.1934897514720433e-15
+    },
+    {
+      "channel": "charge",
+      "q_index": 2,
+      "ground_Q": 0,
+      "weight_error": 9.992007221626409e-16,
+      "first_moment_error": 7.771561172376096e-16
+    },
+    {
+      "channel": "charge",
+      "q_index": 3,
+      "ground_Q": 0,
+      "weight_error": 5.828670879282072e-16,
+      "first_moment_error": 5.551115123125783e-16
+    },
+    {
+      "channel": "charge",
+      "q_index": 4,
+      "ground_Q": 0,
+      "weight_error": 0.0,
+      "first_moment_error": 6.661338147750939e-16
+    },
+    {
+      "channel": "charge",
+      "q_index": 5,
+      "ground_Q": 0,
+      "weight_error": 9.992007221626409e-16,
+      "first_moment_error": 8.43769498715119e-15
+    },
+    {
+      "channel": "charge",
+      "q_index": 6,
+      "ground_Q": 0,
+      "weight_error": 1.1102230246251565e-16,
+      "first_moment_error": 0.0
+    },
+    {
+      "channel": "charge",
+      "q_index": 7,
+      "ground_Q": 0,
+      "weight_error": 9.159339953157541e-16,
+      "first_moment_error": 1.4432899320127035e-15
+    },
+    {
+      "channel": "charge",
+      "q_index": 8,
+      "ground_Q": 0,
+      "weight_error": 8.881784197001252e-16,
+      "first_moment_error": 8.326672684688674e-16
+    },
+    {
+      "channel": "charge",
+      "q_index": 9,
+      "ground_Q": 0,
+      "weight_error": 3.0531133177191805e-16,
+      "first_moment_error": 6.106226635438361e-16
+    },
+    {
+      "channel": "spin",
+      "q_index": 1,
+      "ground_Q": 0,
+      "weight_error": 1.6653345369377348e-16,
+      "first_moment_error": 5.551115123125783e-17
+    },
+    {
+      "channel": "spin",
+      "q_index": 2,
+      "ground_Q": 0,
+      "weight_error": 3.3306690738754696e-16,
+      "first_moment_error": 1.4988010832439613e-15
+    },
+    {
+      "channel": "spin",
+      "q_index": 3,
+      "ground_Q": 0,
+      "weight_error": 2.7755575615628914e-15,
+      "first_moment_error": 5.329070518200751e-15
+    },
+    {
+      "channel": "spin",
+      "q_index": 4,
+      "ground_Q": 0,
+      "weight_error": 1.3322676295501878e-15,
+      "first_moment_error": 2.6867397195928788e-14
+    },
+    {
+      "channel": "spin",
+      "q_index": 5,
+      "ground_Q": 0,
+      "weight_error": 2.6645352591003757e-15,
+      "first_moment_error": 3.3306690738754696e-15
+    },
+    {
+      "channel": "spin",
+      "q_index": 6,
+      "ground_Q": 0,
+      "weight_error": 1.3322676295501878e-15,
+      "first_moment_error": 1.532107773982716e-14
+    },
+    {
+      "channel": "spin",
+      "q_index": 7,
+      "ground_Q": 0,
+      "weight_error": 2.220446049250313e-16,
+      "first_moment_error": 8.43769498715119e-15
+    },
+    {
+      "channel": "spin",
+      "q_index": 8,
+      "ground_Q": 0,
+      "weight_error": 1.6653345369377348e-15,
+      "first_moment_error": 5.495603971894525e-15
+    },
+    {
+      "channel": "spin",
+      "q_index": 9,
+      "ground_Q": 0,
+      "weight_error": 0.0,
+      "first_moment_error": 8.604228440844963e-16
+    }
+  ],
+  "modes": [
+    {
+      "q_index": 0,
+      "q": 0.0,
+      "charge_first_peak": null,
+      "charge_lowest_pole": null,
+      "charge_total_weight": 6.4,
+      "charge_elastic_weight": 6.4,
+      "spin_first_peak": null,
+      "spin_lowest_pole": null,
+      "spin_total_weight": 0.0,
+      "spin_elastic_weight": 0.0
+    },
+    {
+      "q_index": 1,
+      "q": 0.6283185307179586,
+      "charge_first_peak": 0.94,
+      "charge_lowest_pole": 0.31086013207539676,
+      "charge_total_weight": 0.10953580008971718,
+      "charge_elastic_weight": 0.0,
+      "spin_first_peak": 0.43999999999999995,
+      "spin_lowest_pole": 0.4421559755280624,
+      "spin_total_weight": 0.14446570571277936,
+      "spin_elastic_weight": 0.0
+    },
+    {
+      "q_index": 2,
+      "q": 1.2566370614359172,
+      "charge_first_peak": 1.0100000000000002,
+      "charge_lowest_pole": 0.45045144276178917,
+      "charge_total_weight": 0.20871361341133923,
+      "charge_elastic_weight": 0.0,
+      "spin_first_peak": 0.5800000000000001,
+      "spin_lowest_pole": 0.5249564449609476,
+      "spin_total_weight": 0.4060063796126625,
+      "spin_elastic_weight": 0.0
+    },
+    {
+      "q_index": 3,
+      "q": 1.8849555921538759,
+      "charge_first_peak": 0.3800000000000001,
+      "charge_lowest_pole": 0.35599315166233403,
+      "charge_total_weight": 0.22987390361069043,
+      "charge_elastic_weight": 0.0,
+      "spin_first_peak": 0.74,
+      "spin_lowest_pole": 0.7329243305674407,
+      "spin_total_weight": 0.6847404447049837,
+      "spin_elastic_weight": 0.0
+    },
+    {
+      "q_index": 4,
+      "q": 2.5132741228718345,
+      "charge_first_peak": 0.9100000000000001,
+      "charge_lowest_pole": 0.8733611174031415,
+      "charge_total_weight": 0.24662063859805047,
+      "charge_elastic_weight": 0.0,
+      "spin_first_peak": 0.13000000000000012,
+      "spin_lowest_pole": 0.12060185779955113,
+      "spin_total_weight": 2.009039496667129,
+      "spin_elastic_weight": 0.0
+    },
+    {
+      "q_index": 5,
+      "q": 3.141592653589793,
+      "charge_first_peak": 0.5800000000000001,
+      "charge_lowest_pole": 0.5806007962427149,
+      "charge_total_weight": 0.25509778963849183,
+      "charge_elastic_weight": 0.0,
+      "spin_first_peak": 0.6600000000000001,
+      "spin_lowest_pole": 0.6329843725576776,
+      "spin_total_weight": 1.2669102455467693,
+      "spin_elastic_weight": 0.0
+    },
+    {
+      "q_index": 6,
+      "q": 3.7699111843077517,
+      "charge_first_peak": 0.9100000000000001,
+      "charge_lowest_pole": 0.8733611174031424,
+      "charge_total_weight": 0.24662063859805067,
+      "charge_elastic_weight": 0.0,
+      "spin_first_peak": 0.13000000000000012,
+      "spin_lowest_pole": 0.1206018577995609,
+      "spin_total_weight": 2.009039496667129,
+      "spin_elastic_weight": 0.0
+    },
+    {
+      "q_index": 7,
+      "q": 4.39822971502571,
+      "charge_first_peak": 0.3800000000000001,
+      "charge_lowest_pole": 0.35599315166233936,
+      "charge_total_weight": 0.22987390361068974,
+      "charge_elastic_weight": 0.0,
+      "spin_first_peak": 0.74,
+      "spin_lowest_pole": 0.7329243305674638,
+      "spin_total_weight": 0.6847404447049814,
+      "spin_elastic_weight": 0.0
+    },
+    {
+      "q_index": 8,
+      "q": 5.026548245743669,
+      "charge_first_peak": 1.0100000000000002,
+      "charge_lowest_pole": 0.4504514427618229,
+      "charge_total_weight": 0.20871361341133932,
+      "charge_elastic_weight": 0.0,
+      "spin_first_peak": 0.5800000000000001,
+      "spin_lowest_pole": 0.5249564449609823,
+      "spin_total_weight": 0.40600637961266384,
+      "spin_elastic_weight": 0.0
+    },
+    {
+      "q_index": 9,
+      "q": 5.654866776461628,
+      "charge_first_peak": 0.94,
+      "charge_lowest_pole": 0.31086013207539764,
+      "charge_total_weight": 0.10953580008971738,
+      "charge_elastic_weight": 0.0,
+      "spin_first_peak": 0.43999999999999995,
+      "spin_lowest_pole": 0.4421559755280686,
+      "spin_total_weight": 0.14446570571277992,
+      "spin_elastic_weight": 0.0
+    }
+  ],
+  "checks": {
+    "q0_charge_inelastic_max": 0.0,
+    "q0_spin_inelastic_max": 0.0,
+    "max_weight_error": 2.7755575615628914e-15,
+    "max_first_moment_error": 2.6867397195928788e-14,
+    "charge_q_minus_q_max_difference": 2.1960986791962067e-06,
+    "spin_q_minus_q_max_difference": 1.0833745735015863e-06
+  }
+}

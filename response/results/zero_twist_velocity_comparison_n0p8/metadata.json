@@ -1,0 +1,99 @@
+{
+  "L": 10,
+  "Nup": 4,
+  "Ndn": 4,
+  "density_Ne_over_L": 0.8,
+  "earlier_filling_x": 0.4,
+  "phase_per_bond": 0,
+  "ground_states_by_U": {
+    "4.0": [
+      {
+        "Q": 0,
+        "E0": -7.647179208191302,
+        "id": 0,
+        "residual": 4.248463197362992e-14
+      }
+    ],
+    "6.0": [
+      {
+        "Q": 0,
+        "E0": -6.684084854371323,
+        "id": 0,
+        "residual": 2.1400786462268022e-14
+      }
+    ],
+    "7.0": [
+      {
+        "Q": 0,
+        "E0": -6.347638356096571,
+        "id": 0,
+        "residual": 4.016467872438949e-14
+      }
+    ],
+    "8.0": [
+      {
+        "Q": 0,
+        "E0": -6.076329919776676,
+        "id": 0,
+        "residual": 3.932963778731769e-14
+      }
+    ],
+    "12.0": [
+      {
+        "Q": 0,
+        "E0": -5.382376074577258,
+        "id": 0,
+        "residual": 7.565444660370207e-14
+      }
+    ]
+  },
+  "q_min": 0.6283185307179586,
+  "k_F_thermodynamic": 1.2566370614359172,
+  "folded_4kF_magnitude": 1.2566370614359172,
+  "qmin_equals_folded_4kF": false,
+  "estimator": "first significant local maximum / q_min; strongest local maximum reported separately",
+  "search_window_omega": [
+    0,
+    5
+  ],
+  "eta": 0.2,
+  "prominence_fraction": 0.01,
+  "pole_merge_tolerance": 1e-06,
+  "no_new_solver_runs": true,
+  "source_sha256": "60c29c99377e21cf1b0622e82474ee0bbed77308f52a1d1c8278cacdd8e81fd2",
+  "raw_fraction_sha256": {
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U4_n0p4_phi0/charge_gsQ0_gsi0_q1.dat": "dfd2373eed559eecf418920c2668626f5676f18a1d4a023f374c985c9a1d927a",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U4_n0p4_phi0/charge_gsQ0_gsi0_q2.dat": "6f0772ec4ce4e921d5a1abba1e26785691352f060d08d18f0264d0837afded66",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U4_n0p4_phi0/charge_gsQ0_gsi0_q3.dat": "16930fbe15a192eff23ea5cd30af7307ade5287eaee6c21fc60486eb5eda68b2",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U4_n0p4_phi0/spin_gsQ0_gsi0_q1.dat": "0d36653cea37e923c56add60b6f1553a001cdd7530c9d5f068ff36f8e1348570",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U4_n0p4_phi0/spin_gsQ0_gsi0_q2.dat": "55a1381ccc8816e4346ea2f0b5442751c2f8464c305cc334c2deb98e0127330e",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U4_n0p4_phi0/spin_gsQ0_gsi0_q3.dat": "107acb567e254f5cf5447f02881e47eff9e6c9e74cb73791de6620ccb4bc9196",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U6_n0p4_phi0/charge_gsQ0_gsi0_q1.dat": "a41db0fd1aa290e502b9c6ce48c1f351fd00ad635179062e30891e43b20128d8",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U6_n0p4_phi0/charge_gsQ0_gsi0_q2.dat": "876b9efc2a692f2bd093e65a8ef4de55f07f5285991598b125644aba64b48c21",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U6_n0p4_phi0/charge_gsQ0_gsi0_q3.dat": "8909226b1f541e0358cfe94c6c44e4fa2faa8f25c02fa01dc49768c5243101cb",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U6_n0p4_phi0/spin_gsQ0_gsi0_q1.dat": "ac9509b2689baaedd95ab430ae8cc64f56fcf5f060e95de67867e7786ebe8243",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U6_n0p4_phi0/spin_gsQ0_gsi0_q2.dat": "63b3ff16fdab8e4cc19d14c47c4c03a2f1988fbd28228f9d7afcde8465abe2d6",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U6_n0p4_phi0/spin_gsQ0_gsi0_q3.dat": "ac36664929cbfddd398ff2d75c988f266bf82a552933685c3cca4950bf84c472",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U7_n0p4_phi0/charge_gsQ0_gsi0_q1.dat": "6f3b82ac196d0583bd8f16e8a0becc5dab276c360f5270a76bcaecd8f8822e60",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U7_n0p4_phi0/charge_gsQ0_gsi0_q2.dat": "b4fa04494a96f915eed0d473ad2118332c1fec2c3eaeaf0dac3b60bd5e422790",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U7_n0p4_phi0/charge_gsQ0_gsi0_q3.dat": "b5ce264bf302e7d1f6a0dddbbe2281e4f85706baf63f75848f99618dba189c51",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U7_n0p4_phi0/spin_gsQ0_gsi0_q1.dat": "d1d0cf055756a59626b74af3b941bc17665349dfcab7b7fe57c54d1f151778b0",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U7_n0p4_phi0/spin_gsQ0_gsi0_q2.dat": "572fea6712a24bc9b72dea469bd85dc311ed705c1948a0172377d45e71119a8a",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U7_n0p4_phi0/spin_gsQ0_gsi0_q3.dat": "1272488aca8d3c604ab386f744554d17af1fcf9f63ee939c1dffad80e5707b71",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U8_n0p4_phi0/charge_gsQ0_gsi0_q1.dat": "f4f0c1b36f3dbb9bba1d2320c20e8366908d013592421c78a126c84581ab2182",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U8_n0p4_phi0/charge_gsQ0_gsi0_q2.dat": "1fb2027cb9786d955911c7b7424789cf5fe78ac3c0bd0d7e56e5d119d8e4875a",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U8_n0p4_phi0/charge_gsQ0_gsi0_q3.dat": "77624220274da488664ef364a38e09e5a86e8398c48d0d902caff679de95f376",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U8_n0p4_phi0/spin_gsQ0_gsi0_q1.dat": "cef9ee9b2c44dd0cdaf37a919e3165b737c64b590801bacc5402ef2fcf0f1a16",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U8_n0p4_phi0/spin_gsQ0_gsi0_q2.dat": "04ff611e35477f3e141e15ec5b0605eb0e50eb8ffe3bfba9a00836ab63ce889a",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U8_n0p4_phi0/spin_gsQ0_gsi0_q3.dat": "fe4d0ad0b8e787961d6600af7e4a2c021a429040279c237be20eb047a80c5478",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U12_n0p4_phi0/charge_gsQ0_gsi0_q1.dat": "18db0ad4dda7620f8d7d7a54d2f85af469f46d9674d2fe83cccd2f695e4e3d59",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U12_n0p4_phi0/charge_gsQ0_gsi0_q2.dat": "b3224a6968a477195a75a4a86a27c0165f1fa1035a8aba646697e9a4bd6672f1",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U12_n0p4_phi0/charge_gsQ0_gsi0_q3.dat": "003efb6f9975df1c23d4d80c5f1a0cfd533e87bb75656f87770433bb6786d970",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U12_n0p4_phi0/spin_gsQ0_gsi0_q1.dat": "c4efc38a49b8da839e9085e85ad1423e5eba370dbd526baed06a1ac46843fbfd",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U12_n0p4_phi0/spin_gsQ0_gsi0_q2.dat": "f93eea7bcae5628d12960e1a0b5a6cc1c57ca359018833f34dcd66507220b870",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/zero_twist_benchmark_n0p8/L10_U12_n0p4_phi0/spin_gsQ0_gsi0_q3.dat": "593b73a1e0da5a9791312d9044ea082ab3ced7ca6ad33e787bab83704d220872"
+  },
+  "bethe_ansatz_csv": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/essler_bethe_ansatz/results_n0p8/velocities.csv",
+  "bethe_ansatz_sha256": "77107b62c9e1a2fc768743aa0b645a916c440199ca030d57d07382433336b89b",
+  "qualification": "Finite-q peak estimates, not a controlled thermodynamic velocity extraction. Coarse momentum spacing; inspect ground degeneracy, harmonics, peak selection and broadening."
+}

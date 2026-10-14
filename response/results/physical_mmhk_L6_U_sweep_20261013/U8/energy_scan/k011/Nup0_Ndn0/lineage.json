@@ -1,0 +1,24 @@
+{
+  "command": [
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/bin/chain_Hubbard_tbc_response.x",
+    "--L",
+    "6",
+    "--U",
+    "8.0",
+    "--nup",
+    "0",
+    "--ndn",
+    "0",
+    "--phase",
+    "-0.24434609527920614",
+    "--depth",
+    "180",
+    "--observable",
+    "density",
+    "--output",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/physical_mmhk_L6_U_sweep_20261013/U8/energy_scan/k011/Nup0_Ndn0",
+    "--ground-only"
+  ],
+  "source_sha256": "bbe15c8a494c8d000eefd62bcc341340b2e1c5ad72e5de5cb17566fc886566cc",
+  "executable_sha256": "cad8f9809583165dfaf0ef277adaed05f5bd97211acaa1888eea4be0135430ab"
+}

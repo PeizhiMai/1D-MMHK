@@ -1,0 +1,26 @@
+{
+  "source_sha256": "7d4f230a1f8bdf6f33914e3552395334c92498bb7c7fc43b91bf4250cb70d4b2",
+  "input_pole_sha256": {
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist20_common_mu_U0to12_n0p8/U0/n0p8/averaged_qmin_poles.npz": "1dd58e3ecf0b2c3e8a5b9637f28a678701db14bb1106ca412881fee19a53788e",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist20_common_mu_U0to12_n0p8/U1/n0p8/averaged_qmin_poles.npz": "7b5edecf6209f5b2919a9c30aa180297d32ba7ea85029af742839eb8df8e0bc2",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist20_common_mu_U0to12_n0p8/U2/n0p8/averaged_qmin_poles.npz": "310e9ee733485648a70cbce907d223397988235179ef942abb05e69610b8b9cc",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist20_common_mu_U0to12_n0p8/U3/n0p8/averaged_qmin_poles.npz": "c1251e02cfe0064a9305ad190115c0966c68172faec39debc69ff2d515ddd2fe",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist20_common_mu_U0to12_n0p8/U4/n0p8/averaged_qmin_poles.npz": "6faa6f67fd2ef89aeea560aee301753786459c43b9ca41f6cff85c31a0332e7e",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist20_common_mu_U0to12_n0p8/U5/n0p8/averaged_qmin_poles.npz": "7a2a4edceeb11ded746e98bc47c105235c25eaa6f809a6fac9f565c498a4f2fe",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist20_common_mu_U0to12_n0p8/U6/n0p8/averaged_qmin_poles.npz": "29fcb61067193b250c6fdfffb85d27c846093f72c5d7ab35de6719e86577806e",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist20_common_mu_U0to12_n0p8/U7/n0p8/averaged_qmin_poles.npz": "005c032f414cbbcd739e5da6c27662d54a83fdb7a89e698824c602e09d1fa575",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist20_common_mu_U0to12_n0p8/U8/n0p8/averaged_qmin_poles.npz": "5201900d0c191a3cca8cb220e8bc444d2753d0946028bd403955fae197eb8b62",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist20_common_mu_U0to12_n0p8/U9/n0p8/averaged_qmin_poles.npz": "1511768623221da9b31ee9846f05dd65ba4c3c57114ec91664d7083cb502de36",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist20_common_mu_U0to12_n0p8/U10/n0p8/averaged_qmin_poles.npz": "3d5992cf332d810f377e4c1179f2a66e14a8414c86896f8b8718414e6e2ca7b4",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist20_common_mu_U0to12_n0p8/U11/n0p8/averaged_qmin_poles.npz": "c3372c61b9762afcdafbdf52ecbdad2e2390de0dbd2c46f8c2321d3c4a2c5af1",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist20_common_mu_U0to12_n0p8/U12/n0p8/averaged_qmin_poles.npz": "c1de783ed2e8b0d1d63c996bfb8c7cc09d1ec5cc81e992e34586fc5e9e8fbb60"
+  },
+  "eta": 0.2,
+  "search_window": [
+    0,
+    5
+  ],
+  "estimator": "peak of averaged positive-frequency physical density spectrum divided by q_min",
+  "peak_policy": "first and strongest local maxima reported separately; height>=0.1%, prominence>=1%",
+  "caveat": "Finite-q estimates, not a fitted long-wavelength velocity or finite-size extrapolation"
+}

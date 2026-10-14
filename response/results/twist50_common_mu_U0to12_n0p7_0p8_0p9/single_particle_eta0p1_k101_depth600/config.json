@@ -1,0 +1,30 @@
+{
+  "eta": 0.1,
+  "depth": 600,
+  "k_count": 101,
+  "k_grid": "linspace(0,pi,101)",
+  "interpolate": false,
+  "mu_reference_twists": 50,
+  "spectral_folded_twists": 20,
+  "representatives": [
+    0,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "source_sha256": {
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/run_single_particle_101_scan.py": "dcd3e0973788d6fd578eb3419c1dc71b201b679d6319ee2e601285860235c924",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/run_single_particle_scan.py": "244a00456271713059407082ea52c6eebeb830d9f28239673b35b75d2ed84d54",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/create_code/chain_Hubbard_tbc_response.cc": "85b8419ac525fd2a968f0e8e686e78f04738be7abb86b233045c2b71a837b8d8",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/create_code/chain_Hubbard_tbc_spectral.cc": "febb8b12ae2761f12e35fefc7c0845b0809f262b7445adfec13d412665e35e2a",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/bin/chain_Hubbard_tbc_spectral.x": "ce4cec0521dfd94cad3e5933ace894007570ea8d391fad41dc0bdbc29878f753",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/bin/chain_Hubbard_tbc_response.x": "5c4b2224ac4f476839216f78f644a8c95b14d71193fb692a12164af51d179cda"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "elapsed_seconds": 160.3793880000003,
+  "workers": 4,
+  "OMP_threads_per_worker": 2,
+  "couplings": [
+    {
+      "U": 4,
+      "new_solver_calls": 0,
+      "summed_solver_seconds": 0.0
+    },
+    {
+      "U": 6,
+      "new_solver_calls": 0,
+      "summed_solver_seconds": 0.0
+    },
+    {
+      "U": 7,
+      "new_solver_calls": 55,
+      "summed_solver_seconds": 158.08344941700125
+    },
+    {
+      "U": 8,
+      "new_solver_calls": 55,
+      "summed_solver_seconds": 189.41813245900357
+    },
+    {
+      "U": 12,
+      "new_solver_calls": 59,
+      "summed_solver_seconds": 220.10117079000247
+    }
+  ]
+}

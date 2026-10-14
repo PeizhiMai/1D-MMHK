@@ -1,0 +1,34 @@
+{
+  "L": 10,
+  "U_list": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "physical_densities": [
+    0.7,
+    0.8,
+    0.9
+  ],
+  "twist_count": 50,
+  "grid": "periodic",
+  "depth": 300,
+  "q_indices": [
+    1
+  ],
+  "solver_source_sha256": "85b8419ac525fd2a968f0e8e686e78f04738be7abb86b233045c2b71a837b8d8",
+  "solver_executable_sha256": "5c4b2224ac4f476839216f78f644a8c95b14d71193fb692a12164af51d179cda",
+  "runner_sha256": "e2fa5eff061468b9147d311e3de2151bd0bb432e50bbb2c0f56e4a881e957392",
+  "free_helper_sha256": "95e4b47cdee49456f546e68ef56f9d9acbe91a7eb30064c6d5ee0395c5d4a23f",
+  "ground_helper_sha256": "51c725c012add3b15eb4ef21f2b54723176268d83026c250f1d9821adcfd4040"
+}

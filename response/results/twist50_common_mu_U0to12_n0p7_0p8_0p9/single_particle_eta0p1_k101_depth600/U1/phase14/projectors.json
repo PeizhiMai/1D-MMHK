@@ -1,0 +1,74 @@
+{
+  "0.7": {
+    "twist_index": 14,
+    "k": 0.12566370614359174,
+    "phase_per_bond": -0.12566370614359174,
+    "components": [
+      {
+        "N": 6,
+        "Nup": 3,
+        "Ndn": 3,
+        "spin_flip_multiplicity": 1,
+        "ground_dimension": 1,
+        "probability": 1.0,
+        "ground_states": [
+          {
+            "Q": 0,
+            "E0": -9.600564862525928,
+            "id": 0,
+            "residual": 4.324082536138208e-14
+          }
+        ]
+      }
+    ],
+    "N": 6
+  },
+  "0.8": {
+    "twist_index": 14,
+    "k": 0.12566370614359174,
+    "phase_per_bond": -0.12566370614359174,
+    "components": [
+      {
+        "N": 8,
+        "Nup": 4,
+        "Ndn": 4,
+        "spin_flip_multiplicity": 1,
+        "ground_dimension": 1,
+        "probability": 1.0,
+        "ground_states": [
+          {
+            "Q": 4,
+            "E0": -10.643312214646826,
+            "id": 0,
+            "residual": 2.92991624746197e-14
+          }
+        ]
+      }
+    ],
+    "N": 8
+  },
+  "0.9": {
+    "twist_index": 14,
+    "k": 0.12566370614359174,
+    "phase_per_bond": -0.12566370614359174,
+    "components": [
+      {
+        "N": 10,
+        "Nup": 5,
+        "Ndn": 5,
+        "spin_flip_multiplicity": 1,
+        "ground_dimension": 1,
+        "probability": 1.0,
+        "ground_states": [
+          {
+            "Q": 0,
+            "E0": -10.517054028446523,
+            "id": 0,
+            "residual": 4.5609893191024045e-14
+          }
+        ]
+      }
+    ],
+    "N": 10
+  }
+}

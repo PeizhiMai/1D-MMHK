@@ -1,0 +1,107 @@
+[
+  {
+    "U": 0,
+    "target_n": 0.8,
+    "density_below": 0.796,
+    "density_above": 0.8039999999999999,
+    "mu_critical": -0.6180339887498949,
+    "switching_twists": [
+      {
+        "twist_index": 25,
+        "theta_over_pi": -0.0,
+        "N_below": 6,
+        "N_above": 10,
+        "numbers_degenerate": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "grand_energy_N9_above_min": 0.0
+      }
+    ]
+  },
+  {
+    "U": 7,
+    "target_n": 0.9,
+    "density_below": 0.8959999999999999,
+    "density_above": 0.9039999999999999,
+    "mu_critical": 1.4316139334296527,
+    "switching_twists": [
+      {
+        "twist_index": 2,
+        "theta_over_pi": 0.92,
+        "N_below": 8,
+        "N_above": 10,
+        "numbers_degenerate": [
+          8,
+          10
+        ],
+        "grand_energy_N9_above_min": 0.005007051680916419
+      },
+      {
+        "twist_index": 48,
+        "theta_over_pi": -0.92,
+        "N_below": 8,
+        "N_above": 10,
+        "numbers_degenerate": [
+          8,
+          10
+        ],
+        "grand_energy_N9_above_min": 0.005007051680916419
+      }
+    ]
+  },
+  {
+    "U": 9,
+    "target_n": 0.9,
+    "density_below": 0.8939999999999998,
+    "density_above": 0.9019999999999999,
+    "mu_critical": 1.537703103502117,
+    "switching_twists": [
+      {
+        "twist_index": 1,
+        "theta_over_pi": 0.96,
+        "N_below": 8,
+        "N_above": 10,
+        "numbers_degenerate": [
+          8,
+          10
+        ],
+        "grand_energy_N9_above_min": 0.002438708825977187
+      },
+      {
+        "twist_index": 49,
+        "theta_over_pi": -0.96,
+        "N_below": 8,
+        "N_above": 10,
+        "numbers_degenerate": [
+          8,
+          10
+        ],
+        "grand_energy_N9_above_min": 0.002438708825977187
+      }
+    ]
+  },
+  {
+    "U": 10,
+    "target_n": 0.9,
+    "density_below": 0.898,
+    "density_above": 0.9019999999999999,
+    "mu_critical": 1.5750375766590645,
+    "switching_twists": [
+      {
+        "twist_index": 0,
+        "theta_over_pi": 1.0,
+        "N_below": 8,
+        "N_above": 10,
+        "numbers_degenerate": [
+          8,
+          10
+        ],
+        "grand_energy_N9_above_min": 0.004817585441330152
+      }
+    ]
+  }
+]

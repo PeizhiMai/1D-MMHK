@@ -1,0 +1,102 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[margin=0.64in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb,microtype}
+\usepackage[colorlinks=true,urlcolor=blue]{hyperref}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\setlength{\abovedisplayskip}{5pt}
+\setlength{\belowdisplayskip}{5pt}
+\pagestyle{empty}
+\newcommand{\lead}[1]{\par\smallskip\textbf{#1}\par\nobreak}
+\begin{document}
+\begin{center}
+{\Large\bfseries Spin and charge response: the Hubbard TBC definition}\\[3pt]
+{\small Definition and comparison with the student's response note\hfill 13 October 2026}
+\end{center}
+\vspace{-6pt}
+
+\lead{1. Target observable at a fixed twist}
+Let $H_\theta$ be an $L$-site Hubbard ring with a common spin-independent twist
+$\theta$. Set the lattice spacing and $\hbar$ to one. The filling convention is
+$x=N_e/(2L)$, so $x=0.5$ is half-filling. For a definite momentum transfer
+$q_m=2\pi m/L$, define
+\begin{equation}
+ \rho_{c/s}(q_m)=\frac{1}{\sqrt L}\sum_{j=0}^{L-1}e^{iq_mj}
+                  \bigl(n_{j\uparrow}\pm n_{j\downarrow}\bigr).
+ \label{eq:rho}
+\end{equation}
+The plus/minus sign denotes charge/longitudinal spin. This spin convention uses
+$2S^z$; using $S^z$ divides spin intensity by four, not excitation energies.
+The zero-temperature \emph{inelastic} structure factor is
+\begin{equation}
+ S_\nu(q,\omega;\theta)=\sum_{E_a>E_0}
+ |\langle a|\rho_\nu(q)|0\rangle|^2
+ \delta\!\left[\omega-(E_a-E_0)\right],\qquad \nu=c,s.
+ \label{eq:lehmann}
+\end{equation}
+Separate all zero-energy (elastic) weight before broadening. Equivalently, with
+$\widetilde\rho_\nu=P_{\rm exc}\rho_\nu$ and $P_{\rm exc}$ excluding the entire
+ground-state subspace,
+\begin{equation}
+ F_\nu(q,z)=\langle0|\widetilde\rho_\nu^\dagger(q)
+ (z+E_0-H_\theta)^{-1}\widetilde\rho_\nu(q)|0\rangle,
+ \qquad S_\nu^\eta=-\pi^{-1}\operatorname{Im}F_\nu(q,\omega+i\eta).
+\end{equation}
+$F$ is the positive-frequency resolvent, not the full retarded commutator
+susceptibility, which also has a negative-frequency term. Both total charge and
+longitudinal spin are conserved: $S_c(0,\omega>0)=S_s(0,\omega>0)=0$.
+
+\lead{2. Distinction from the written note}
+Equation (1) of the student's note has the appropriate Lehmann form once its
+operator is specified. Equation (2), as written, is a complex resolvent;
+obtaining a real spectral function requires $-\operatorname{Im}/\pi$.
+For the physical density, contributions of compatible momentum pairs must be
+summed \emph{coherently} before squaring:
+\begin{equation}
+ \rho_{c/s}(q_m)=\frac{1}{\sqrt L}\sum_{p,\sigma}s_\sigma^{c/s}
+ c^\dagger_{p+q_m,\sigma}c_{p,\sigma},\qquad
+ s_\sigma^c=1,\quad s_\uparrow^s=1,\ s_\downarrow^s=-1.
+\end{equation}
+Here $p$ runs over the ring's allowed twisted momenta. An orbital-pair sum
+\emph{outside} the modulus, as printed in Eq.~(2), generally omits interference
+terms and is not the same total-density observable. The common twist shifts
+all $p$ equally and cancels from the transfer $q_m$.
+
+\lead{3. Distinction from the supplied implementation}
+The supplied code \texttt{spin\_charge\_v5.py} retains cross terms, but uses the
+different vertex $e^{iq(\alpha-\alpha')}$ with
+$c^\dagger_{\alpha'\sigma}c_{\alpha\sigma}$. In its orbital-site basis this gives
+\begin{equation}
+ R_{c/s}(q)=L\bigl(d^\dagger_{q\uparrow}d_{q\uparrow}
+             \pm d^\dagger_{q\downarrow}d_{q\downarrow}\bigr),\qquad
+ d_{q\sigma}=L^{-1/2}\sum_\alpha e^{iq\alpha}c_{\alpha\sigma}.
+\end{equation}
+This is a valid \emph{Fourier-mode occupation} response: $q$ labels a mode,
+not a fixed transferred momentum. It is not a normalization or gauge variant
+of Eq.~\eqref{eq:rho}. In the same site basis, the physical vertex instead is
+$\Gamma_{\alpha'\alpha}(q)=\delta_{\alpha'\alpha}e^{iq\alpha}/\sqrt L$.
+Restricting the existing phase-difference vertex to $\alpha=\alpha'$ alone would
+give phase one and would not fix it. Finite-frequency $R(0,\omega)$ can be
+nonzero; its peak slopes do not directly define physical spin/charge velocities.
+
+\lead{4. Match the ensemble before comparing}
+At each twist, match $L,t,U$, the particle/spin sector or chemical-potential
+prescription, degenerate-ground-state weights, normalization, and $\eta$.
+For neutral excitations within one sector, $\mu N_e$ cancels from $E_a-E_0$;
+$\mu$ selects the sector. The supplied driver selects sectors using a common
+$\mu$ and then sums over reduced-BZ $k$: this is \emph{not} one fixed-twist ring.
+In its boundary-phase convention $\theta_k=Lk$; a normalized comparison uses
+$\overline S_\nu=\sum_k w_k S_\nu(q,\omega;\theta_k)$ with $\sum_k w_k=1$.
+Benchmark the physical operators block by block first, then apply identical
+$k$/twist averaging. No solver rerun is needed to establish these definitions.
+
+\vfill
+{\footnotesize\textbf{Sources.} Standard site-density conventions:
+H.~Benthien and E.~Jeckelmann,
+\href{https://arxiv.org/abs/cond-mat/0606748}{cond-mat/0606748}, Eqs.~(3),(5).
+Comparison: supplied response note, Eqs.~(1),(2), and supplied code,
+\texttt{spin\_charge\_v5.py}, lines 64, 74--105, 171--173.
+These are distinctions between observables, not a claim that the student's
+Lehmann solver is numerically incorrect.}
+\end{document}

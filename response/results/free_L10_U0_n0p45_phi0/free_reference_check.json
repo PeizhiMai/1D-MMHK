@@ -1,0 +1,44 @@
+{
+  "L": 10,
+  "t": 1.0,
+  "q": 0.6283185307179586,
+  "physical_free_band_upper_bound": 1.2360679774997896,
+  "bloch_transform_max_error": 1.364335476065276e-15,
+  "channels": {
+    "charge": {
+      "qbasis_distinct_poles": [
+        1.0,
+        1.2360679775
+      ],
+      "reference_local_maxima": [
+        1.1503759398496238,
+        1.977443609022556,
+        3.1353383458646613,
+        3.741854636591478
+      ],
+      "reference_maxima_above_bound": [
+        1.977443609022556,
+        3.1353383458646613,
+        3.741854636591478
+      ]
+    },
+    "spin": {
+      "qbasis_distinct_poles": [
+        1.0,
+        1.2360679775
+      ],
+      "reference_local_maxima": [
+        1.1503759398496238,
+        1.977443609022556,
+        3.1353383458646613,
+        3.741854636591478
+      ],
+      "reference_maxima_above_bound": [
+        1.977443609022556,
+        3.1353383458646613,
+        3.741854636591478
+      ]
+    }
+  },
+  "interpretation": "Inconsistent with the physical coherent density of the supplied epsilon(k)=-2t*cos(k) band; generating reference solver/settings unavailable."
+}

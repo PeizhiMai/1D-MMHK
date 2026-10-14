@@ -1,0 +1,33 @@
+{
+  "L": 10,
+  "Ne": 8,
+  "Nup": 4,
+  "Ndn": 4,
+  "U": 8.0,
+  "dimension": 44100,
+  "nnz": 514500,
+  "lowest_eigenvalues": [
+    -6.0763299197766525,
+    -5.967562243932417,
+    -5.9675622439323925,
+    -5.905431745093079
+  ],
+  "ground_degeneracy_in_M0": 1,
+  "ground_residual": 3.342348536719118e-14,
+  "ground_S_squared": 1.9999999999999991,
+  "ground_total_spin": 0.9999999999999998,
+  "channels": {
+    "charge": {
+      "maximum_absolute_spectrum_error": 7.391695762415385e-13,
+      "relative_to_maximum": 4.174886852109507e-12,
+      "first_peak": 1.045
+    },
+    "spin": {
+      "maximum_absolute_spectrum_error": 1.1916245052333296e-10,
+      "relative_to_maximum": 5.991036320638458e-10,
+      "first_peak": 0.618
+    }
+  },
+  "passed": true,
+  "elapsed_seconds": 3.890125375000025
+}

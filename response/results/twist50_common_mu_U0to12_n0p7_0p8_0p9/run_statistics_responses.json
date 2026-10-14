@@ -1,0 +1,13 @@
+{
+  "elapsed_seconds": 0.502620040999318,
+  "workers": 6,
+  "threads": 1,
+  "per_U": [
+    {
+      "U": 12,
+      "new_calls": 0,
+      "reused_calls": 0,
+      "solver_seconds": 0.0
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "passed": false,
+  "missing": [
+    {
+      "U": 6,
+      "density": 0.7
+    },
+    {
+      "U": 6,
+      "density": 0.8
+    },
+    {
+      "U": 6,
+      "density": 0.9
+    },
+    {
+      "U": 7,
+      "density": 0.7
+    },
+    {
+      "U": 7,
+      "density": 0.8
+    },
+    {
+      "U": 7,
+      "density": 0.9
+    },
+    {
+      "U": 8,
+      "density": 0.7
+    },
+    {
+      "U": 8,
+      "density": 0.8
+    },
+    {
+      "U": 8,
+      "density": 0.9
+    },
+    {
+      "U": 9,
+      "density": 0.7
+    },
+    {
+      "U": 9,
+      "density": 0.8
+    },
+    {
+      "U": 9,
+      "density": 0.9
+    },
+    {
+      "U": 10,
+      "density": 0.7
+    },
+    {
+      "U": 10,
+      "density": 0.8
+    },
+    {
+      "U": 10,
+      "density": 0.9
+    },
+    {
+      "U": 11,
+      "density": 0.7
+    },
+    {
+      "U": 11,
+      "density": 0.8
+    },
+    {
+      "U": 11,
+      "density": 0.9
+    },
+    {
+      "U": 12,
+      "density": 0.7
+    },
+    {
+      "U": 12,
+      "density": 0.8
+    },
+    {
+      "U": 12,
+      "density": 0.9
+    }
+  ],
+  "case_checks": [
+    {
+      "U": 0,
+      "target_density": 0.7,
+      "actual_density": 0.7,
+      "maximum_weight_error": 0.0,
+      "maximum_first_moment_error": 0.0,
+      "maximum_ground_residual": 0.0,
+      "fsum_channel_difference": 0.0
+    },
+    {
+      "U": 0,
+      "target_density": 0.8,
+      "actual_density": 0.8,
+      "maximum_weight_error": 0.0,
+      "maximum_first_moment_error": 0.0,
+      "maximum_ground_residual": 0.0,
+      "fsum_channel_difference": 0.0
+    },
+    {
+      "U": 0,
+      "target_density": 0.9,
+      "actual_density": 0.9,
+      "maximum_weight_error": 0.0,
+      "maximum_first_moment_error": 0.0,
+      "maximum_ground_residual": 0.0,
+      "fsum_channel_difference": 0.0
+    },
+    {
+      "U": 1,
+      "target_density": 0.7,
+      "actual_density": 0.7,
+      "maximum_weight_error": 2.1371793224034263e-15,
+      "maximum_first_moment_error": 1.201816424156732e-14,
+      "maximum_ground_residual": 5.693038355483875e-14,
+      "fsum_channel_difference": 2.220446049250313e-16
+    },
+    {
+      "U": 1,
+      "target_density": 0.8,
+      "actual_density": 0.8,
+      "maximum_weight_error": 2.581268532253489e-15,
+      "maximum_first_moment_error": 1.176836406102666e-14,
+      "maximum_ground_residual": 1.8509248025564678e-13,
+      "fsum_channel_difference": 7.771561172376096e-16
+    },
+    {
+      "U": 1,
+      "target_density": 0.9,
+      "actual_density": 0.9,
+      "maximum_weight_error": 3.524958103184872e-15,
+      "maximum_first_moment_error": 1.3516965324811281e-14,
+      "maximum_ground_residual": 7.182426940560354e-14,
+      "fsum_channel_difference": 1.9984014443252818e-15
+    },
+    {
+      "U": 2,
+      "target_density": 0.7,
+      "actual_density": 0.7,
+      "maximum_weight_error": 3.3306690738754696e-15,
+      "maximum_first_moment_error": 1.5404344466674047e-14,
+      "maximum_ground_residual": 6.174173549144327e-14,
+      "fsum_channel_difference": 3.885780586188048e-16
+    },
+    {
+      "U": 2,
+      "target_density": 0.8,
+      "actual_density": 0.8,
+      "maximum_weight_error": 2.4147350785597155e-15,
+      "maximum_first_moment_error": 1.3350431871117507e-14,
+      "maximum_ground_residual": 2.4071684785521166e-13,
+      "fsum_channel_difference": 8.881784197001252e-16
+    },
+    {
+      "U": 2,
+      "target_density": 0.9,
+      "actual_density": 0.9,
+      "maximum_weight_error": 2.609024107869118e-15,
+      "maximum_first_moment_error": 1.7763568394002505e-14,
+      "maximum_ground_residual": 6.493158507952867e-14,
+      "fsum_channel_difference": 1.942890293094024e-15
+    },
+    {
+      "U": 3,
+      "target_density": 0.7,
+      "actual_density": 0.7,
+      "maximum_weight_error": 2.6922908347160046e-15,
+      "maximum_first_moment_error": 1.3655743202889425e-14,
+      "maximum_ground_residual": 7.138073729305966e-14,
+      "fsum_channel_difference": 3.885780586188048e-15
+    },
+    {
+      "U": 3,
+      "target_density": 0.8,
+      "actual_density": 0.8,
+      "maximum_weight_error": 2.3869795029440866e-15,
+      "maximum_first_moment_error": 1.5404344466674047e-14,
+      "maximum_ground_residual": 1.934277554566339e-13,
+      "fsum_channel_difference": 2.0261570199409107e-15
+    },
+    {
+      "U": 3,
+      "target_density": 0.9,
+      "actual_density": 0.9,
+      "maximum_weight_error": 1.6653345369377348e-15,
+      "maximum_first_moment_error": 1.3655743202889425e-14,
+      "maximum_ground_residual": 7.138073729305966e-14,
+      "fsum_channel_difference": 3.941291737419306e-15
+    },
+    {
+      "U": 4,
+      "target_density": 0.7,
+      "actual_density": 0.7,
+      "maximum_weight_error": 2.0261570199409107e-15,
+      "maximum_first_moment_error": 2.3564483697668948e-14,
+      "maximum_ground_residual": 7.965396184619334e-14,
+      "fsum_channel_difference": 6.161737786669619e-15
+    },
+    {
+      "U": 4,
+      "target_density": 0.8,
+      "actual_density": 0.8,
+      "maximum_weight_error": 3.6637359812630166e-15,
+      "maximum_first_moment_error": 1.73749903353837e-14,
+      "maximum_ground_residual": 1.1362732323158234e-13,
+      "fsum_channel_difference": 2.4980018054066022e-15
+    },
+    {
+      "U": 4,
+      "target_density": 0.9,
+      "actual_density": 0.9,
+      "maximum_weight_error": 1.6653345369377348e-15,
+      "maximum_first_moment_error": 1.73749903353837e-14,
+      "maximum_ground_residual": 4.976355675029451e-14,
+      "fsum_channel_difference": 3.3029134982598407e-15
+    },
+    {
+      "U": 5,
+      "target_density": 0.7,
+      "actual_density": 0.7,
+      "maximum_weight_error": 2.220446049250313e-15,
+      "maximum_first_moment_error": 1.6042722705833512e-14,
+      "maximum_ground_residual": 8.204677659065254e-14,
+      "fsum_channel_difference": 5.440092820663267e-15
+    },
+    {
+      "U": 5,
+      "target_density": 0.8,
+      "actual_density": 0.8,
+      "maximum_weight_error": 1.7763568394002505e-15,
+      "maximum_first_moment_error": 1.2628786905111156e-14,
+      "maximum_ground_residual": 7.097614039341453e-14,
+      "fsum_channel_difference": 3.941291737419306e-15
+    },
+    {
+      "U": 5,
+      "target_density": 0.9,
+      "actual_density": 0.9,
+      "maximum_weight_error": 1.7763568394002505e-15,
+      "maximum_first_moment_error": 1.2628786905111156e-14,
+      "maximum_ground_residual": 7.097614039341453e-14,
+      "fsum_channel_difference": 4.3298697960381105e-15
+    }
+  ],
+  "raw_hashes_verified": false,
+  "student_solver_executed": false
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "U": 8,
+    "twist_index": 25,
+    "N": 7,
+    "directory": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/validation/depth600/U8_twist025_N7",
+    "phase_per_bond": -0.0,
+    "reference_directory": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U8/qmin_responses/twist025/Nup4_Ndn3"
+  },
+  {
+    "U": 8,
+    "twist_index": 24,
+    "N": 9,
+    "directory": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/validation/depth600/U8_twist024_N9",
+    "phase_per_bond": 0.012566370614359173,
+    "reference_directory": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U8/qmin_responses/twist024/Nup5_Ndn4"
+  },
+  {
+    "U": 8,
+    "twist_index": 25,
+    "N": 10,
+    "directory": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/validation/depth600/U8_twist025_N10",
+    "phase_per_bond": -0.0,
+    "reference_directory": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U8/qmin_responses/twist025/Nup5_Ndn5"
+  },
+  {
+    "U": 12,
+    "twist_index": 25,
+    "N": 10,
+    "directory": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/validation/depth600/U12_twist025_N10",
+    "phase_per_bond": -0.0,
+    "reference_directory": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U12/qmin_responses/twist025/Nup5_Ndn5",
+    "selected_density_anchor": false
+  },
+  {
+    "U": 12,
+    "twist_index": 25,
+    "N": 9,
+    "directory": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/validation/depth600/U12_twist025_N9",
+    "phase_per_bond": -0.0,
+    "reference_directory": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U12/qmin_responses/twist025/Nup5_Ndn4",
+    "selected_density_anchor": true
+  },
+  {
+    "U": 12,
+    "twist_index": 12,
+    "N": 9,
+    "directory": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/validation/depth600/U12_twist012_N9",
+    "phase_per_bond": 0.16336281798666924,
+    "reference_directory": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U12/qmin_responses/twist012/Nup5_Ndn4",
+    "selected_density_anchor": true
+  }
+]

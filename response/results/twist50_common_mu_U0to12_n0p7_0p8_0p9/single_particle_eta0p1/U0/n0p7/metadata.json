@@ -1,0 +1,29 @@
+{
+  "U": 0,
+  "target_n": 0.7,
+  "actual_n": 0.7,
+  "mu": -0.9079630767115199,
+  "eta": 0.1,
+  "definition": "A=-Im(Gup+Gdn)/(2*pi); integral over all frequency=1",
+  "physical_k": "K-phi=2*pi*q/L+k_RBZ",
+  "particle_poles": "Em(N+1)-E0-mu",
+  "hole_poles": "E0-Em(N-1)-mu",
+  "ground_source": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/U0/n0p7/metadata.json",
+  "source_hashes": {},
+  "distinct_positive_momenta": 251,
+  "original_twists": 50,
+  "representatives_used": 26,
+  "inversion_reduction": true,
+  "pole_occupation_per_spin": 0.35,
+  "source_norm_error": 0.0,
+  "source_first_moment_error": 0.0,
+  "minimum_significant_grand_excitation": 0.0,
+  "colour_scale": [
+    0,
+    1.5
+  ],
+  "omega_window": [
+    -6,
+    16
+  ]
+}

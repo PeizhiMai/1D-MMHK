@@ -1,0 +1,24 @@
+{
+  "command": [
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/bin/chain_Hubbard_tbc_spectral.x",
+    "--L",
+    "10",
+    "--U",
+    "6",
+    "--nup",
+    "4",
+    "--ndn",
+    "4",
+    "--phase",
+    "-0.07539822368615504",
+    "--ground-q",
+    "4",
+    "--depth",
+    "600",
+    "--output",
+    "/Users/cosdis/Desktop/projects/HK_orbital_cluster/1d/response/results/twist50_common_mu_U0to12_n0p7_0p8_0p9/single_particle_eta0p1_depth600/canonical/U6/twist031/Nup4_Ndn4_Q4"
+  ],
+  "source_sha256": "febb8b12ae2761f12e35fefc7c0845b0809f262b7445adfec13d412665e35e2a",
+  "helper_sha256": "85b8419ac525fd2a968f0e8e686e78f04738be7abb86b233045c2b71a837b8d8",
+  "executable_sha256": "ce4cec0521dfd94cad3e5933ace894007570ea8d391fad41dc0bdbc29878f753"
+}

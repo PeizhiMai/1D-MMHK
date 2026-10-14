@@ -1,0 +1,4 @@
+{
+  "change": "Convert excluded-sector NumPy integers to Python integers for JSON output. No Hamiltonian, operator, ensemble, mu, numerical method or raw native source was changed.",
+  "source_sha256": "dcd3e0973788d6fd578eb3419c1dc71b201b679d6319ee2e601285860235c924"
+}

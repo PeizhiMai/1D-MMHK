@@ -1,0 +1,79 @@
+{
+  "elapsed_seconds": 885.9163800419992,
+  "workers": 6,
+  "threads": 1,
+  "per_U": [
+    {
+      "U": 1,
+      "new_calls": 222,
+      "reused_calls": 66,
+      "solver_seconds": 322.3899969180129
+    },
+    {
+      "U": 2,
+      "new_calls": 222,
+      "reused_calls": 66,
+      "solver_seconds": 311.24232149702584
+    },
+    {
+      "U": 3,
+      "new_calls": 222,
+      "reused_calls": 66,
+      "solver_seconds": 390.0315719590435
+    },
+    {
+      "U": 4,
+      "new_calls": 222,
+      "reused_calls": 66,
+      "solver_seconds": 346.2705322410584
+    },
+    {
+      "U": 5,
+      "new_calls": 222,
+      "reused_calls": 66,
+      "solver_seconds": 378.1560822599822
+    },
+    {
+      "U": 6,
+      "new_calls": 222,
+      "reused_calls": 66,
+      "solver_seconds": 398.311032830974
+    },
+    {
+      "U": 7,
+      "new_calls": 222,
+      "reused_calls": 66,
+      "solver_seconds": 387.78347299996676
+    },
+    {
+      "U": 8,
+      "new_calls": 222,
+      "reused_calls": 66,
+      "solver_seconds": 417.4233303709698
+    },
+    {
+      "U": 9,
+      "new_calls": 222,
+      "reused_calls": 66,
+      "solver_seconds": 421.0312497489831
+    },
+    {
+      "U": 10,
+      "new_calls": 222,
+      "reused_calls": 66,
+      "solver_seconds": 453.00256241502575
+    },
+    {
+      "U": 11,
+      "new_calls": 222,
+      "reused_calls": 66,
+      "solver_seconds": 437.24069983201116
+    },
+    {
+      "U": 12,
+      "new_calls": 222,
+      "reused_calls": 66,
+      "solver_seconds": 459.85263831798875
+    }
+  ]
+}

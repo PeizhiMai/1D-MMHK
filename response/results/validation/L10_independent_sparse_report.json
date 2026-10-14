@@ -1,0 +1,27 @@
+{
+  "dimension": 52920,
+  "nnz": 629160,
+  "independent_lowest_eigenvalues": [
+    -4.80387909556171,
+    -4.803879095561708,
+    -4.401631585349713,
+    -4.397338232817859
+  ],
+  "ground_degeneracy": 2,
+  "channels": {
+    "charge": {
+      "max_abs_error": 3.4833247397614286e-15,
+      "relative_to_max": 3.8873870044532485e-14,
+      "independent_first_peak": 0.41100000000000003,
+      "qbasis_first_peak": 0.41100000000000003
+    },
+    "spin": {
+      "max_abs_error": 1.2576701182223649e-11,
+      "relative_to_max": 3.672395638598004e-11,
+      "independent_first_peak": 0.421,
+      "qbasis_first_peak": 0.421
+    }
+  },
+  "elapsed_seconds": 6.6206286668311805,
+  "passed": true
+}
