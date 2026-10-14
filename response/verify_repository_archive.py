@@ -11,6 +11,7 @@ import hashlib
 import json
 from pathlib import Path
 import subprocess
+import shutil
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / 'repository_manifest.tsv'
@@ -64,7 +65,7 @@ def verify_manifest():
             raise RuntimeError(f'Archive hash/size mismatch: {relative}')
     # Git is optional for a downloaded source archive, but if present check
     # the index so additions/deletions cannot silently fall outside the manifest.
-    if (ROOT / '.git').exists():
+    if (ROOT / '.git').exists() and shutil.which('git'):
         if set(names) != set(tracked_files()):
             raise RuntimeError('Tracked-file set differs from repository_manifest.tsv')
     return dict(files=len(records), bytes=sum(int(r['bytes']) for r in records))
