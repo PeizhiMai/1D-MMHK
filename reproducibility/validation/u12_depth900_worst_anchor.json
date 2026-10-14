@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "U": 12,
+  "density": 0.7,
+  "k": 1.0367255756846319,
+  "source_phase": -0.2199114857513,
+  "source_q": 8,
+  "ground_Q": 2,
+  "eta": 0.1,
+  "mu": 0.7886301342103681,
+  "test_depth": 600,
+  "reference_depth": 900,
+  "new600_vs_new900_max": 3.8479837616539614e-05,
+  "old600_vs_new900_max": 4.032758448932472e-05,
+  "new600_vs_old600_max": 7.339241699064192e-05,
+  "global_peak": 1.5748592650905302,
+  "worst_old_new_omega": 13.58,
+  "scope": "targeted momentum at global largest all-39 old/new discrepancy; outside the displayed ymax=10; not an all-case convergence proof"
+}

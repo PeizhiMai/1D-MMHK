@@ -1,0 +1,62 @@
+[
+  {
+    "U": 1,
+    "native_calls": 562,
+    "solver_seconds": 909.3067650919995
+  },
+  {
+    "U": 2,
+    "native_calls": 586,
+    "solver_seconds": 1067.8133871619987
+  },
+  {
+    "U": 3,
+    "native_calls": 606,
+    "solver_seconds": 1501.6114138769979
+  },
+  {
+    "U": 4,
+    "native_calls": 630,
+    "solver_seconds": 1429.9482886140047
+  },
+  {
+    "U": 5,
+    "native_calls": 645,
+    "solver_seconds": 1163.9698065759985
+  },
+  {
+    "U": 6,
+    "native_calls": 660,
+    "solver_seconds": 1200.2246209280042
+  },
+  {
+    "U": 7,
+    "native_calls": 661,
+    "solver_seconds": 1286.1893263300003
+  },
+  {
+    "U": 8,
+    "native_calls": 670,
+    "solver_seconds": 1566.2058569730038
+  },
+  {
+    "U": 9,
+    "native_calls": 675,
+    "solver_seconds": 2940.359044840999
+  },
+  {
+    "U": 10,
+    "native_calls": 675,
+    "solver_seconds": 1750.2920834640036
+  },
+  {
+    "U": 11,
+    "native_calls": 681,
+    "solver_seconds": 1753.5630611799907
+  },
+  {
+    "U": 12,
+    "native_calls": 681,
+    "solver_seconds": 1774.8942438449913
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "freshly_calculated_cases": 39,
+  "U_list": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "densities": [
+    0.9,
+    0.8,
+    0.7
+  ],
+  "L": 10,
+  "twists": 50,
+  "k_points": 101,
+  "eta": 0.1,
+  "end_to_end_wall_minutes": 112.7768450419108,
+  "response_native_calls": 7732,
+  "response_solver_seconds": 18344.37789888199,
+  "maximum_ground_energy_error": 4.3076653355456074e-14,
+  "maximum_neutral_spectrum_errors": {
+    "charge": 2.355422741616778e-10,
+    "spin": 3.6718641520079934e-07
+  },
+  "maximum_spectral_error": 7.339241699064192e-05,
+  "maximum_spectral_error_relative_to_global_peak": 4.660252418581864e-05,
+  "maximum_dominant_velocity_errors": {
+    "charge": 2.475797344914099e-13,
+    "spin": 1.9051427102567686e-13
+  },
+  "maximum_source_norm_error": 9.76996e-15,
+  "maximum_source_first_moment_error": 9.76996e-14,
+  "output_slide_count": 7,
+  "calculation_used_old_numerical_data": false,
+  "comparison_used_frozen_archive_after_calculation": true,
+  "backend": "Linux/ARM64, pinned qbasis + OpenBLAS/LAPACKE/ARPACK LP64",
+  "workers": 4,
+  "threads": 1,
+  "note": "Spectral finite-depth/backend differences are not zero; source sum-rule checks and independent ED checks are separate. All requested cases completed from new scans and charged sources."
+}

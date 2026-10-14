@@ -74,9 +74,45 @@ adding these reports. The verifier calculates the final count on each clone.
   maximum, not relative error on a vanishing tail; independent ED and native
   sum-rule gates remain separate and tighter.
 
-The complete fresh U=0..12 campaign is tracked separately; only completed,
-validated stages are reported in its additional record. Do not infer a full
-13-U fresh calculation merely from the 39-case archive replot.
+## Completed full fresh study
+
+The entire default study also finished in the clean portable container: **all
+39 cases**, U=0..12, n=.9/.8/.7, 50 density twists, 101 momenta, eta=.1;
+new scans and sources, all figures/tables, fine BA reference and seven slides.
+No archived numerical data were used during this calculation. Measured wall
+time was **112.8 minutes** with workers=4, threads=1 on the above laptop.
+
+Comparison to the frozen archive after solving:
+
+| Quantity | Maximum absolute difference |
+| --- | --- |
+| Ground energies over all number/twist tables | 4.31e-14 |
+| Dominant charge / spin velocities | 2.48e-13 / 1.91e-13 |
+| Charge / spin response intensity | 2.36e-10 / 3.68e-7 |
+| Single-particle intensity | 7.34e-5 |
+| New source normalization / first-moment errors | 9.77e-15 / 9.77e-14 |
+
+The maximum single-particle difference is **4.67e-5 of the global spectral
+maximum**, at U=12, n=.7, omega=13.58 (outside the displayed ymax=10).
+A new depth-900 calculation at that exact momentum gives new600/new900 and
+old600/new900 differences **3.85e-5 / 4.04e-5**, consistent with finite-depth
+sensitivity. This remains an anchor, not a global convergence proof.
+Neutral regression uses **1e-6 of the global response maximum** and spectral
+regression **1e-4 of the global spectral maximum**. Using relative error on
+small high-energy tails would mistake tiny finite-depth differences for an
+operator change. Independent ED, density/energy, and sum-rule checks are
+separate and tighter. No data were renormalized to force agreement. After moving the entire fresh
+run from `/tmp` into the project, a solver-free replot at **eta=.2** regenerated
+all 39 response and single-particle cases from the relative raw plans, verifying
+relocation and rebroadening (`validation/relocation_rebroadening.json`).
+
+Records: `validation/full_study_summary.json`,
+`validation/full_study_regression.json`, `validation/full_study_native_timing.json`,
+`validation/u12_depth900_worst_anchor.json`. The public exporter-generated
+`validation/fresh_study_7slides.pptx` is included in addition to the unchanged
+original native-chart deck. Full raw test outputs are retained locally under
+`runs/reproducibility-validation-full-study` (ignored by Git), rather than
+rewriting or duplicating the frozen archive.
 
 ## Repeat the checks
 

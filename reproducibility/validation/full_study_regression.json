@@ -1,0 +1,564 @@
+{
+  "passed": true,
+  "neutral_regression_tolerance_relative_to_global_peak": 1e-06,
+  "spectral_regression_tolerance_relative_to_global_peak": 0.0001,
+  "tolerance_basis": "finite-depth Lanczos; frozen archive documents depth-600/900 differences and 3.92e-5 absolute duplicate-inversion differences; tight independent ED and sum-rule gates are separate",
+  "cases": 39,
+  "couplings": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "backend": "OpenBLAS/LAPACKE/ARPACK LP64",
+  "executable_sha256": {
+    "response": "ba27a7bb0aa3ccc2bd3150e0926eaf5466eeaa1f21a2b4c4ef81314e6c13d9a6",
+    "spectral": "9ccc3fcf13846ae7c22e7211b2d7527b019b386da9f3711462b1137d1b882d1c"
+  },
+  "source_sha256": {
+    "create_code/chain_Hubbard_tbc_response.cc": "85b8419ac525fd2a968f0e8e686e78f04738be7abb86b233045c2b71a837b8d8",
+    "create_code/chain_Hubbard_tbc_spectral.cc": "febb8b12ae2761f12e35fefc7c0845b0809f262b7445adfec13d412665e35e2a",
+    "reproducibility/workflow.py": "f88b8cece073ad81eaa79dae58455b52556d4d29e43f61033d0ba1afd02de14c",
+    "reproducibility/compat/mkl.h": "0360d7b45e7be8eb6edb1f354956d4eaf47ec272890bea014c98269f6fcc0a6d",
+    "cmake/patch_qbasis.py": "5486fb652c8406e4f9b30aea1e9bf52d4d3626dcf4335988f2af97c7bbbee7df",
+    "response/twist_averaged_velocity_scan.py": "51c725c012add3b15eb4ef21f2b54723176268d83026c250f1d9821adcfd4040",
+    "response/mmhk_density_workflow.py": "ca50c7fb3e61582be317b92a706204d3d4285677232a92a6fb4c0789703f53a9",
+    "response/extract_zero_twist_velocities.py": "60c29c99377e21cf1b0622e82474ee0bbed77308f52a1d1c8278cacdd8e81fd2",
+    "response/postprocess_response.py": "fe79ac7210034485f0e978dbd4966897e2ca9b6988b096e8950d0785fa166d40",
+    "response/run_single_particle_scan.py": "244a00456271713059407082ea52c6eebeb830d9f28239673b35b75d2ed84d54",
+    "skills/mmhk-1d-spin-charge/scripts/run_response.py": "acf67b9bc01f8396dd9b54738e79424c1278a8e2e66c247cca2e33c000153446"
+  },
+  "numerical_configuration": {
+    "L": 10,
+    "twists": 50,
+    "physical_densities": [
+      0.9,
+      0.8,
+      0.7
+    ],
+    "response_depth": 300,
+    "spectral_depth": 600,
+    "k_points": 101,
+    "eta": 0.1,
+    "density_tolerance": 0.004
+  },
+  "tests": [
+    {
+      "U": 0,
+      "density": 0.9,
+      "actual_density": 0.9,
+      "mu": -0.31286275431564026,
+      "maximum_ground_energy_error": 3.552713678800501e-15,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 2.220446049250313e-16,
+        "spin": 2.220446049250313e-16
+      },
+      "maximum_single_particle_spectrum_error": 6.661338147750939e-15,
+      "maximum_single_particle_error_relative_to_global_peak": 2.0927211067868327e-15
+    },
+    {
+      "U": 0,
+      "density": 0.8,
+      "actual_density": 0.8,
+      "mu": -0.6180339887498947,
+      "maximum_ground_energy_error": 3.552713678800501e-15,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 3.3306690738754696e-16,
+        "spin": 3.3306690738754696e-16
+      },
+      "maximum_single_particle_spectrum_error": 9.325873406851315e-15,
+      "maximum_single_particle_error_relative_to_global_peak": 2.9298095383272515e-15
+    },
+    {
+      "U": 0,
+      "density": 0.7,
+      "actual_density": 0.7,
+      "mu": -0.9079630767115197,
+      "maximum_ground_energy_error": 3.552713678800501e-15,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 3.3306690738754696e-16,
+        "spin": 3.3306690738754696e-16
+      },
+      "maximum_single_particle_spectrum_error": 9.769962616701378e-15,
+      "maximum_single_particle_error_relative_to_global_peak": 3.069324376842149e-15
+    },
+    {
+      "U": 1,
+      "density": 0.9,
+      "actual_density": 0.9,
+      "mu": 0.1234698076698919,
+      "maximum_ground_energy_error": 2.4868995751603507e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 3.377887704790472e-12,
+        "spin": 4.18017640901186e-11
+      },
+      "maximum_single_particle_spectrum_error": 2.5548452242674102e-12,
+      "maximum_single_particle_error_relative_to_global_peak": 8.173851880057752e-13
+    },
+    {
+      "U": 1,
+      "density": 0.8,
+      "actual_density": 0.8,
+      "mu": -0.23511347182726272,
+      "maximum_ground_energy_error": 2.4868995751603507e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 3.9906784474186274e-12,
+        "spin": 2.6111705462780743e-11
+      },
+      "maximum_single_particle_spectrum_error": 2.489120021209601e-12,
+      "maximum_single_particle_error_relative_to_global_peak": 7.956731986369849e-13
+    },
+    {
+      "U": 1,
+      "density": 0.7,
+      "actual_density": 0.7,
+      "mu": -0.5760835359736207,
+      "maximum_ground_energy_error": 2.4868995751603507e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 1.981984780290158e-12,
+        "spin": 1.1045835795510384e-11
+      },
+      "maximum_single_particle_spectrum_error": 2.68495306283284e-12,
+      "maximum_single_particle_error_relative_to_global_peak": 8.567989227156444e-13
+    },
+    {
+      "U": 2,
+      "density": 0.9,
+      "actual_density": 0.9,
+      "mu": 0.5171002051670914,
+      "maximum_ground_energy_error": 1.7763568394002505e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 1.9448278252599815e-10,
+        "spin": 3.1227944622541637e-10
+      },
+      "maximum_single_particle_spectrum_error": 2.941088561927985e-11,
+      "maximum_single_particle_error_relative_to_global_peak": 9.858637986901775e-12
+    },
+    {
+      "U": 2,
+      "density": 0.8,
+      "actual_density": 0.8,
+      "mu": 0.10139907456570008,
+      "maximum_ground_energy_error": 1.7763568394002505e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 3.1053729466351543e-12,
+        "spin": 6.157838431872231e-11
+      },
+      "maximum_single_particle_spectrum_error": 6.566627341712816e-11,
+      "maximum_single_particle_error_relative_to_global_peak": 2.2005709161788312e-11
+    },
+    {
+      "U": 2,
+      "density": 0.7,
+      "actual_density": 0.7,
+      "mu": -0.28708833803578226,
+      "maximum_ground_energy_error": 1.7763568394002505e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 2.1910372930041e-11,
+        "spin": 5.6939872630258626e-11
+      },
+      "maximum_single_particle_spectrum_error": 9.540318860433439e-11,
+      "maximum_single_particle_error_relative_to_global_peak": 3.163167238517082e-11
+    },
+    {
+      "U": 3,
+      "density": 0.9,
+      "actual_density": 0.9,
+      "mu": 0.8418941328949976,
+      "maximum_ground_energy_error": 2.220446049250313e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 2.3273731900030903e-11,
+        "spin": 4.750217526185846e-10
+      },
+      "maximum_single_particle_spectrum_error": 4.928980928920954e-10,
+      "maximum_single_particle_error_relative_to_global_peak": 1.7641833204606607e-10
+    },
+    {
+      "U": 3,
+      "density": 0.8,
+      "actual_density": 0.8,
+      "mu": 0.3802537430325934,
+      "maximum_ground_energy_error": 2.220446049250313e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 4.1475082916686556e-11,
+        "spin": 2.3411095978476126e-10
+      },
+      "maximum_single_particle_spectrum_error": 1.6567648971482773e-09,
+      "maximum_single_particle_error_relative_to_global_peak": 5.932489473631182e-10
+    },
+    {
+      "U": 3,
+      "density": 0.7,
+      "actual_density": 0.7,
+      "mu": -0.04579020280842361,
+      "maximum_ground_energy_error": 2.220446049250313e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 1.4053180494300044e-11,
+        "spin": 4.0612647901790144e-10
+      },
+      "maximum_single_particle_spectrum_error": 8.698801089168651e-10,
+      "maximum_single_particle_error_relative_to_global_peak": 3.0333798050402923e-10
+    },
+    {
+      "U": 4,
+      "density": 0.9,
+      "actual_density": 0.9,
+      "mu": 1.078691363983101,
+      "maximum_ground_energy_error": 2.398081733190338e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 1.9091660110465147e-11,
+        "spin": 3.2582363272259246e-09
+      },
+      "maximum_single_particle_spectrum_error": 2.932475157450473e-09,
+      "maximum_single_particle_error_relative_to_global_peak": 1.1319249211610846e-09
+    },
+    {
+      "U": 4,
+      "density": 0.8,
+      "actual_density": 0.8,
+      "mu": 0.5969350151817161,
+      "maximum_ground_energy_error": 2.398081733190338e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 5.715484292442841e-12,
+        "spin": 1.821164668722175e-10
+      },
+      "maximum_single_particle_spectrum_error": 7.387146234993924e-09,
+      "maximum_single_particle_error_relative_to_global_peak": 2.8526652571341573e-09
+    },
+    {
+      "U": 4,
+      "density": 0.7,
+      "actual_density": 0.7,
+      "mu": 0.1494716499859754,
+      "maximum_ground_energy_error": 2.398081733190338e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 1.087530315368318e-11,
+        "spin": 9.899284886824913e-10
+      },
+      "maximum_single_particle_spectrum_error": 1.3002311144427736e-08,
+      "maximum_single_particle_error_relative_to_global_peak": 4.783644482854121e-09
+    },
+    {
+      "U": 5,
+      "density": 0.9,
+      "actual_density": 0.9,
+      "mu": 1.241380990235696,
+      "maximum_ground_energy_error": 1.9539925233402755e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 3.747417133548314e-11,
+        "spin": 2.1593710359309876e-09
+      },
+      "maximum_single_particle_spectrum_error": 2.4305683386099952e-08,
+      "maximum_single_particle_error_relative_to_global_peak": 1.0131621677535832e-08
+    },
+    {
+      "U": 5,
+      "density": 0.8,
+      "actual_density": 0.8,
+      "mu": 0.7610782905435265,
+      "maximum_ground_energy_error": 1.9539925233402755e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 3.1142189521604635e-12,
+        "spin": 5.352952059476529e-10
+      },
+      "maximum_single_particle_spectrum_error": 1.202750106073236e-07,
+      "maximum_single_particle_error_relative_to_global_peak": 5.013564366212842e-08
+    },
+    {
+      "U": 5,
+      "density": 0.7,
+      "actual_density": 0.7,
+      "mu": 0.30482331740489954,
+      "maximum_ground_energy_error": 1.9539925233402755e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 9.204893574796258e-12,
+        "spin": 4.207571740566345e-09
+      },
+      "maximum_single_particle_spectrum_error": 1.0904025083552371e-07,
+      "maximum_single_particle_error_relative_to_global_peak": 4.235785499968515e-08
+    },
+    {
+      "U": 6,
+      "density": 0.9,
+      "actual_density": 0.9,
+      "mu": 1.3528368949498488,
+      "maximum_ground_energy_error": 3.552713678800501e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 4.446378161493403e-13,
+        "spin": 3.719055991988074e-09
+      },
+      "maximum_single_particle_spectrum_error": 6.086738605498576e-08,
+      "maximum_single_particle_error_relative_to_global_peak": 2.729279776912238e-08
+    },
+    {
+      "U": 6,
+      "density": 0.8,
+      "actual_density": 0.8,
+      "mu": 0.887804209810239,
+      "maximum_ground_energy_error": 3.552713678800501e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 5.781978628521811e-12,
+        "spin": 3.247325958371898e-09
+      },
+      "maximum_single_particle_spectrum_error": 4.984522717944861e-07,
+      "maximum_single_particle_error_relative_to_global_peak": 2.236638012669537e-07
+    },
+    {
+      "U": 6,
+      "density": 0.7,
+      "actual_density": 0.7,
+      "mu": 0.4276604462944431,
+      "maximum_ground_energy_error": 3.552713678800501e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 4.9444444903418844e-11,
+        "spin": 1.190161002411795e-08
+      },
+      "maximum_single_particle_spectrum_error": 5.897293664514081e-07,
+      "maximum_single_particle_error_relative_to_global_peak": 2.402583592335723e-07
+    },
+    {
+      "U": 7,
+      "density": 0.9,
+      "actual_density": 0.8960000000000001,
+      "mu": 1.430338625983821,
+      "maximum_ground_energy_error": 4.04121180963557e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 2.4646951146678475e-14,
+        "spin": 2.0491198540490557e-09
+      },
+      "maximum_single_particle_spectrum_error": 3.253118130881749e-07,
+      "maximum_single_particle_error_relative_to_global_peak": 1.560095203843074e-07
+    },
+    {
+      "U": 7,
+      "density": 0.8,
+      "actual_density": 0.8,
+      "mu": 0.9837272319916548,
+      "maximum_ground_energy_error": 4.04121180963557e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 1.4134312210228872e-12,
+        "spin": 6.473947700841309e-09
+      },
+      "maximum_single_particle_spectrum_error": 2.8221105730780183e-06,
+      "maximum_single_particle_error_relative_to_global_peak": 1.352339160805273e-06
+    },
+    {
+      "U": 7,
+      "density": 0.7,
+      "actual_density": 0.7,
+      "mu": 0.5224382408796955,
+      "maximum_ground_energy_error": 4.04121180963557e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 5.3479349963227174e-11,
+        "spin": 2.2711450657522496e-08
+      },
+      "maximum_single_particle_spectrum_error": 2.3639021969334983e-06,
+      "maximum_single_particle_error_relative_to_global_peak": 1.2280577747314744e-06
+    },
+    {
+      "U": 8,
+      "density": 0.9,
+      "actual_density": 0.9,
+      "mu": 1.491265065491885,
+      "maximum_ground_energy_error": 3.2862601528904634e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 3.2029934260435766e-14,
+        "spin": 6.425747156590944e-09
+      },
+      "maximum_single_particle_spectrum_error": 1.2921699365717187e-06,
+      "maximum_single_particle_error_relative_to_global_peak": 6.581002283977107e-07
+    },
+    {
+      "U": 8,
+      "density": 0.8,
+      "actual_density": 0.8,
+      "mu": 1.0579713817193688,
+      "maximum_ground_energy_error": 3.2862601528904634e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 9.855701270291423e-12,
+        "spin": 1.7081831397503314e-08
+      },
+      "maximum_single_particle_spectrum_error": 4.231910169398556e-06,
+      "maximum_single_particle_error_relative_to_global_peak": 2.152548620220677e-06
+    },
+    {
+      "U": 8,
+      "density": 0.7,
+      "actual_density": 0.7,
+      "mu": 0.5981799203213249,
+      "maximum_ground_energy_error": 3.2862601528904634e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 1.4223156035103948e-10,
+        "spin": 7.37117429683385e-08
+      },
+      "maximum_single_particle_spectrum_error": 5.424953998883764e-06,
+      "maximum_single_particle_error_relative_to_global_peak": 2.966759356263419e-06
+    },
+    {
+      "U": 9,
+      "density": 0.9,
+      "actual_density": 0.9019999999999999,
+      "mu": 1.5378319465153094,
+      "maximum_ground_energy_error": 3.375077994860476e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 3.84969833788773e-14,
+        "spin": 2.441840902872236e-08
+      },
+      "maximum_single_particle_spectrum_error": 2.384858361181852e-06,
+      "maximum_single_particle_error_relative_to_global_peak": 1.2805739907694407e-06
+    },
+    {
+      "U": 9,
+      "density": 0.8,
+      "actual_density": 0.8,
+      "mu": 1.119274825244918,
+      "maximum_ground_energy_error": 3.375077994860476e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 3.935059672858718e-11,
+        "spin": 2.3238232569992856e-08
+      },
+      "maximum_single_particle_spectrum_error": 9.39463939147317e-06,
+      "maximum_single_particle_error_relative_to_global_peak": 5.032194582409006e-06
+    },
+    {
+      "U": 9,
+      "density": 0.7,
+      "actual_density": 0.7,
+      "mu": 0.6597240436573935,
+      "maximum_ground_energy_error": 3.375077994860476e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 1.6938648948099447e-10,
+        "spin": 4.788743611632701e-08
+      },
+      "maximum_single_particle_spectrum_error": 1.909537444176601e-05,
+      "maximum_single_particle_error_relative_to_global_peak": 1.0942421232566937e-05
+    },
+    {
+      "U": 10,
+      "density": 0.9,
+      "actual_density": 0.898,
+      "mu": 1.5735234755242433,
+      "maximum_ground_energy_error": 3.68594044175552e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 3.519406988061746e-14,
+        "spin": 1.444947256984408e-08
+      },
+      "maximum_single_particle_spectrum_error": 5.254335640858532e-06,
+      "maximum_single_particle_error_relative_to_global_peak": 2.950474278166878e-06
+    },
+    {
+      "U": 10,
+      "density": 0.8,
+      "actual_density": 0.8,
+      "mu": 1.1685200220320664,
+      "maximum_ground_energy_error": 3.68594044175552e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 2.519294476266594e-11,
+        "spin": 6.085012511361163e-08
+      },
+      "maximum_single_particle_spectrum_error": 2.0902851495877006e-05,
+      "maximum_single_particle_error_relative_to_global_peak": 1.1727017570821335e-05
+    },
+    {
+      "U": 10,
+      "density": 0.7,
+      "actual_density": 0.7,
+      "mu": 0.7104440618777828,
+      "maximum_ground_energy_error": 3.68594044175552e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 2.177168132192972e-10,
+        "spin": 1.5386782058722515e-07
+      },
+      "maximum_single_particle_spectrum_error": 2.0949912849815844e-05,
+      "maximum_single_particle_error_relative_to_global_peak": 1.2490533938952804e-05
+    },
+    {
+      "U": 11,
+      "density": 0.9,
+      "actual_density": 0.9,
+      "mu": 1.6053728597016497,
+      "maximum_ground_energy_error": 3.9968028886505635e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 4.542199949497672e-14,
+        "spin": 1.842098237619591e-09
+      },
+      "maximum_single_particle_spectrum_error": 8.116911440723962e-06,
+      "maximum_single_particle_error_relative_to_global_peak": 6.7658282003611015e-06
+    },
+    {
+      "U": 11,
+      "density": 0.8,
+      "actual_density": 0.8,
+      "mu": 1.2080817926631506,
+      "maximum_ground_energy_error": 3.9968028886505635e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 3.553172231267332e-11,
+        "spin": 1.0058938423830252e-07
+      },
+      "maximum_single_particle_spectrum_error": 3.7320106815202925e-05,
+      "maximum_single_particle_error_relative_to_global_peak": 2.1790772454514805e-05
+    },
+    {
+      "U": 11,
+      "density": 0.7,
+      "actual_density": 0.7,
+      "mu": 0.7528076135311008,
+      "maximum_ground_energy_error": 3.9968028886505635e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 1.499029317559089e-10,
+        "spin": 8.995136745095639e-08
+      },
+      "maximum_single_particle_spectrum_error": 4.411474508719815e-05,
+      "maximum_single_particle_error_relative_to_global_peak": 2.723632814405239e-05
+    },
+    {
+      "U": 12,
+      "density": 0.9,
+      "actual_density": 0.9,
+      "mu": 1.6306207879322703,
+      "maximum_ground_energy_error": 4.3076653355456074e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 3.877453913503359e-14,
+        "spin": 2.9588314068816624e-09
+      },
+      "maximum_single_particle_spectrum_error": 1.2352217832155288e-05,
+      "maximum_single_particle_error_relative_to_global_peak": 1.0616637475947719e-05
+    },
+    {
+      "U": 12,
+      "density": 0.8,
+      "actual_density": 0.8,
+      "mu": 1.2429365481836416,
+      "maximum_ground_energy_error": 4.3076653355456074e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 3.862378293714372e-11,
+        "spin": 6.74157042391231e-08
+      },
+      "maximum_single_particle_spectrum_error": 6.447358387801083e-05,
+      "maximum_single_particle_error_relative_to_global_peak": 3.9000640770726524e-05
+    },
+    {
+      "U": 12,
+      "density": 0.7,
+      "actual_density": 0.7,
+      "mu": 0.7886301342103681,
+      "maximum_ground_energy_error": 4.3076653355456074e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 2.355422741616778e-10,
+        "spin": 3.6718641520079934e-07
+      },
+      "maximum_single_particle_spectrum_error": 7.339241699064192e-05,
+      "maximum_single_particle_error_relative_to_global_peak": 4.660252418581864e-05
+    }
+  ],
+  "scope": "fresh common-mu calculations versus frozen numerical archive; no archive used during solve"
+}

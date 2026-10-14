@@ -36,7 +36,7 @@ for U in a.couplings:
                 fresh=spectrum(omega,x[ch+'_energies'],x[ch+'_weights'],.1)
                 golden=spectrum(omega,y[ch+'_energies'],y[ch+'_weights'],.1)
                 errors[ch]=float(abs(fresh-golden).max())
-                np.testing.assert_allclose(fresh,golden,atol=1e-7,rtol=1e-6)
+                assert errors[ch]/max(float(golden.max()),1e-12)<1e-6,(U,n,ch,errors[ch])
         with np.load(new/'spectral'/relative/'Akw.npz') as x,np.load(old/'single_particle_eta0p1_k101_depth600'/relative/'Akw.npz') as y:
             for key in ['k','omega','mu','actual_density']:np.testing.assert_allclose(x[key],y[key],atol=1e-8,rtol=0)
             spectral_error=float(abs(x['A_per_spin']-y['A_per_spin']).max())
@@ -49,7 +49,7 @@ for U in a.couplings:
         rows.append(dict(U=U,density=n,actual_density=m['actual_density_Ne_over_L'],mu=m['mu_selection']['mu'],
                          maximum_ground_energy_error=error,maximum_neutral_spectrum_errors=errors,
                          maximum_single_particle_spectrum_error=spectral_error,maximum_single_particle_error_relative_to_global_peak=normalized_error))
-report=dict(passed=True,spectral_regression_tolerance_relative_to_global_peak=1e-4,
+report=dict(passed=True,neutral_regression_tolerance_relative_to_global_peak=1e-6,spectral_regression_tolerance_relative_to_global_peak=1e-4,
             tolerance_basis='finite-depth Lanczos; frozen archive documents depth-600/900 differences and 3.92e-5 absolute duplicate-inversion differences; tight independent ED and sum-rule gates are separate',cases=len(rows),couplings=a.couplings,backend=c['backend'],
             executable_sha256=c['executable_sha256'],source_sha256=c['source_sha256'],
             numerical_configuration={key:c[key] for key in ['L','twists','physical_densities','response_depth','spectral_depth','k_points','eta','density_tolerance']},

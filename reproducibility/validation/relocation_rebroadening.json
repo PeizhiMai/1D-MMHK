@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "cases": 39,
+  "eta": 0.2,
+  "relocated_raw_fraction_plans_verified": true,
+  "many_body_solver_launched": false,
+  "scope": "Moved complete fresh run from /tmp into project/runs, then regenerated all spin/charge and spectral figures with eta=.2 using relative raw plans; no ED rerun"
+}

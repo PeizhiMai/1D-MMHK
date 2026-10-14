@@ -78,7 +78,7 @@ at least 10 GB of free disk (more for new raw sources/logs). Workers=4, threads=
 on small laptops. Runtime is hardware/backend dependent. The clone includes
 about 1.2 GB of scientific files, with many small raw-source files. Allow time
 for checkout. Larger orbital counts require a separate resource assessment.
-See `CLEAN_TEST_REPORT.md` for measured tests, not a claim that every laptop
+See `CLEAN_TEST_REPORT.md` for the measured 112.8-minute full L10 study, not a claim that every laptop
 will finish in the same time.
 
 The 101 physical k points are not 101 density twists. They fold to 20 distinct
