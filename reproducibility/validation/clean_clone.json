@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "neutral_and_charged_independent_tests": 17,
+  "fresh_end_to_end_smoke_cases": 4,
+  "archived_plot_cases": 39,
+  "archived_velocity_table_max_errors": {
+    "actual_density": 0,
+    "mu": 0,
+    "charge_dominant_velocity": 0,
+    "spin_dominant_velocity": 0,
+    "charge_first_velocity": 0,
+    "spin_first_velocity": 0,
+    "charge_BA_velocity_nominal_n": 2.0050627824730327e-13,
+    "spin_BA_velocity_nominal_n": 9.481304630298837e-14
+  },
+  "neutral_array_max_error": 0.0,
+  "solver_free_plot_image": true,
+  "presentation_slide_counts": [
+    5,
+    5,
+    7
+  ],
+  "scope": "L4 new ED pipeline + all L10 archived figures; full fresh study is a separate validation"
+}

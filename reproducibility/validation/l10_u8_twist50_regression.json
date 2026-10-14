@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "spectral_regression_tolerance_relative_to_global_peak": 0.0001,
+  "tolerance_basis": "finite-depth Lanczos; frozen archive documents depth-600/900 differences and 3.92e-5 absolute duplicate-inversion differences; tight independent ED and sum-rule gates are separate",
+  "cases": 3,
+  "couplings": [
+    8
+  ],
+  "backend": "OpenBLAS/LAPACKE/ARPACK LP64",
+  "executable_sha256": {
+    "response": "ba27a7bb0aa3ccc2bd3150e0926eaf5466eeaa1f21a2b4c4ef81314e6c13d9a6",
+    "spectral": "9ccc3fcf13846ae7c22e7211b2d7527b019b386da9f3711462b1137d1b882d1c"
+  },
+  "source_sha256": {
+    "create_code/chain_Hubbard_tbc_response.cc": "85b8419ac525fd2a968f0e8e686e78f04738be7abb86b233045c2b71a837b8d8",
+    "create_code/chain_Hubbard_tbc_spectral.cc": "febb8b12ae2761f12e35fefc7c0845b0809f262b7445adfec13d412665e35e2a",
+    "reproducibility/workflow.py": "f88b8cece073ad81eaa79dae58455b52556d4d29e43f61033d0ba1afd02de14c",
+    "reproducibility/compat/mkl.h": "0360d7b45e7be8eb6edb1f354956d4eaf47ec272890bea014c98269f6fcc0a6d",
+    "cmake/patch_qbasis.py": "5486fb652c8406e4f9b30aea1e9bf52d4d3626dcf4335988f2af97c7bbbee7df",
+    "response/twist_averaged_velocity_scan.py": "51c725c012add3b15eb4ef21f2b54723176268d83026c250f1d9821adcfd4040",
+    "response/mmhk_density_workflow.py": "ca50c7fb3e61582be317b92a706204d3d4285677232a92a6fb4c0789703f53a9",
+    "response/extract_zero_twist_velocities.py": "60c29c99377e21cf1b0622e82474ee0bbed77308f52a1d1c8278cacdd8e81fd2",
+    "response/postprocess_response.py": "fe79ac7210034485f0e978dbd4966897e2ca9b6988b096e8950d0785fa166d40",
+    "response/run_single_particle_scan.py": "244a00456271713059407082ea52c6eebeb830d9f28239673b35b75d2ed84d54",
+    "skills/mmhk-1d-spin-charge/scripts/run_response.py": "acf67b9bc01f8396dd9b54738e79424c1278a8e2e66c247cca2e33c000153446"
+  },
+  "numerical_configuration": {
+    "L": 10,
+    "twists": 50,
+    "physical_densities": [
+      0.9,
+      0.8,
+      0.7
+    ],
+    "response_depth": 300,
+    "spectral_depth": 600,
+    "k_points": 101,
+    "eta": 0.1,
+    "density_tolerance": 0.004
+  },
+  "tests": [
+    {
+      "U": 8,
+      "density": 0.9,
+      "actual_density": 0.9,
+      "mu": 1.491265065491885,
+      "maximum_ground_energy_error": 3.2862601528904634e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 3.2029934260435766e-14,
+        "spin": 6.425747156590944e-09
+      },
+      "maximum_single_particle_spectrum_error": 1.2921699365717187e-06,
+      "maximum_single_particle_error_relative_to_global_peak": 6.581002283977107e-07
+    },
+    {
+      "U": 8,
+      "density": 0.8,
+      "actual_density": 0.8,
+      "mu": 1.0579713817193688,
+      "maximum_ground_energy_error": 3.2862601528904634e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 9.855701270291423e-12,
+        "spin": 1.7081831397503314e-08
+      },
+      "maximum_single_particle_spectrum_error": 4.231910169398556e-06,
+      "maximum_single_particle_error_relative_to_global_peak": 2.152548620220677e-06
+    },
+    {
+      "U": 8,
+      "density": 0.7,
+      "actual_density": 0.7,
+      "mu": 0.5981799203213249,
+      "maximum_ground_energy_error": 3.2862601528904634e-14,
+      "maximum_neutral_spectrum_errors": {
+        "charge": 1.4223156035103948e-10,
+        "spin": 7.37117429683385e-08
+      },
+      "maximum_single_particle_spectrum_error": 5.424953998883764e-06,
+      "maximum_single_particle_error_relative_to_global_peak": 2.966759356263419e-06
+    }
+  ],
+  "scope": "fresh common-mu calculations versus frozen numerical archive; no archive used during solve"
+}

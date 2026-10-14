@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "U": 8,
+  "density": 0.8,
+  "k": 1.8849555921538759,
+  "phase": 0,
+  "q": 3,
+  "mu": 1.0579713817193688,
+  "eta": 0.1,
+  "ground_trace": "S=1 triplet, M0 + M\u00b11; full per-spin trace",
+  "depth_test": 600,
+  "depth_reference": 900,
+  "new600_vs_new900_max": 2.9727367032786334e-06,
+  "old600_vs_new900_max": 2.1856631788608194e-06,
+  "new600_vs_old600_max": 4.231910169398556e-06,
+  "scope": "targeted anchor at largest n=.8 U=8 old/new discrepancy; not a global all-case convergence proof"
+}

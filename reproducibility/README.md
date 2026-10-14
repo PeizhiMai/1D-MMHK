@@ -74,7 +74,7 @@ resolution but does not decrease q_min. Increasing L costs exponentially:
 and a conservative LP64 CSR index gate is also enforced.
 
 Provide 8 GB RAM to Docker (16 GB system RAM is a sensible starting point) and
-several GB of disk. Workers=4, threads=1 avoids oversubscription; use workers=2
+at least 10 GB of free disk (more for new raw sources/logs). Workers=4, threads=1 avoids oversubscription; use workers=2
 on small laptops. Runtime is hardware/backend dependent. The clone includes
 about 1.2 GB of scientific files, with many small raw-source files. Allow time
 for checkout. Larger orbital counts require a separate resource assessment.
@@ -109,7 +109,9 @@ runs/study/plots/spin_charge_spectral.pptx
 
 Panels include all 13 U values per density. Full-range neutral panels and
 broadening-sensitivity tables supplement the low-energy plots. Velocity plots
-show both channels and BA in the same panel for each density. The MMHK
+show both channels and BA in the same panel for each density. Peak extraction
+selects resolved local maxima in 0 < omega/t <= 5; it does not identify a
+high-energy Hubbard-band maximum as a sound mode. The MMHK
 peak/q values are finite-q, broadening-dependent estimators; BA velocities are
 thermodynamic quantities, not exact finite-q peak/line-shape predictions.
 
@@ -187,3 +189,7 @@ only the clean checkout, never the original home/dependency directories.
 Numerical reproducibility means agreement within documented tolerances, not
 identical random ARPACK vectors, platform-dependent executables or PNG/PPT ZIP
 bytes. The frozen inputs are authenticated without rewriting their old hashes.
+
+Use `MMHK_NO_CACHE=1 bash scripts/clean_test.sh` for a cold-build check; the
+U=8 50-twist regression configuration and independent L10 checks are described
+in [the measured clean test report](CLEAN_TEST_REPORT.md).

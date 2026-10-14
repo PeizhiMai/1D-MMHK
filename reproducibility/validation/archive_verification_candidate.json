@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "archive": {
+    "files": 92334,
+    "bytes": 1168408369
+  },
+  "outputs": {
+    "spectral_cases": 39,
+    "momenta_per_case": 101,
+    "stored_omega_range": [
+      -6,
+      16
+    ],
+    "plotted_omega_range": [
+      -6,
+      10
+    ],
+    "ba_grid_step": 0.2,
+    "ba_rows": 183,
+    "final_ppt_slides": 7,
+    "final_native_charts": 42,
+    "final_chart_workbooks": 42,
+    "preserved_source_ppt_slides": 4,
+    "preserved_source_charts": 42
+  },
+  "many_body_solver_launched": false
+}

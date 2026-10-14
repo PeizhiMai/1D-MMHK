@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "L": 10,
+  "U": 8.0,
+  "N": 8,
+  "Nup": 4,
+  "Ndn": 4,
+  "phase_per_bond": 0,
+  "dimension": 44100,
+  "nnz": 514500,
+  "eigenvalues": [
+    -6.076329919776642,
+    -5.967562243932398,
+    -5.967562243932395,
+    -5.905431745093104
+  ],
+  "independent_ground_residual": 7.659884007751238e-14,
+  "native_E0": -6.07632991977664,
+  "maximum_spectral_errors": {
+    "charge": 4.272165463189634e-10,
+    "spin": 8.474329848094653e-08
+  },
+  "source_checks": {
+    "charge": {
+      "weight": 0.11633119210114394,
+      "first_moment": 0.15339873254098227
+    },
+    "spin": {
+      "weight": 0.1461617069781349,
+      "first_moment": 0.15339873254098257
+    }
+  },
+  "eta": 0.1,
+  "omega_range": [
+    0,
+    5
+  ],
+  "elapsed_seconds": 8.122810336999919,
+  "scope": "canonical sector anchor, independent unreduced sparse ED/Krylov; no historical arrays"
+}

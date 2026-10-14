@@ -1,0 +1,5 @@
+numpy 2.4.6
+scipy 1.15.3
+matplotlib 3.10.8
+response /opt/mmhk/solver/bin/chain_Hubbard_tbc_response ba27a7bb0aa3ccc2bd3150e0926eaf5466eeaa1f21a2b4c4ef81314e6c13d9a6
+spectral /opt/mmhk/solver/bin/chain_Hubbard_tbc_spectral 9ccc3fcf13846ae7c22e7211b2d7527b019b386da9f3711462b1137d1b882d1c

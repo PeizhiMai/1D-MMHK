@@ -16,25 +16,26 @@ pptx.title = `${d.config.L}-MMHK spin, charge and spectra`;
 pptx.lang = 'en-US';
 pptx.theme = {headFontFace:'Arial', bodyFontFace:'Arial', lang:'en-US'};
 const tag = n => String(n).replace('.', 'p');
+let slideNumber=0;
 function slide(title, image, note) {
-  const s = pptx.addSlide(); s.background = {color:'FFFFFF'};
+  const s = pptx.addSlide(); slideNumber++; s.background = {color:'FFFFFF'};
   s.addText(title, {x:.45,y:.18,w:12.4,h:.46,fontSize:24,bold:true,color:'17283A',margin:0});
   const p = path.resolve(output,image);
   if (!fs.existsSync(p)) throw new Error(`Missing plot ${p}`);
-  s.addImage({path:p,...pptxgenImageSizingContain(p,.38,.78,12.55,6.10)});
+  s.addImage({path:p,...pngSizingContain(p,.38,.78,12.55,6.10)});
   s.addText(`${d.config.L} orbitals · ${d.config.twists} density twists · η/t = ${d.config.eta}`, {
     x:.45,y:7.12,w:11,h:.18,fontSize:10,color:'596675',margin:0});
-  s.addText(String(pptx._slides.length), {x:12.4,y:7.1,w:.4,h:.2,fontSize:10,align:'right',margin:0});
+  s.addText(String(slideNumber), {x:12.4,y:7.1,w:.4,h:.2,fontSize:10,align:'right',margin:0});
+  if(slideNumber===1)s.addText('Charge: red    Spin: blue dashed    BA: lines    MMHK: markers', {x:.45,y:.69,w:12,h:.24,fontSize:13,color:'17283A',margin:0});
   s.addNotes(note);
 }
-// Public helper exports differ between CommonJS versions. Use instance API.
-function pptxgenImageSizingContain(p,x,y,w,h) {return pptxgenSizing(p,x,y,w,h);}
-const pptxgenSizing = pptx.constructor === undefined ? null : (p,x,y,w,h) => {
-  // PNG IHDR gives dimensions without a private runtime or image package.
+// PNG dimensions are sufficient to fit the exact scientific plot without
+// private library internals or a platform-specific image dependency.
+function pngSizingContain(p,x,y,w,h) {
   const b=fs.readFileSync(p); if(b.toString('hex',0,8)!=='89504e470d0a1a0a')throw new Error('Expected PNG');
   const iw=b.readUInt32BE(16),ih=b.readUInt32BE(20),scale=Math.min(w/iw,h/ih);
   return {x:x+(w-iw*scale)/2,y:y+(h-ih*scale)/2,w:iw*scale,h:ih*scale};
-};
+}
 slide('Spin and charge velocities','spin_charge_velocity_slide.png',
  'BA curves solve thermodynamic Hubbard integral equations at nominal density. MMHK markers are dominant positive-frequency peak divided by q_min=2*pi/L: a finite-q, broadening-dependent estimator, not an extrapolated sound velocity. Diamonds show BA at the actual density when different. No intensity normalization.');
 for(const n of [...d.config.physical_densities].sort((a,b)=>b-a)) {
