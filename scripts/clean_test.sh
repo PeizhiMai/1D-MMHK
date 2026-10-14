@@ -5,9 +5,14 @@ ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT"
 OUT="runs/clean-test-$(date -u +%Y%m%dT%H%M%SZ)"
 mkdir -p "$OUT"
-CACHE=(); [[ "${MMHK_NO_CACHE:-0}" == 1 ]] && CACHE=(--no-cache)
-docker build "${CACHE[@]}" -t mmhk-1d:repro . 2>&1 | tee "$OUT/build-full.log"
-docker build "${CACHE[@]}" --target plot-runtime -t mmhk-1d:plots . 2>&1 | tee "$OUT/build-plots.log"
+# Apple's system bash 3.2 treats an empty array as unset under set -u.
+# A function avoids that shell-version trap in the normal cached-build mode.
+build_image() {
+  if [[ "${MMHK_NO_CACHE:-0}" == 1 ]]; then docker build --no-cache "$@";
+  else docker build "$@"; fi
+}
+build_image -t mmhk-1d:repro . 2>&1 | tee "$OUT/build-full.log"
+build_image --target plot-runtime -t mmhk-1d:plots . 2>&1 | tee "$OUT/build-plots.log"
 bash scripts/run_docker.sh doctor | tee "$OUT/doctor.txt"
 docker run --rm -v "$ROOT:/workspace" --entrypoint python mmhk-1d:repro \
   -m pytest reproducibility/tests -q 2>&1 | tee "$OUT/pytest.txt"
