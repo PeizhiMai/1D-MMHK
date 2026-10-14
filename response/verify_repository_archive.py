@@ -116,9 +116,18 @@ def verify_current_outputs():
         charts = [p for p in z.namelist() if re.fullmatch(r'ppt/slides/charts/chart\d+\.xml', p)]
         if len(slides) != 4 or len(charts) != 42:
             raise RuntimeError('Unexpected slide/native-chart count in final deck')
+    source_slides,source_charts=len(slides),len(charts)
+    final_deck=analysis/'presentation/spin_charge_spectral_10MMHK_eta0p1_7slides.pptx'
+    with zipfile.ZipFile(final_deck) as z:
+        slides=[p for p in z.namelist() if re.fullmatch(r'ppt/slides/slide\d+\.xml',p)]
+        charts=[p for p in z.namelist() if re.fullmatch(r'ppt/slides/charts/chart\d+\.xml',p)]
+        books=[p for p in z.namelist() if p.endswith('.xlsx')]
+        if (len(slides),len(charts),len(books))!=(7,42,42):
+            raise RuntimeError('Unexpected 7-slide deck/chart/workbook counts')
     return dict(spectral_cases=cases, momenta_per_case=101, stored_omega_range=[-6, 16],
                 plotted_omega_range=[-6, 10], ba_grid_step=.2, ba_rows=len(ba),
-                final_ppt_slides=len(slides), final_native_charts=len(charts))
+                final_ppt_slides=len(slides), final_native_charts=len(charts), final_chart_workbooks=len(books),
+                preserved_source_ppt_slides=source_slides,preserved_source_charts=source_charts)
 
 
 def main():

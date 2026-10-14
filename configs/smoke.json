@@ -1,0 +1,20 @@
+{
+  "L": 4,
+  "physical_densities": [0.5, 0.75],
+  "U_list": [0, 4],
+  "twists": 4,
+  "density_tolerance": 0.13,
+  "response_depth": 120,
+  "spectral_depth": 160,
+  "k_points": 11,
+  "eta": 0.1,
+  "omega_min": -6,
+  "omega_max": 16,
+  "omega_points": 1101,
+  "plot_y_min": -6,
+  "plot_y_max": 10,
+  "ba_step": 1,
+  "ba_nodes": 100,
+  "workers": 2,
+  "threads": 1
+}

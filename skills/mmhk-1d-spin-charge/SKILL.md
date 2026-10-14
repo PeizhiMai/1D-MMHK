@@ -58,6 +58,15 @@ Read [physics.md](references/physics.md) when selecting operators or ensembles.
 
 ## Run or reuse a campaign
 
+For a fresh clone, prefer the maintained project `reproduce.py` interface and
+`reproducibility/README.md`: pinned Docker/native setup, configuration JSON,
+new common-mu neutral and charged calculations, public slide export, and
+solver-free `plot` mode. Use `configs/study.json` as a configurable example,
+not as a hardcoded density/mixing-size requirement. Preserve the same physical
+invariants below. The older skill helper remains useful for neutral-only work
+in a configured original environment; its historical build defaults are not
+the portable fresh-clone setup.
+
 Read [calculation.md](references/calculation.md) for runnable examples, output
 formats, and solver validation. `scripts/run_response.py` provides a plan by
 default; `--execute` runs it, `--analyze-only` uses existing outputs. It exposes

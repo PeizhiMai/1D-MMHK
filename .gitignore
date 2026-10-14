@@ -44,3 +44,9 @@ log_*.txt
 *.synctex.gz
 *.toc
 *.out
+
+# Portable fresh calculations and dependency/build trees
+/runs/
+/.build/
+/.deps/
+/.repro-venv/

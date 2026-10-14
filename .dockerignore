@@ -1,0 +1,12 @@
+.git
+Gcal
+response/results
+response/.deck_runtime
+response/.mplconfig
+response/bin
+**/__pycache__
+runs
+.deps
+.build
+node_modules
+.chart-data-*

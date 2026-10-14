@@ -4,7 +4,39 @@ qbasis/Lanczos calculations for the one-dimensional repulsive Hubbard ring
 with twisted boundary conditions, used as the dual-space block of 1D MMHK.
 The repository includes solver sources, calculation/postprocessing scripts,
 raw numerical data, validation records, Bethe-ansatz velocity references,
-figures, and the four-slide spin/charge presentation.
+figures, and the seven-slide spin/charge/spectral presentation.
+
+## Fresh-clone quick start
+
+Install/start Docker, then clone into an ordinary folder (on macOS use `~/src`,
+not a privacy-protected Desktop folder):
+
+```bash
+git clone https://github.com/PeizhiMai/1D-MMHK.git
+cd 1D-MMHK
+bash scripts/setup.sh --docker
+bash scripts/run_docker.sh calculate --config configs/smoke.json --output runs/smoke
+bash scripts/run_docker.sh calculate --config configs/study.json --output runs/study
+```
+
+The full pipeline builds pinned qbasis/ARPACK against OpenBLAS, calculates all
+requested grounds and neutral/charged sources, tunes common chemical potentials,
+plots all 39 cases, solves the fine-grid Bethe-ansatz reference and exports seven
+slides. No original workstation paths, binary snapshots, student code, book PDF,
+Codex runtime or installed personal skill are required.
+
+For **plot-only reproduction with no solver installed**:
+
+```bash
+bash scripts/setup.sh --plots
+MMHK_IMAGE=mmhk-1d:plots bash scripts/run_docker.sh plot --output runs/archive-plots
+```
+
+See [the complete reproducibility guide](reproducibility/README.md),
+[dependency pins/notices](reproducibility/DEPENDENCIES.md), and
+[clean test scope/results](reproducibility/CLEAN_TEST_REPORT.md). Different
+orbital counts, densities, twists and resources are configured in JSON. New
+runs remain separate from the immutable scientific archive.
 
 ## Current results
 
@@ -40,14 +72,16 @@ Inside the main campaign directory:
 | Directory | Contents |
 | --- | --- |
 | `analysis_ba_step0p2_eta0p1/` | Spin/charge velocity comparison; 13-U response panels for each density; full-range panels; peak, density, and BA CSV tables; spectrum NPZ files |
-| `analysis_ba_step0p2_eta0p1/presentation/` | `spin_charge_10MMHK_50twists_eta0p1_v2.pptx`: four slides with editable native charts, covering velocities and neutral responses |
+| `analysis_ba_step0p2_eta0p1/presentation/` | `spin_charge_spectral_10MMHK_eta0p1_7slides.pptx`: seven slides, 42 native charts, velocities plus responses/spectra for n=.9/.8/.7; original four-slide deck retained |
 | `single_particle_eta0p1_k101_depth600/` | Three 13-U spectral panels; 39 individual PNG/SVG maps and `U*/n*/Akw.npz` arrays; summary and validation records |
 | `U*/` | Ground-energy scans, chemical-potential selections, full ground ensembles, and neutral Lanczos sources |
 | `density_diagnostics/` | n(mu) plateaus and target-density attainability |
 | `validation/` | Neutral-response depth and other checks |
 
-The PPT contains **neutral responses and velocity comparisons**, not the
-single-particle spectral maps. The maps are delivered separately.
+The seven-slide PPT includes **velocities, neutral responses and single-particle
+spectral maps**, with all 13 U values per density. The historical four-slide
+PPT is retained, unchanged. The portable exporter embeds scientific plot images
+and editable headings/notes rather than requiring a private chart runtime.
 `single_particle_eta0p1_depth600/canonical/` contains charged sources reused
 by the final 101-point campaign and must be preserved. Other pilot and historical
 results are retained for provenance; they are **not** substitutes for the final
@@ -121,7 +155,11 @@ for the equations, conventions, and numerical checks. The book is not redistribu
 - [`note/spin_charge_response_definitions.tex`](note/spin_charge_response_definitions.tex):
   definition note; its source is preserved unchanged.
 
-## Setup and reproduction
+## Historical setup and development commands
+
+For a fresh clone use `reproduce.py` and the quick start above. The following
+records the original MKL environment and legacy commands; it is not the portable
+installation interface.
 
 Use Python 3.10+ and install `requirements.txt` in your own virtual environment:
 

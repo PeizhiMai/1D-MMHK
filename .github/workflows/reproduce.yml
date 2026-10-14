@@ -1,0 +1,52 @@
+name: portable-scientific-smoke
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'create_code/chain_Hubbard_tbc_*.cc'
+      - 'reproducibility/**'
+      - 'reproduce.py'
+      - 'configs/**'
+      - 'scripts/**'
+      - 'Dockerfile'
+      - 'CMakeLists.txt'
+      - 'cmake/**'
+      - 'requirements-repro.txt'
+      - '.github/workflows/reproduce.yml'
+jobs:
+  clean-linux-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Scientific archival data are not used as a smoke-test shortcut.
+          sparse-checkout: |
+            /*
+            !/*/
+            create_code
+            response/*.py
+            response/tests
+            response/essler_bethe_ansatz
+            skills
+            reproducibility
+            configs
+            scripts
+            cmake
+          sparse-checkout-cone-mode: false
+      - run: bash scripts/setup.sh --docker
+      - run: bash scripts/run_docker.sh doctor
+      - run: docker run --rm -v "$PWD:/workspace" --entrypoint python mmhk-1d:repro -m pytest reproducibility/tests -q
+      - run: bash scripts/run_docker.sh calculate --config configs/smoke.json --output runs/ci-smoke
+      - run: |
+          bash scripts/setup.sh --plots
+          MMHK_IMAGE=mmhk-1d:plots bash scripts/run_docker.sh plot --input runs/ci-smoke --output runs/ci-replot
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: scientific-smoke
+          path: |
+            runs/ci-smoke/plots
+            runs/ci-smoke/config.json
+            runs/ci-smoke/response_statistics.json
+            runs/ci-replot
